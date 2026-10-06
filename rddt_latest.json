@@ -1,0 +1,36 @@
+{
+  "market_date": "2026-10-05",
+  "rddt": {
+    "close": 150.42,
+    "open": 150.73,
+    "high": 152.85,
+    "low": 148.2435,
+    "vwap": 150.1982,
+    "volume": 5203377
+  },
+  "put145": {
+    "close": 3.48,
+    "open": 3.16,
+    "high": 3.82,
+    "low": 2.84,
+    "vwap": 3.1889,
+    "volume": 121
+  },
+  "position": {
+    "contracts": 2,
+    "average_premium": 4.81,
+    "cost": 961.9999999999999,
+    "value": 696.0,
+    "pnl": -265.9999999999999,
+    "pnl_pct": -27.650727650727642
+  },
+  "option_math": {
+    "strike": 145.0,
+    "intrinsic": 0,
+    "time_value": 3.48,
+    "expiry_breakeven": 140.19,
+    "days_left": 9
+  },
+  "signal": "RISK ARTTI",
+  "explanation": "$150 seviyesi geri alinmis durumda."
+}
