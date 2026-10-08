@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at_utc": "2026-10-08T17:13:36.637252+00:00",
+  "generated_at_utc": "2026-10-08T17:16:06.276897+00:00",
   "source": "yfinance unofficial (data may be delayed, missing or inaccurate)",
   "score_note": "0-100 heuristic ranking only; NOT win probability or investment advice",
   "top_call_candidates": [
@@ -51,10 +51,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 136.39,
-      "ema20": 142.56,
-      "ema50": 145.46,
-      "rsi14": 42.22,
+      "last_price": 136.67,
+      "ema20": 142.59,
+      "ema50": 145.47,
+      "rsi14": 42.47,
       "relative_volume": null
     },
     {
@@ -70,10 +70,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 156.34,
-      "ema20": 146.32,
+      "last_price": 156.38,
+      "ema20": 146.33,
       "ema50": 145.84,
-      "rsi14": 60.87,
+      "rsi14": 60.92,
       "relative_volume": null
     },
     {
@@ -89,16 +89,16 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 282.72,
-      "ema20": 272.79,
-      "ema50": 271.63,
-      "rsi14": 55.52,
+      "last_price": 283.4,
+      "ema20": 272.86,
+      "ema50": 271.65,
+      "rsi14": 55.89,
       "relative_volume": null
     },
     {
       "ticker": "AAON",
       "status": "NO_SIGNAL",
-      "call_score": 35,
+      "call_score": 45,
       "put_score": 10,
       "candidate_direction": null,
       "option": null,
@@ -108,10 +108,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 85.26,
-      "ema20": 83.13,
-      "ema50": 86.29,
-      "rsi14": 54.3,
+      "last_price": 85.64,
+      "ema20": 83.17,
+      "ema50": 86.31,
+      "rsi14": 55.08,
       "relative_volume": null
     },
     {
@@ -127,10 +127,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 137.54,
-      "ema20": 135.9,
-      "ema50": 130.24,
-      "rsi14": 53.69,
+      "last_price": 137.89,
+      "ema20": 135.94,
+      "ema50": 130.25,
+      "rsi14": 54.19,
       "relative_volume": null
     },
     {
@@ -146,10 +146,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 60.58,
-      "ema20": 61.55,
-      "ema50": 61.82,
-      "rsi14": 47.56,
+      "last_price": 60.74,
+      "ema20": 61.57,
+      "ema50": 61.83,
+      "rsi14": 47.92,
       "relative_volume": null
     },
     {
@@ -184,10 +184,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 148.92,
-      "ema20": 151.23,
-      "ema50": 137.0,
-      "rsi14": 51.45,
+      "last_price": 149.19,
+      "ema20": 151.26,
+      "ema50": 137.01,
+      "rsi14": 51.65,
       "relative_volume": null
     },
     {
@@ -203,10 +203,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 268.6,
-      "ema20": 273.44,
-      "ema50": 257.09,
-      "rsi14": 50.19,
+      "last_price": 268.47,
+      "ema20": 273.43,
+      "ema50": 257.08,
+      "rsi14": 50.15,
       "relative_volume": null
     },
     {
@@ -222,10 +222,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 989.57,
-      "ema20": 969.76,
-      "ema50": 972.53,
-      "rsi14": 54.95,
+      "last_price": 987.91,
+      "ema20": 969.6,
+      "ema50": 972.46,
+      "rsi14": 54.57,
       "relative_volume": null
     },
     {
@@ -241,10 +241,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 269.42,
-      "ema20": 259.26,
-      "ema50": 242.46,
-      "rsi14": 58.14,
+      "last_price": 269.64,
+      "ema20": 259.28,
+      "ema50": 242.47,
+      "rsi14": 58.26,
       "relative_volume": null
     },
     {
@@ -260,10 +260,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 1044.71,
-      "ema20": 1041.42,
-      "ema50": 993.41,
-      "rsi14": 52.49,
+      "last_price": 1043.39,
+      "ema20": 1041.29,
+      "ema50": 993.36,
+      "rsi14": 52.3,
       "relative_volume": null
     },
     {
@@ -279,16 +279,16 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 108.46,
-      "ema20": 110.05,
+      "last_price": 108.27,
+      "ema20": 110.03,
       "ema50": 113.64,
-      "rsi14": 48.96,
+      "rsi14": 48.85,
       "relative_volume": null
     },
     {
       "ticker": "TSM",
       "status": "TECHNICAL_WATCH_CALL",
-      "call_score": 80,
+      "call_score": 70,
       "put_score": 0,
       "candidate_direction": "CALL",
       "option": null,
@@ -298,17 +298,17 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 457.56,
-      "ema20": 453.62,
-      "ema50": 437.69,
-      "rsi14": 55.05,
+      "last_price": 457.12,
+      "ema20": 453.58,
+      "ema50": 437.67,
+      "rsi14": 54.81,
       "relative_volume": null
     },
     {
       "ticker": "COHR",
       "status": "NO_SIGNAL",
-      "call_score": 45,
-      "put_score": 0,
+      "call_score": 10,
+      "put_score": 5,
       "candidate_direction": null,
       "option": null,
       "reasons": [
@@ -317,10 +317,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 311.03,
-      "ema20": 309.7,
-      "ema50": 307.48,
-      "rsi14": 51.16,
+      "last_price": 309.17,
+      "ema20": 309.53,
+      "ema50": 307.41,
+      "rsi14": 50.62,
       "relative_volume": null
     }
   ]
