@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at_utc": "2026-10-08T18:23:01.443152+00:00",
+  "generated_at_utc": "2026-10-08T18:34:43.838116+00:00",
   "source": "yfinance unofficial (data may be delayed, missing or inaccurate)",
   "score_note": "0-100 heuristic ranking only; NOT win probability or investment advice",
   "top_call_candidates": [
@@ -46,10 +46,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 136.32,
-      "ema20": 142.55,
-      "ema50": 145.45,
-      "rsi14": 42.16,
+      "last_price": 135.99,
+      "ema20": 142.52,
+      "ema50": 145.44,
+      "rsi14": 41.87,
       "relative_volume": null
     },
     {
@@ -65,10 +65,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 157.02,
-      "ema20": 146.39,
-      "ema50": 145.87,
-      "rsi14": 61.66,
+      "last_price": 156.91,
+      "ema20": 146.38,
+      "ema50": 145.86,
+      "rsi14": 61.54,
       "relative_volume": null
     },
     {
@@ -84,10 +84,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 283.64,
-      "ema20": 272.88,
-      "ema50": 271.66,
-      "rsi14": 56.02,
+      "last_price": 284.29,
+      "ema20": 272.94,
+      "ema50": 271.69,
+      "rsi14": 56.39,
       "relative_volume": null
     },
     {
@@ -103,10 +103,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 86.61,
-      "ema20": 83.26,
+      "last_price": 86.46,
+      "ema20": 83.25,
       "ema50": 86.34,
-      "rsi14": 57.19,
+      "rsi14": 56.85,
       "relative_volume": null
     },
     {
@@ -122,10 +122,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 137.49,
-      "ema20": 135.9,
-      "ema50": 130.23,
-      "rsi14": 53.62,
+      "last_price": 137.57,
+      "ema20": 135.91,
+      "ema50": 130.24,
+      "rsi14": 53.74,
       "relative_volume": null
     },
     {
@@ -141,10 +141,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 61.07,
-      "ema20": 61.6,
+      "last_price": 60.99,
+      "ema20": 61.59,
       "ema50": 61.84,
-      "rsi14": 48.69,
+      "rsi14": 48.49,
       "relative_volume": null
     },
     {
@@ -160,10 +160,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 34.98,
+      "last_price": 34.96,
       "ema20": 36.11,
       "ema50": 36.62,
-      "rsi14": 40.55,
+      "rsi14": 40.43,
       "relative_volume": null
     },
     {
@@ -179,17 +179,17 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 149.85,
-      "ema20": 151.32,
-      "ema50": 137.03,
-      "rsi14": 52.13,
+      "last_price": 150.63,
+      "ema20": 151.39,
+      "ema50": 137.06,
+      "rsi14": 52.72,
       "relative_volume": null
     },
     {
       "ticker": "BE",
       "status": "NO_SIGNAL",
       "call_score": 10,
-      "put_score": 5,
+      "put_score": 10,
       "candidate_direction": null,
       "option": null,
       "reasons": [
@@ -198,10 +198,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 271.54,
-      "ema20": 273.72,
-      "ema50": 257.2,
-      "rsi14": 51.13,
+      "last_price": 270.23,
+      "ema20": 273.59,
+      "ema50": 257.15,
+      "rsi14": 50.71,
       "relative_volume": null
     },
     {
@@ -217,10 +217,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 1000.55,
-      "ema20": 970.81,
-      "ema50": 972.96,
-      "rsi14": 57.34,
+      "last_price": 998.59,
+      "ema20": 970.62,
+      "ema50": 972.88,
+      "rsi14": 56.98,
       "relative_volume": null
     },
     {
@@ -236,10 +236,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 275.07,
-      "ema20": 259.8,
-      "ema50": 242.68,
-      "rsi14": 61.49,
+      "last_price": 274.18,
+      "ema20": 259.72,
+      "ema50": 242.65,
+      "rsi14": 60.94,
       "relative_volume": null
     },
     {
@@ -255,10 +255,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 1046.23,
-      "ema20": 1041.56,
-      "ema50": 993.47,
-      "rsi14": 52.71,
+      "last_price": 1044.03,
+      "ema20": 1041.35,
+      "ema50": 993.38,
+      "rsi14": 52.39,
       "relative_volume": null
     },
     {
@@ -274,10 +274,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 108.62,
-      "ema20": 110.07,
-      "ema50": 113.65,
-      "rsi14": 49.06,
+      "last_price": 107.9,
+      "ema20": 110.0,
+      "ema50": 113.62,
+      "rsi14": 48.63,
       "relative_volume": null
     },
     {
@@ -293,17 +293,17 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 456.79,
-      "ema20": 453.55,
-      "ema50": 437.66,
-      "rsi14": 54.62,
+      "last_price": 456.51,
+      "ema20": 453.52,
+      "ema50": 437.65,
+      "rsi14": 54.47,
       "relative_volume": null
     },
     {
       "ticker": "COHR",
       "status": "NO_SIGNAL",
-      "call_score": 45,
-      "put_score": 0,
+      "call_score": 10,
+      "put_score": 5,
       "candidate_direction": null,
       "option": null,
       "reasons": [
@@ -312,10 +312,10 @@
       "market_date": "2026-10-08",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 310.88,
-      "ema20": 309.69,
-      "ema50": 307.47,
-      "rsi14": 51.12,
+      "last_price": 308.85,
+      "ema20": 309.49,
+      "ema50": 307.4,
+      "rsi14": 50.53,
       "relative_volume": null
     }
   ]
