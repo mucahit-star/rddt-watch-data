@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at_utc": "2026-10-09T21:31:00.933959+00:00",
+  "generated_at_utc": "2026-10-10T21:31:01.036900+00:00",
   "source": "yfinance unofficial (data may be delayed, missing or inaccurate)",
   "score_note": "0-100 heuristic ranking only; NOT win probability or investment advice",
   "top_call_candidates": [
@@ -42,9 +42,9 @@
       "daily_candle_complete": true,
       "age_weekdays": 0,
       "last_price": 141.4,
-      "ema20": 142.39,
-      "ema50": 145.24,
-      "rsi14": 48.21,
+      "ema20": 141.91,
+      "ema50": 144.73,
+      "rsi14": 48.73,
       "relative_volume": 0.76
     },
     {
@@ -83,7 +83,7 @@
       "ema20": 275.4,
       "ema50": 272.77,
       "rsi14": 62.17,
-      "relative_volume": 0.94
+      "relative_volume": 1.04
     },
     {
       "ticker": "AAON",
@@ -140,7 +140,7 @@
       "ema20": 61.71,
       "ema50": 61.87,
       "rsi14": 53.18,
-      "relative_volume": 1.0
+      "relative_volume": 1.15
     },
     {
       "ticker": "KOID",
@@ -197,7 +197,7 @@
       "ema20": 274.47,
       "ema50": 258.28,
       "rsi14": 53.98,
-      "relative_volume": 0.5
+      "relative_volume": 0.51
     },
     {
       "ticker": "GEV",
@@ -232,9 +232,9 @@
       "daily_candle_complete": true,
       "age_weekdays": 0,
       "last_price": 275.28,
-      "ema20": 261.24,
-      "ema50": 244.03,
-      "rsi14": 61.49,
+      "ema20": 261.19,
+      "ema50": 243.98,
+      "rsi14": 61.52,
       "relative_volume": 0.77
     },
     {
