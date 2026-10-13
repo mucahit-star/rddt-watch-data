@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at_utc": "2026-10-13T20:56:24.443596+00:00",
+  "generated_at_utc": "2026-10-13T22:57:59.009522+00:00",
   "source": "yfinance unofficial (data may be delayed, missing or inaccurate)",
   "score_note": "0-100 heuristic ranking only; NOT win probability or investment advice",
   "top_call_candidates": [
@@ -55,7 +55,7 @@
       "ema20": 141.65,
       "ema50": 144.54,
       "rsi14": 50.89,
-      "relative_volume": 0.87
+      "relative_volume": 0.88
     },
     {
       "ticker": "VST",
@@ -74,7 +74,7 @@
       "ema20": 150.04,
       "ema50": 147.56,
       "rsi14": 63.56,
-      "relative_volume": 0.74
+      "relative_volume": 0.75
     },
     {
       "ticker": "CEG",
@@ -143,7 +143,7 @@
       "ema20": 137.08,
       "ema50": 131.35,
       "rsi14": 53.99,
-      "relative_volume": 1.25
+      "relative_volume": 1.26
     },
     {
       "ticker": "CGNX",
@@ -181,7 +181,7 @@
       "ema20": 35.79,
       "ema50": 36.44,
       "rsi14": 39.74,
-      "relative_volume": 0.57
+      "relative_volume": 0.59
     },
     {
       "ticker": "MSTR",
@@ -219,7 +219,7 @@
       "ema20": 272.37,
       "ema50": 258.96,
       "rsi14": 48.24,
-      "relative_volume": 0.73
+      "relative_volume": 0.77
     },
     {
       "ticker": "GEV",
@@ -257,7 +257,7 @@
       "ema20": 262.31,
       "ema50": 245.81,
       "rsi14": 56.81,
-      "relative_volume": 0.92
+      "relative_volume": 0.95
     },
     {
       "ticker": "MU",
@@ -295,7 +295,7 @@
       "ema20": 107.86,
       "ema50": 112.38,
       "rsi14": 43.03,
-      "relative_volume": 1.13
+      "relative_volume": 1.14
     },
     {
       "ticker": "TSM",
@@ -314,7 +314,7 @@
       "ema20": 452.02,
       "ema50": 438.89,
       "rsi14": 48.23,
-      "relative_volume": 0.85
+      "relative_volume": 0.88
     },
     {
       "ticker": "COHR",
@@ -333,7 +333,7 @@
       "ema20": 305.57,
       "ema50": 306.13,
       "rsi14": 45.6,
-      "relative_volume": 0.86
+      "relative_volume": 0.87
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-13T20:56:29.469516+00:00",
+  "generated_at_utc": "2026-10-13T22:58:03.464540+00:00",
   "source": "yfinance (unofficial, delayed or incomplete)",
   "quote_freshness": "Not independently verified; lastTradeDate is trade time, NOT bid/ask quote time",
   "disclaimer": "Research snapshots only. Not live quotes, execution signals, or recommendations.",
