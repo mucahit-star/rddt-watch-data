@@ -1,6 +1,6 @@
 {
   "report_type": "intraday_volume_latest",
-  "generated_at_utc": "2026-10-12T21:50:03.351781+00:00",
+  "generated_at_utc": "2026-10-13T13:37:12.251561+00:00",
   "research_only": true,
   "live_exchange_data_verified": false,
   "trade_entry_signal": false,
@@ -18,7 +18,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     },
     {
@@ -33,7 +33,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     },
     {
@@ -48,7 +48,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     },
     {
@@ -63,7 +63,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     },
     {
@@ -78,7 +78,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     },
     {
@@ -93,7 +93,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     },
     {
@@ -108,7 +108,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 380.06,
+      "data_age_minutes": 1327.2,
       "freshness_status": "STALE"
     },
     {
@@ -123,7 +123,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     },
     {
@@ -138,7 +138,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     },
     {
@@ -153,7 +153,7 @@
       "source": "yfinance_5m",
       "quote_freshness_verified": false,
       "trade_entry_signal": false,
-      "data_age_minutes": 115.06,
+      "data_age_minutes": 1062.2,
       "freshness_status": "STALE"
     }
   ]
