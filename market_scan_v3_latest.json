@@ -1,22 +1,22 @@
 {
   "version": 3,
-  "generated_at_utc": "2026-10-13T22:57:59.009522+00:00",
+  "generated_at_utc": "2026-10-14T13:41:28.892194+00:00",
   "source": "yfinance unofficial (data may be delayed, missing or inaccurate)",
   "score_note": "0-100 heuristic ranking only; NOT win probability or investment advice",
   "top_call_candidates": [
     {
+      "ticker": "NOW",
+      "score": 85,
+      "status": "TECHNICAL_WATCH_CALL"
+    },
+    {
+      "ticker": "VST",
+      "score": 85,
+      "status": "TECHNICAL_WATCH_CALL"
+    },
+    {
       "ticker": "CEG",
-      "score": 85,
-      "status": "TECHNICAL_WATCH_CALL"
-    },
-    {
-      "ticker": "GEV",
-      "score": 85,
-      "status": "TECHNICAL_WATCH_CALL"
-    },
-    {
-      "ticker": "MRVL",
-      "score": 85,
+      "score": 75,
       "status": "TECHNICAL_WATCH_CALL"
     }
   ],
@@ -27,35 +27,35 @@
       "status": "TECHNICAL_WATCH_PUT"
     },
     {
-      "ticker": "KOID",
+      "ticker": "CGNX",
       "score": 85,
       "status": "TECHNICAL_WATCH_PUT"
     },
     {
-      "ticker": "CGNX",
-      "score": 75,
+      "ticker": "COHR",
+      "score": 85,
       "status": "TECHNICAL_WATCH_PUT"
     }
   ],
   "results": [
     {
       "ticker": "ORCL",
-      "status": "NO_SIGNAL",
-      "call_score": 10,
-      "put_score": 10,
-      "candidate_direction": null,
+      "status": "TECHNICAL_WATCH_PUT",
+      "call_score": 0,
+      "put_score": 85,
+      "candidate_direction": "PUT",
       "option": null,
       "reasons": [
-        "Neither side meets both EMA trend and RSI criteria"
+        "Intraday daily candle; wait for close to confirm relative volume"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 143.2,
-      "ema20": 141.65,
-      "ema50": 144.54,
-      "rsi14": 50.89,
-      "relative_volume": 0.88
+      "last_price": 134.29,
+      "ema20": 140.95,
+      "ema50": 144.14,
+      "rsi14": 43.16,
+      "relative_volume": null
     },
     {
       "ticker": "VST",
@@ -65,104 +65,92 @@
       "candidate_direction": "CALL",
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Intraday daily candle; wait for close to confirm relative volume"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 162.36,
-      "ema20": 150.04,
-      "ema50": 147.56,
-      "rsi14": 63.56,
-      "relative_volume": 0.75
+      "last_price": 155.16,
+      "ema20": 150.52,
+      "ema50": 147.86,
+      "rsi14": 55.67,
+      "relative_volume": null
     },
     {
       "ticker": "CEG",
       "status": "TECHNICAL_WATCH_CALL",
-      "call_score": 85,
+      "call_score": 75,
       "put_score": 0,
       "candidate_direction": "CALL",
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Intraday daily candle; wait for close to confirm relative volume"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 295.79,
-      "ema20": 278.94,
-      "ema50": 274.53,
-      "rsi14": 60.41,
-      "relative_volume": 0.56
+      "last_price": 286.48,
+      "ema20": 279.66,
+      "ema50": 275.0,
+      "rsi14": 54.72,
+      "relative_volume": null
     },
     {
       "ticker": "AAON",
       "status": "NO_SIGNAL",
-      "call_score": 45,
+      "call_score": 5,
       "put_score": 10,
       "candidate_direction": null,
       "option": null,
       "reasons": [
         "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 86.19,
-      "ema20": 83.85,
-      "ema50": 86.29,
-      "rsi14": 55.68,
-      "relative_volume": 0.59
+      "last_price": 84.16,
+      "ema20": 83.88,
+      "ema50": 86.2,
+      "rsi14": 50.99,
+      "relative_volume": null
     },
     {
       "ticker": "NOW",
-      "status": "WATCH_CALL",
+      "status": "TECHNICAL_WATCH_CALL",
       "call_score": 85,
-      "put_score": 10,
+      "put_score": 0,
       "candidate_direction": "CALL",
-      "option": {
-        "contract_symbol": "NOW261023C00139000",
-        "expiry": "2026-10-23",
-        "strike": 139.0,
-        "bid": 4.45,
-        "ask": 5.0,
-        "mid": 4.72,
-        "spread_pct": 11.64,
-        "open_interest": 194,
-        "option_volume": 154,
-        "implied_volatility": 0.5117
-      },
+      "option": null,
       "reasons": [
-        "Basic options liquidity filters passed; quote freshness NOT verified",
-        "WATCH only, not a trade entry: check live bid/ask, events and Greeks"
+        "Intraday daily candle; wait for close to confirm relative volume"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 138.61,
-      "ema20": 137.08,
-      "ema50": 131.35,
-      "rsi14": 53.99,
-      "relative_volume": 1.26
+      "last_price": 141.97,
+      "ema20": 137.55,
+      "ema50": 131.77,
+      "rsi14": 58.32,
+      "relative_volume": null
     },
     {
       "ticker": "CGNX",
       "status": "TECHNICAL_WATCH_PUT",
       "call_score": 0,
-      "put_score": 75,
+      "put_score": 85,
       "candidate_direction": "PUT",
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Intraday daily candle; wait for close to confirm relative volume"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 60.01,
-      "ema20": 61.56,
-      "ema50": 61.81,
-      "rsi14": 46.09,
-      "relative_volume": 1.09
+      "last_price": 58.87,
+      "ema20": 61.3,
+      "ema50": 61.7,
+      "rsi14": 43.56,
+      "relative_volume": null
     },
     {
       "ticker": "KOID",
@@ -172,92 +160,92 @@
       "candidate_direction": "PUT",
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Intraday daily candle; wait for close to confirm relative volume"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 34.67,
-      "ema20": 35.79,
-      "ema50": 36.44,
-      "rsi14": 39.74,
-      "relative_volume": 0.59
+      "last_price": 34.02,
+      "ema20": 35.62,
+      "ema50": 36.34,
+      "rsi14": 35.96,
+      "relative_volume": null
     },
     {
       "ticker": "MSTR",
-      "status": "TECHNICAL_WATCH_CALL",
-      "call_score": 70,
-      "put_score": 0,
-      "candidate_direction": "CALL",
-      "option": null,
-      "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
-      ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
-      "age_weekdays": 0,
-      "last_price": 152.18,
-      "ema20": 151.87,
-      "ema50": 138.95,
-      "rsi14": 53.48,
-      "relative_volume": 0.55
-    },
-    {
-      "ticker": "BE",
       "status": "NO_SIGNAL",
-      "call_score": 10,
-      "put_score": 10,
+      "call_score": 35,
+      "put_score": 5,
       "candidate_direction": null,
       "option": null,
       "reasons": [
         "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 263.45,
-      "ema20": 272.37,
-      "ema50": 258.96,
-      "rsi14": 48.24,
-      "relative_volume": 0.77
+      "last_price": 150.99,
+      "ema20": 151.78,
+      "ema50": 139.43,
+      "rsi14": 52.35,
+      "relative_volume": null
+    },
+    {
+      "ticker": "BE",
+      "status": "NO_SIGNAL",
+      "call_score": 10,
+      "put_score": 35,
+      "candidate_direction": null,
+      "option": null,
+      "reasons": [
+        "Neither side meets both EMA trend and RSI criteria"
+      ],
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
+      "age_weekdays": 0,
+      "last_price": 256.58,
+      "ema20": 270.87,
+      "ema50": 258.87,
+      "rsi14": 45.97,
+      "relative_volume": null
     },
     {
       "ticker": "GEV",
-      "status": "TECHNICAL_WATCH_CALL",
-      "call_score": 85,
-      "put_score": 0,
-      "candidate_direction": "CALL",
+      "status": "NO_SIGNAL",
+      "call_score": 10,
+      "put_score": 5,
+      "candidate_direction": null,
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 1004.04,
-      "ema20": 978.77,
-      "ema50": 976.47,
-      "rsi14": 57.54,
-      "relative_volume": 0.88
+      "last_price": 977.48,
+      "ema20": 978.65,
+      "ema50": 976.51,
+      "rsi14": 50.61,
+      "relative_volume": null
     },
     {
       "ticker": "MRVL",
-      "status": "TECHNICAL_WATCH_CALL",
-      "call_score": 85,
-      "put_score": 0,
-      "candidate_direction": "CALL",
+      "status": "NO_SIGNAL",
+      "call_score": 35,
+      "put_score": 5,
+      "candidate_direction": null,
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 268.73,
-      "ema20": 262.31,
-      "ema50": 245.81,
-      "rsi14": 56.81,
-      "relative_volume": 0.95
+      "last_price": 261.48,
+      "ema20": 262.23,
+      "ema50": 246.42,
+      "rsi14": 52.33,
+      "relative_volume": null
     },
     {
       "ticker": "MU",
@@ -269,14 +257,14 @@
       "reasons": [
         "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 953.19,
-      "ema20": 1026.91,
-      "ema50": 993.0,
-      "rsi14": 40.35,
-      "relative_volume": 1.13
+      "last_price": 944.26,
+      "ema20": 1019.04,
+      "ema50": 991.09,
+      "rsi14": 39.33,
+      "relative_volume": null
     },
     {
       "ticker": "AAOI",
@@ -286,54 +274,54 @@
       "candidate_direction": "PUT",
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Intraday daily candle; wait for close to confirm relative volume"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 97.78,
-      "ema20": 107.86,
-      "ema50": 112.38,
-      "rsi14": 43.03,
-      "relative_volume": 1.14
+      "last_price": 93.73,
+      "ema20": 106.52,
+      "ema50": 111.64,
+      "rsi14": 40.86,
+      "relative_volume": null
     },
     {
       "ticker": "TSM",
       "status": "NO_SIGNAL",
       "call_score": 10,
-      "put_score": 10,
+      "put_score": 35,
       "candidate_direction": null,
       "option": null,
       "reasons": [
         "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 445.12,
-      "ema20": 452.02,
-      "ema50": 438.89,
-      "rsi14": 48.23,
-      "relative_volume": 0.88
+      "last_price": 439.92,
+      "ema20": 450.87,
+      "ema50": 438.93,
+      "rsi14": 45.46,
+      "relative_volume": null
     },
     {
       "ticker": "COHR",
       "status": "TECHNICAL_WATCH_PUT",
       "call_score": 0,
-      "put_score": 75,
+      "put_score": 85,
       "candidate_direction": "PUT",
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Intraday daily candle; wait for close to confirm relative volume"
       ],
-      "market_date": "2026-10-13",
-      "daily_candle_complete": true,
+      "market_date": "2026-10-14",
+      "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 289.98,
-      "ema20": 305.57,
-      "ema50": 306.13,
-      "rsi14": 45.6,
-      "relative_volume": 0.87
+      "last_price": 281.39,
+      "ema20": 303.27,
+      "ema50": 305.16,
+      "rsi14": 43.35,
+      "relative_volume": null
     }
   ]
 }
