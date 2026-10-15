@@ -1,36 +1,36 @@
 {
-  "market_date": "2026-10-13",
+  "market_date": "2026-10-14",
   "rddt": {
-    "close": 155.29,
-    "open": 155.51,
-    "high": 164.18,
-    "low": 154.99,
-    "vwap": 158.0955,
-    "volume": 4927911
+    "close": 148.6,
+    "open": 154.15,
+    "high": 156.37,
+    "low": 148.46,
+    "vwap": 150.488,
+    "volume": 3557188
   },
   "put145": {
-    "close": 0.56,
-    "open": 0.45,
-    "high": 0.58,
-    "low": 0.17,
-    "vwap": 0.325,
-    "volume": 343
+    "close": 1.55,
+    "open": 0.68,
+    "high": 1.71,
+    "low": 0.44,
+    "vwap": 1.2555,
+    "volume": 807
   },
   "position": {
     "contracts": 2,
     "average_premium": 4.81,
     "cost": 961.9999999999999,
-    "value": 112.00000000000001,
-    "pnl": -849.9999999999999,
-    "pnl_pct": -88.35758835758836
+    "value": 310.0,
+    "pnl": -651.9999999999999,
+    "pnl_pct": -67.77546777546777
   },
   "option_math": {
     "strike": 145.0,
     "intrinsic": 0,
-    "time_value": 0.56,
+    "time_value": 1.55,
     "expiry_breakeven": 140.19,
-    "days_left": 2
+    "days_left": 1
   },
-  "signal": "TEZ BOZULDU",
-  "explanation": "$153+ bolgesi. Bullish yapi PUT tezini ciddi sekilde zayiflatiyor."
+  "signal": "PUT GUCLENIYOR",
+  "explanation": "$148.9 kaybedildi. Bear-trap yapisi zayifliyor."
 }
