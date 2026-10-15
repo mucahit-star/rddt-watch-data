@@ -1,17 +1,22 @@
 {
   "version": 3,
-  "generated_at_utc": "2026-10-14T21:31:01.005891+00:00",
+  "generated_at_utc": "2026-10-15T21:31:01.332027+00:00",
   "source": "yfinance unofficial (data may be delayed, missing or inaccurate)",
   "score_note": "0-100 heuristic ranking only; NOT win probability or investment advice",
   "top_call_candidates": [
     {
       "ticker": "NOW",
-      "score": 95,
+      "score": 90,
       "status": "WATCH_CALL"
     },
     {
       "ticker": "VST",
       "score": 75,
+      "status": "TECHNICAL_WATCH_CALL"
+    },
+    {
+      "ticker": "MSTR",
+      "score": 70,
       "status": "TECHNICAL_WATCH_CALL"
     }
   ],
@@ -22,47 +27,35 @@
       "status": "WATCH_PUT"
     },
     {
-      "ticker": "ORCL",
+      "ticker": "AAON",
       "score": 100,
-      "status": "WATCH_PUT"
+      "status": "TECHNICAL_WATCH_PUT"
     },
     {
       "ticker": "CGNX",
-      "score": 95,
+      "score": 100,
       "status": "TECHNICAL_WATCH_PUT"
     }
   ],
   "results": [
     {
       "ticker": "ORCL",
-      "status": "WATCH_PUT",
-      "call_score": 15,
-      "put_score": 100,
+      "status": "TECHNICAL_WATCH_PUT",
+      "call_score": 0,
+      "put_score": 85,
       "candidate_direction": "PUT",
-      "option": {
-        "contract_symbol": "ORCL261023P00131000",
-        "expiry": "2026-10-23",
-        "strike": 131.0,
-        "bid": 4.75,
-        "ask": 5.1,
-        "mid": 4.92,
-        "spread_pct": 7.11,
-        "open_interest": 975,
-        "option_volume": 2148,
-        "implied_volatility": 0.5441
-      },
+      "option": null,
       "reasons": [
-        "Basic options liquidity filters passed; quote freshness NOT verified",
-        "WATCH only, not a trade entry: check live bid/ask, events and Greeks"
+        "Completed relative volume below 1.20; no option confirmation"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 130.55,
-      "ema20": 140.59,
-      "ema50": 144.03,
-      "rsi14": 40.58,
-      "relative_volume": 1.71
+      "last_price": 134.47,
+      "ema20": 140.01,
+      "ema50": 143.71,
+      "rsi14": 44.33,
+      "relative_volume": 0.99
     },
     {
       "ticker": "VST",
@@ -74,140 +67,140 @@
       "reasons": [
         "Completed relative volume below 1.20; no option confirmation"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 151.79,
-      "ema20": 150.2,
-      "ema50": 147.72,
-      "rsi14": 52.61,
-      "relative_volume": 1.02
+      "last_price": 154.17,
+      "ema20": 150.58,
+      "ema50": 147.99,
+      "rsi14": 54.51,
+      "relative_volume": 0.99
     },
     {
       "ticker": "CEG",
       "status": "NO_SIGNAL",
-      "call_score": 45,
-      "put_score": 0,
+      "call_score": 10,
+      "put_score": 10,
       "candidate_direction": null,
       "option": null,
       "reasons": [
         "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 279.54,
-      "ema20": 279.0,
-      "ema50": 274.71,
-      "rsi14": 51.14,
-      "relative_volume": 0.84
+      "last_price": 275.0,
+      "ema20": 278.61,
+      "ema50": 274.75,
+      "rsi14": 48.88,
+      "relative_volume": 1.06
     },
     {
       "ticker": "AAON",
       "status": "TECHNICAL_WATCH_PUT",
-      "call_score": 0,
-      "put_score": 85,
+      "call_score": 15,
+      "put_score": 100,
       "candidate_direction": "PUT",
       "option": null,
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "No contract passed spread/OI/volume/IV filters"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 80.53,
-      "ema20": 83.53,
-      "ema50": 86.05,
-      "rsi14": 44.32,
-      "relative_volume": 1.07
+      "last_price": 77.3,
+      "ema20": 82.94,
+      "ema50": 85.7,
+      "rsi14": 39.38,
+      "relative_volume": 1.91
     },
     {
       "ticker": "NOW",
       "status": "WATCH_CALL",
-      "call_score": 95,
-      "put_score": 10,
+      "call_score": 90,
+      "put_score": 15,
       "candidate_direction": "CALL",
       "option": {
-        "contract_symbol": "NOW261023C00140000",
+        "contract_symbol": "NOW261023C00149000",
         "expiry": "2026-10-23",
-        "strike": 140.0,
-        "bid": 4.7,
-        "ask": 4.9,
-        "mid": 4.8,
-        "spread_pct": 4.17,
-        "open_interest": 1401,
-        "option_volume": 985,
-        "implied_volatility": 0.5205
+        "strike": 149.0,
+        "bid": 4.3,
+        "ask": 4.6,
+        "mid": 4.45,
+        "spread_pct": 6.74,
+        "open_interest": 216,
+        "option_volume": 289,
+        "implied_volatility": 0.5002
       },
       "reasons": [
         "Basic options liquidity filters passed; quote freshness NOT verified",
         "WATCH only, not a trade entry: check live bid/ask, events and Greeks"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 139.98,
-      "ema20": 137.36,
-      "ema50": 131.73,
-      "rsi14": 55.85,
-      "relative_volume": 1.28
+      "last_price": 148.57,
+      "ema20": 138.43,
+      "ema50": 132.41,
+      "rsi14": 65.37,
+      "relative_volume": 1.66
     },
     {
       "ticker": "CGNX",
       "status": "TECHNICAL_WATCH_PUT",
-      "call_score": 10,
-      "put_score": 95,
+      "call_score": 15,
+      "put_score": 100,
       "candidate_direction": "PUT",
       "option": null,
       "reasons": [
         "No contract passed spread/OI/volume/IV filters"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 57.27,
-      "ema20": 61.15,
-      "ema50": 61.63,
-      "rsi14": 40.48,
-      "relative_volume": 1.28
+      "last_price": 55.67,
+      "ema20": 60.63,
+      "ema50": 61.4,
+      "rsi14": 37.6,
+      "relative_volume": 2.19
     },
     {
       "ticker": "KOID",
       "status": "TECHNICAL_WATCH_PUT",
-      "call_score": 10,
-      "put_score": 85,
+      "call_score": 15,
+      "put_score": 90,
       "candidate_direction": "PUT",
       "option": null,
       "reasons": [
         "No contract passed spread/OI/volume/IV filters"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 33.36,
-      "ema20": 35.56,
-      "ema50": 36.31,
-      "rsi14": 32.8,
-      "relative_volume": 1.48
+      "last_price": 32.87,
+      "ema20": 35.31,
+      "ema50": 36.18,
+      "rsi14": 30.65,
+      "relative_volume": 2.22
     },
     {
       "ticker": "MSTR",
-      "status": "NO_SIGNAL",
-      "call_score": 10,
-      "put_score": 35,
-      "candidate_direction": null,
+      "status": "TECHNICAL_WATCH_CALL",
+      "call_score": 70,
+      "put_score": 0,
+      "candidate_direction": "CALL",
       "option": null,
       "reasons": [
-        "Neither side meets both EMA trend and RSI criteria"
+        "Completed relative volume below 1.20; no option confirmation"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 143.24,
-      "ema20": 151.05,
-      "ema50": 139.16,
-      "rsi14": 46.01,
-      "relative_volume": 0.94
+      "last_price": 151.29,
+      "ema20": 151.07,
+      "ema50": 139.67,
+      "rsi14": 52.46,
+      "relative_volume": 1.0
     },
     {
       "ticker": "BE",
@@ -219,55 +212,36 @@
       "reasons": [
         "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 239.34,
-      "ema20": 269.23,
-      "ema50": 258.16,
-      "rsi14": 41.12,
-      "relative_volume": 1.02
+      "last_price": 236.3,
+      "ema20": 266.09,
+      "ema50": 257.28,
+      "rsi14": 40.32,
+      "relative_volume": 1.04
     },
     {
       "ticker": "GEV",
-      "status": "NO_SIGNAL",
-      "call_score": 25,
-      "put_score": 60,
-      "candidate_direction": null,
+      "status": "TECHNICAL_WATCH_PUT",
+      "call_score": 15,
+      "put_score": 100,
+      "candidate_direction": "PUT",
       "option": null,
       "reasons": [
-        "Neither side meets both EMA trend and RSI criteria"
+        "No contract passed spread/OI/volume/IV filters"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 941.78,
-      "ema20": 975.25,
-      "ema50": 975.1,
-      "rsi14": 43.56,
-      "relative_volume": 1.63
+      "last_price": 926.44,
+      "ema20": 970.6,
+      "ema50": 973.14,
+      "rsi14": 40.93,
+      "relative_volume": 1.76
     },
     {
       "ticker": "MRVL",
-      "status": "NO_SIGNAL",
-      "call_score": 20,
-      "put_score": 55,
-      "candidate_direction": null,
-      "option": null,
-      "reasons": [
-        "Neither side meets both EMA trend and RSI criteria"
-      ],
-      "market_date": "2026-10-14",
-      "daily_candle_complete": true,
-      "age_weekdays": 0,
-      "last_price": 245.28,
-      "ema20": 260.69,
-      "ema50": 245.79,
-      "rsi14": 44.47,
-      "relative_volume": 1.3
-    },
-    {
-      "ticker": "MU",
       "status": "NO_SIGNAL",
       "call_score": 10,
       "put_score": 45,
@@ -276,14 +250,33 @@
       "reasons": [
         "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 914.13,
-      "ema20": 1016.17,
-      "ema50": 989.85,
-      "rsi14": 36.25,
-      "relative_volume": 1.03
+      "last_price": 241.24,
+      "ema20": 258.84,
+      "ema50": 245.61,
+      "rsi14": 42.75,
+      "relative_volume": 1.17
+    },
+    {
+      "ticker": "MU",
+      "status": "NO_SIGNAL",
+      "call_score": 20,
+      "put_score": 55,
+      "candidate_direction": null,
+      "option": null,
+      "reasons": [
+        "Neither side meets both EMA trend and RSI criteria"
+      ],
+      "market_date": "2026-10-15",
+      "daily_candle_complete": true,
+      "age_weekdays": 0,
+      "last_price": 931.24,
+      "ema20": 1007.95,
+      "ema50": 987.41,
+      "rsi14": 39.18,
+      "relative_volume": 1.45
     },
     {
       "ticker": "AAOI",
@@ -295,26 +288,26 @@
         "contract_symbol": "AAOI261023P00087000",
         "expiry": "2026-10-23",
         "strike": 87.0,
-        "bid": 5.1,
-        "ask": 5.8,
-        "mid": 5.45,
-        "spread_pct": 12.84,
-        "open_interest": 156,
-        "option_volume": 43,
-        "implied_volatility": 0.8838
+        "bid": 6.2,
+        "ask": 7.0,
+        "mid": 6.6,
+        "spread_pct": 12.12,
+        "open_interest": 159,
+        "option_volume": 29,
+        "implied_volatility": 0.8965
       },
       "reasons": [
         "Basic options liquidity filters passed; quote freshness NOT verified",
         "WATCH only, not a trade entry: check live bid/ask, events and Greeks"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 86.22,
-      "ema20": 105.8,
-      "ema50": 111.33,
-      "rsi14": 37.37,
-      "relative_volume": 1.53
+      "last_price": 83.73,
+      "ema20": 103.7,
+      "ema50": 110.34,
+      "rsi14": 36.25,
+      "relative_volume": 1.78
     },
     {
       "ticker": "TSM",
@@ -326,33 +319,45 @@
       "reasons": [
         "Neither side meets both EMA trend and RSI criteria"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 430.0,
-      "ema20": 449.92,
-      "ema50": 438.52,
-      "rsi14": 40.96,
-      "relative_volume": 1.54
+      "last_price": 422.25,
+      "ema20": 447.29,
+      "ema50": 437.81,
+      "rsi14": 37.83,
+      "relative_volume": 2.24
     },
     {
       "ticker": "COHR",
-      "status": "TECHNICAL_WATCH_PUT",
-      "call_score": 0,
-      "put_score": 85,
+      "status": "WATCH_PUT",
+      "call_score": 10,
+      "put_score": 95,
       "candidate_direction": "PUT",
-      "option": null,
+      "option": {
+        "contract_symbol": "COHR261023P00265000",
+        "expiry": "2026-10-23",
+        "strike": 265.0,
+        "bid": 18.4,
+        "ask": 21.3,
+        "mid": 19.85,
+        "spread_pct": 14.61,
+        "open_interest": 200,
+        "option_volume": 38,
+        "implied_volatility": 0.6946
+      },
       "reasons": [
-        "Completed relative volume below 1.20; no option confirmation"
+        "Basic options liquidity filters passed; quote freshness NOT verified",
+        "WATCH only, not a trade entry: check live bid/ask, events and Greeks"
       ],
-      "market_date": "2026-10-14",
+      "market_date": "2026-10-15",
       "daily_candle_complete": true,
       "age_weekdays": 0,
-      "last_price": 263.32,
-      "ema20": 301.55,
-      "ema50": 304.42,
-      "rsi14": 39.3,
-      "relative_volume": 0.95
+      "last_price": 250.6,
+      "ema20": 296.7,
+      "ema50": 302.43,
+      "rsi14": 36.7,
+      "relative_volume": 1.41
     }
   ]
 }
