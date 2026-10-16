@@ -1,90 +1,30 @@
 {
   "version": "piyasa-15m-v1",
-  "generated_at_utc": "2026-10-16T20:00:48.312538+00:00",
+  "generated_at_utc": "2026-10-16T20:12:46.928737+00:00",
   "unified64_source_utc": "2026-10-16T20:00:48.142213+00:00",
   "universe_count": 64,
   "status_counts": {
     "NO_DAILY_WATCH": 22,
-    "WATCH_PUT_15M": 13,
+    "WATCH_PUT_15M": 17,
     "DIRECTION_CONFLICT": 1,
-    "NO_15M_ALIGNMENT": 18,
-    "WATCH_PUT_15M_EXTENDED": 6,
-    "WATCH_CALL_15M": 1,
+    "NO_15M_ALIGNMENT": 17,
+    "WATCH_CALL_15M": 2,
+    "WATCH_PUT_15M_EXTENDED": 2,
     "INACTIVE_CORPORATE_ACTION": 2,
     "WATCH_CALL_15M_EXTENDED": 1
   },
   "top10_research": [
-    {
-      "ticker": "GEV",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 99,
-      "last_close": 921.015015,
-      "rsi14": 42.977349,
-      "relative_volume_15m": 1.364822,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
-    {
-      "ticker": "LYFT",
-      "daily_direction": "CALL",
-      "daily_score": 85,
-      "status": "WATCH_CALL_15M",
-      "research_rank_score": 99,
-      "last_close": 16.764999,
-      "rsi14": 53.292389,
-      "relative_volume_15m": 1.219252,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
-    {
-      "ticker": "ORCL",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 99,
-      "last_close": 128.074997,
-      "rsi14": 33.519528,
-      "relative_volume_15m": 1.221451,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
-    {
-      "ticker": "XBI",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 99,
-      "last_close": 144.020004,
-      "rsi14": 33.953624,
-      "relative_volume_15m": 1.525597,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
     {
       "ticker": "HYG",
       "daily_direction": "PUT",
       "daily_score": 80,
       "status": "WATCH_PUT_15M",
       "research_rank_score": 96,
-      "last_close": 76.885002,
-      "rsi14": 40.22875,
-      "relative_volume_15m": 1.259972,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_close": 76.875,
+      "rsi14": 38.996736,
+      "relative_volume_15m": 1.67754,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
       ]
@@ -95,71 +35,138 @@
       "daily_score": 75,
       "status": "WATCH_PUT_15M",
       "research_rank_score": 92,
-      "last_close": 75.690002,
-      "rsi14": 31.19847,
-      "relative_volume_15m": 1.732931,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_close": 75.589996,
+      "rsi14": 30.752754,
+      "relative_volume_15m": 1.559345,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
       ]
     },
     {
-      "ticker": "COHR",
-      "daily_direction": "PUT",
-      "daily_score": 75,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 92,
-      "last_close": 231.789993,
-      "rsi14": 34.01749,
-      "relative_volume_15m": 1.40181,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
-    {
-      "ticker": "EEM",
-      "daily_direction": "PUT",
-      "daily_score": 75,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 92,
-      "last_close": 62.700001,
-      "rsi14": 30.022006,
-      "relative_volume_15m": 2.285502,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
-    {
-      "ticker": "SOFI",
-      "daily_direction": "PUT",
-      "daily_score": 75,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 92,
-      "last_close": 14.4032,
-      "rsi14": 33.105591,
-      "relative_volume_15m": 1.227532,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
-    {
-      "ticker": "HIMS",
+      "ticker": "BILI",
       "daily_direction": "PUT",
       "daily_score": 85,
       "status": "WATCH_PUT_15M",
       "research_rank_score": 91,
-      "last_close": 27.566999,
-      "rsi14": 30.533889,
-      "relative_volume_15m": 1.045648,
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_close": 14.065,
+      "rsi14": 39.067596,
+      "relative_volume_15m": 1.611288,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "reasons": [
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
+      ]
+    },
+    {
+      "ticker": "LYFT",
+      "daily_direction": "CALL",
+      "daily_score": 85,
+      "status": "WATCH_CALL_15M",
+      "research_rank_score": 91,
+      "last_close": 16.834999,
+      "rsi14": 56.755434,
+      "relative_volume_15m": 0.828848,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "reasons": [
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+      ]
+    },
+    {
+      "ticker": "NIO",
+      "daily_direction": "PUT",
+      "daily_score": 85,
+      "status": "WATCH_PUT_15M",
+      "research_rank_score": 91,
+      "last_close": 3.421,
+      "rsi14": 45.899737,
+      "relative_volume_15m": 1.269355,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "reasons": [
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "daily_direction": "PUT",
+      "daily_score": 85,
+      "status": "WATCH_PUT_15M",
+      "research_rank_score": 91,
+      "last_close": 128.220001,
+      "rsi14": 35.302342,
+      "relative_volume_15m": 1.994015,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "reasons": [
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
+      ]
+    },
+    {
+      "ticker": "XBI",
+      "daily_direction": "PUT",
+      "daily_score": 85,
+      "status": "WATCH_PUT_15M",
+      "research_rank_score": 91,
+      "last_close": 144.360001,
+      "rsi14": 38.378293,
+      "relative_volume_15m": 1.222829,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "reasons": [
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
+      ]
+    },
+    {
+      "ticker": "NOK",
+      "daily_direction": "PUT",
+      "daily_score": 85,
+      "status": "WATCH_PUT_15M_EXTENDED",
+      "research_rank_score": 85,
+      "last_close": 9.14,
+      "rsi14": 26.165371,
+      "relative_volume_15m": 2.026993,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "reasons": [
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_EXTENDED_REVERSAL_RISK"
+      ]
+    },
+    {
+      "ticker": "AAL",
+      "daily_direction": "PUT",
+      "daily_score": 75,
+      "status": "WATCH_PUT_15M",
+      "research_rank_score": 84,
+      "last_close": 11.875,
+      "rsi14": 31.922308,
+      "relative_volume_15m": 1.044352,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "reasons": [
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+      ]
+    },
+    {
+      "ticker": "CGNX",
+      "daily_direction": "PUT",
+      "daily_score": 75,
+      "status": "WATCH_PUT_15M",
+      "research_rank_score": 84,
+      "last_close": 53.970001,
+      "rsi14": 30.740067,
+      "relative_volume_15m": 0.878314,
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
         "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
@@ -177,28 +184,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 148.779999,
-          "high": 149.095001,
-          "low": 148.460007,
-          "close": 148.520004,
-          "volume": 510293,
-          "ema20": 150.357684,
-          "ema50": 153.007118,
-          "ema100": 154.380846,
-          "ema200": 153.949825,
-          "rsi14": 23.56296
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -912,16 +905,36 @@
           "ema100": 155.923333,
           "ema200": 155.075671,
           "rsi14": 40.891413
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 154.779999,
+          "high": 156.259995,
+          "low": 154.684998,
+          "close": 156.080002,
+          "volume": 338102,
+          "ema20": 156.051315,
+          "ema50": 156.240812,
+          "ema100": 155.926436,
+          "ema200": 155.085664,
+          "rsi14": 48.896366
         }
       ],
-      "last_close": 154.860001,
-      "last_volume": 203192,
-      "ema20": 156.048296,
-      "ema50": 156.247376,
-      "ema100": 155.923333,
-      "ema200": 155.075671,
-      "rsi14": 40.891413,
-      "relative_volume_15m": 1.08232,
+      "last_close": 156.080002,
+      "last_volume": 338102,
+      "ema20": 156.051315,
+      "ema50": 156.240812,
+      "ema100": 155.926436,
+      "ema200": 155.085664,
+      "rsi14": 48.896366,
+      "relative_volume_15m": 0.565631,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 154.860001,
+        "close_change": 1.220001,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -934,28 +947,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 130.250107,
-          "high": 130.619995,
-          "low": 129.770004,
-          "close": 130.598007,
-          "volume": 3504255,
-          "ema20": 131.866854,
-          "ema50": 134.787332,
-          "ema100": 136.957869,
-          "ema200": 138.728679,
-          "rsi14": 33.962842
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -1669,18 +1669,38 @@
           "ema100": 133.115388,
           "ema200": 135.713034,
           "rsi14": 33.519528
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 128.100006,
+          "high": 128.639999,
+          "low": 127.839996,
+          "close": 128.220001,
+          "volume": 4157486,
+          "ema20": 129.235626,
+          "ema50": 130.920268,
+          "ema100": 133.018449,
+          "ema200": 135.638477,
+          "rsi14": 35.302342
         }
       ],
-      "last_close": 128.074997,
-      "last_volume": 880984,
-      "ema20": 129.342534,
-      "ema50": 131.030483,
-      "ema100": 133.115388,
-      "ema200": 135.713034,
-      "rsi14": 33.519528,
-      "relative_volume_15m": 1.221451,
+      "last_close": 128.220001,
+      "last_volume": 4157486,
+      "ema20": 129.235626,
+      "ema50": 130.920268,
+      "ema100": 133.018449,
+      "ema200": 135.638477,
+      "rsi14": 35.302342,
+      "relative_volume_15m": 1.994015,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 128.074997,
+        "close_change": 0.145004,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 99
+      "research_rank_score": 91
     },
     {
       "ticker": "VST",
@@ -1692,28 +1712,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "DIRECTION_CONFLICT",
       "reasons": [
         "DAILY_AND_15M_DIRECTIONS_DIFFER"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 151.520004,
-          "high": 151.919998,
-          "low": 151.119995,
-          "close": 151.830002,
-          "volume": 808233,
-          "ema20": 152.198159,
-          "ema50": 154.945122,
-          "ema100": 156.557813,
-          "ema200": 155.371,
-          "rsi14": 41.196261
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -2427,16 +2433,36 @@
           "ema100": 153.997108,
           "ema200": 154.172671,
           "rsi14": 42.640314
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 152.139999,
+          "high": 152.714996,
+          "low": 151.960007,
+          "close": 152.009995,
+          "volume": 465177,
+          "ema20": 152.848022,
+          "ema50": 153.045372,
+          "ema100": 153.957759,
+          "ema200": 154.151152,
+          "rsi14": 41.759796
         }
       ],
-      "last_close": 152.130005,
-      "last_volume": 285278,
-      "ema20": 152.936235,
-      "ema50": 153.087632,
-      "ema100": 153.997108,
-      "ema200": 154.172671,
-      "rsi14": 42.640314,
-      "relative_volume_15m": 0.850356,
+      "last_close": 152.009995,
+      "last_volume": 465177,
+      "ema20": 152.848022,
+      "ema50": 153.045372,
+      "ema100": 153.957759,
+      "ema200": 154.151152,
+      "rsi14": 41.759796,
+      "relative_volume_15m": 0.672296,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 152.130005,
+        "close_change": -0.12001,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -2449,28 +2475,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 278.859985,
-          "high": 280.290009,
-          "low": 278.700012,
-          "close": 279.619995,
-          "volume": 451573,
-          "ema20": 281.098104,
-          "ema50": 285.683796,
-          "ema100": 288.432469,
-          "ema200": 286.525897,
-          "rsi14": 35.793739
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -3184,16 +3196,36 @@
           "ema100": 278.288488,
           "ema200": 280.976213,
           "rsi14": 40.855814
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 270.480011,
+          "high": 272.299988,
+          "low": 270.480011,
+          "close": 271.290009,
+          "volume": 499744,
+          "ema20": 271.687012,
+          "ema50": 273.99506,
+          "ema100": 278.149905,
+          "ema200": 280.879833,
+          "rsi14": 45.588851
         }
       ],
-      "last_close": 270.459991,
-      "last_volume": 225303,
-      "ema20": 271.728802,
-      "ema50": 274.10547,
-      "ema100": 278.288488,
-      "ema200": 280.976213,
-      "rsi14": 40.855814,
-      "relative_volume_15m": 1.818469,
+      "last_close": 271.290009,
+      "last_volume": 499744,
+      "ema20": 271.687012,
+      "ema50": 273.99506,
+      "ema100": 278.149905,
+      "ema200": 280.879833,
+      "rsi14": 45.588851,
+      "relative_volume_15m": 1.350388,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 270.459991,
+        "close_change": 0.830018,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -3206,28 +3238,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 140.320007,
-          "high": 140.449997,
-          "low": 139.669998,
-          "close": 139.990005,
-          "volume": 1307325,
-          "ema20": 140.034606,
-          "ema50": 140.175497,
-          "ema100": 140.087764,
-          "ema200": 139.290763,
-          "rsi14": 49.50854
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -3941,16 +3959,36 @@
           "ema100": 142.619896,
           "ema200": 141.334038,
           "rsi14": 41.059072
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 141.350006,
+          "high": 142.050003,
+          "low": 141.139999,
+          "close": 141.949997,
+          "volume": 1188974,
+          "ema20": 141.854312,
+          "ema50": 142.895207,
+          "ema100": 142.606631,
+          "ema200": 141.340167,
+          "rsi14": 47.019586
         }
       ],
-      "last_close": 141.339996,
-      "last_volume": 474714,
-      "ema20": 141.84424,
-      "ema50": 142.933787,
-      "ema100": 142.619896,
-      "ema200": 141.334038,
-      "rsi14": 41.059072,
-      "relative_volume_15m": 1.359233,
+      "last_close": 141.949997,
+      "last_volume": 1188974,
+      "ema20": 141.854312,
+      "ema50": 142.895207,
+      "ema100": 142.606631,
+      "ema200": 141.340167,
+      "rsi14": 47.019586,
+      "relative_volume_15m": 1.220612,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 141.339996,
+        "close_change": 0.610001,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -3963,29 +4001,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
         "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 57.330002,
-          "high": 57.41,
-          "low": 57.16,
-          "close": 57.27,
-          "volume": 344333,
-          "ema20": 57.670675,
-          "ema50": 58.751342,
-          "ema100": 59.914237,
-          "ema200": 60.841132,
-          "rsi14": 39.021403
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -4699,16 +4723,36 @@
           "ema100": 56.763386,
           "ema200": 58.5144,
           "rsi14": 31.01237
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 54.009998,
+          "high": 54.200001,
+          "low": 53.959999,
+          "close": 53.970001,
+          "volume": 283332,
+          "ema20": 54.630375,
+          "ema50": 55.355171,
+          "ema100": 56.708072,
+          "ema200": 58.469182,
+          "rsi14": 30.740067
         }
       ],
-      "last_close": 53.990002,
-      "last_volume": 88674,
-      "ema20": 54.699889,
-      "ema50": 55.411708,
-      "ema100": 56.763386,
-      "ema200": 58.5144,
-      "rsi14": 31.01237,
-      "relative_volume_15m": 0.968698,
+      "last_close": 53.970001,
+      "last_volume": 283332,
+      "ema20": 54.630375,
+      "ema50": 55.355171,
+      "ema100": 56.708072,
+      "ema200": 58.469182,
+      "rsi14": 30.740067,
+      "relative_volume_15m": 0.878314,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 53.990002,
+        "close_change": -0.020001,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
       "research_rank_score": 84
     },
@@ -4722,28 +4766,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 142.729996,
-          "high": 143.470001,
-          "low": 142.380005,
-          "close": 143.300003,
-          "volume": 1571523,
-          "ema20": 144.189612,
-          "ema50": 147.24794,
-          "ema100": 150.013435,
-          "ema200": 152.649329,
-          "rsi14": 36.231806
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -5457,16 +5487,36 @@
           "ema100": 144.995924,
           "ema200": 148.677074,
           "rsi14": 27.485031
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 135.460007,
+          "high": 137.029999,
+          "low": 135.330002,
+          "close": 136.830002,
+          "volume": 2475488,
+          "ema20": 138.175643,
+          "ema50": 141.644683,
+          "ema100": 144.834223,
+          "ema200": 148.559193,
+          "rsi14": 37.288871
         }
       ],
-      "last_close": 135.455002,
-      "last_volume": 1029088,
-      "ema20": 138.317289,
-      "ema50": 141.841201,
-      "ema100": 144.995924,
-      "ema200": 148.677074,
-      "rsi14": 27.485031,
-      "relative_volume_15m": 2.015221,
+      "last_close": 136.830002,
+      "last_volume": 2475488,
+      "ema20": 138.175643,
+      "ema50": 141.644683,
+      "ema100": 144.834223,
+      "ema200": 148.559193,
+      "rsi14": 37.288871,
+      "relative_volume_15m": 1.985546,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 135.455002,
+        "close_change": 1.375,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -5479,28 +5529,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 239.320007,
-          "high": 241.410004,
-          "low": 238.349792,
-          "close": 239.449997,
-          "volume": 1123872,
-          "ema20": 241.762451,
-          "ema50": 249.076811,
-          "ema100": 257.213559,
-          "ema200": 266.188029,
-          "rsi14": 37.345474
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -6214,16 +6250,36 @@
           "ema100": 238.44811,
           "ema200": 251.0042,
           "rsi14": 31.331114
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 219.494995,
+          "high": 222.5,
+          "low": 219.210098,
+          "close": 221.339996,
+          "volume": 1133180,
+          "ema20": 224.648976,
+          "ema50": 229.636426,
+          "ema100": 238.109335,
+          "ema200": 250.709034,
+          "rsi14": 37.736027
         }
       ],
-      "last_close": 219.494995,
-      "last_volume": 540365,
-      "ema20": 224.99729,
-      "ema50": 229.975055,
-      "ema100": 238.44811,
-      "ema200": 251.0042,
-      "rsi14": 31.331114,
-      "relative_volume_15m": 1.370794,
+      "last_close": 221.339996,
+      "last_volume": 1133180,
+      "ema20": 224.648976,
+      "ema50": 229.636426,
+      "ema100": 238.109335,
+      "ema200": 250.709034,
+      "rsi14": 37.736027,
+      "relative_volume_15m": 1.264147,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 219.494995,
+        "close_change": 1.845001,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -6236,28 +6292,16 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING",
+        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 939.450012,
-          "high": 941.799988,
-          "low": 935.26001,
-          "close": 941.76001,
-          "volume": 289207,
-          "ema20": 939.610559,
-          "ema50": 957.479483,
-          "ema100": 972.835722,
-          "ema200": 981.336595,
-          "rsi14": 47.241875
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -6971,18 +7015,38 @@
           "ema100": 941.06181,
           "ema200": 957.636917,
           "rsi14": 42.977349
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 921.130005,
+          "high": 923.840027,
+          "low": 918.580017,
+          "close": 921.02002,
+          "volume": 162742,
+          "ema20": 926.187045,
+          "ema50": 928.806627,
+          "ema100": 940.664943,
+          "ema200": 957.27257,
+          "rsi14": 42.984293
         }
       ],
-      "last_close": 921.015015,
-      "last_volume": 94463,
-      "ema20": 926.730943,
-      "ema50": 929.124447,
-      "ema100": 941.06181,
-      "ema200": 957.636917,
-      "rsi14": 42.977349,
-      "relative_volume_15m": 1.364822,
+      "last_close": 921.02002,
+      "last_volume": 162742,
+      "ema20": 926.187045,
+      "ema50": 928.806627,
+      "ema100": 940.664943,
+      "ema200": 957.27257,
+      "rsi14": 42.984293,
+      "relative_volume_15m": 1.019975,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 921.015015,
+        "close_change": 0.005005,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 99
+      "research_rank_score": 83
     },
     {
       "ticker": "MRVL",
@@ -6994,28 +7058,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 248.089996,
-          "high": 248.520004,
-          "low": 245.100006,
-          "close": 245.240005,
-          "volume": 3348203,
-          "ema20": 251.715185,
-          "ema50": 256.947437,
-          "ema100": 262.053635,
-          "ema200": 265.890279,
-          "rsi14": 22.93851
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -7729,16 +7779,36 @@
           "ema100": 244.219839,
           "ema200": 253.326307,
           "rsi14": 33.938
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 228.759995,
+          "high": 229.179993,
+          "low": 227.630005,
+          "close": 227.759995,
+          "volume": 2066265,
+          "ema20": 231.646581,
+          "ema50": 236.252572,
+          "ema100": 243.893901,
+          "ema200": 253.071916,
+          "rsi14": 31.780171
         }
       ],
-      "last_close": 228.679993,
-      "last_volume": 986497,
-      "ema20": 232.055695,
-      "ema50": 236.599208,
-      "ema100": 244.219839,
-      "ema200": 253.326307,
-      "rsi14": 33.938,
-      "relative_volume_15m": 1.851572,
+      "last_close": 227.759995,
+      "last_volume": 2066265,
+      "ema20": 231.646581,
+      "ema50": 236.252572,
+      "ema100": 243.893901,
+      "ema200": 253.071916,
+      "rsi14": 31.780171,
+      "relative_volume_15m": 1.495625,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 228.679993,
+        "close_change": -0.919998,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -7751,28 +7821,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 920.599976,
-          "high": 920.94989,
-          "low": 913.73999,
-          "close": 913.914978,
-          "volume": 2559505,
-          "ema20": 925.454,
-          "ema50": 939.890561,
-          "ema100": 965.259913,
-          "ema200": 997.147543,
-          "rsi14": 32.016846
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -8486,16 +8542,36 @@
           "ema100": 923.508728,
           "ema200": 958.63445,
           "rsi14": 28.713719
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 878.27002,
+          "high": 881.549011,
+          "low": 875.0,
+          "close": 878.669983,
+          "volume": 2228875,
+          "ema20": 891.882445,
+          "ema50": 902.613227,
+          "ema100": 922.620832,
+          "ema200": 957.838783,
+          "rsi14": 29.398526
         }
       ],
-      "last_close": 878.27002,
-      "last_volume": 1309010,
-      "ema20": 893.273231,
-      "ema50": 903.590502,
-      "ema100": 923.508728,
-      "ema200": 958.63445,
-      "rsi14": 28.713719,
-      "relative_volume_15m": 1.607307,
+      "last_close": 878.669983,
+      "last_volume": 2228875,
+      "ema20": 891.882445,
+      "ema50": 902.613227,
+      "ema100": 922.620832,
+      "ema200": 957.838783,
+      "rsi14": 29.398526,
+      "relative_volume_15m": 1.332089,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 878.27002,
+        "close_change": 0.399963,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -8508,28 +8584,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 86.535004,
-          "high": 86.709999,
-          "low": 85.93,
-          "close": 86.230003,
-          "volume": 911646,
-          "ema20": 88.024451,
-          "ema50": 92.079335,
-          "ema100": 97.518416,
-          "ema200": 102.893112,
-          "rsi14": 28.874406
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -9243,16 +9305,36 @@
           "ema100": 85.887209,
           "ema200": 93.578563,
           "rsi14": 31.19847
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 75.690002,
+          "high": 76.0,
+          "low": 75.43,
+          "close": 75.589996,
+          "volume": 1155438,
+          "ema20": 77.453187,
+          "ema50": 80.344785,
+          "ema100": 85.683304,
+          "ema200": 93.399572,
+          "rsi14": 30.752754
         }
       ],
-      "last_close": 75.690002,
-      "last_volume": 553032,
-      "ema20": 77.649312,
-      "ema50": 80.538858,
-      "ema100": 85.887209,
-      "ema200": 93.578563,
-      "rsi14": 31.19847,
-      "relative_volume_15m": 1.732931,
+      "last_close": 75.589996,
+      "last_volume": 1155438,
+      "ema20": 77.453187,
+      "ema50": 80.344785,
+      "ema100": 85.683304,
+      "ema200": 93.399572,
+      "rsi14": 30.752754,
+      "relative_volume_15m": 1.559345,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 75.690002,
+        "close_change": -0.100006,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
       "research_rank_score": 92
     },
@@ -9266,28 +9348,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 430.690002,
-          "high": 431.109985,
-          "low": 429.799988,
-          "close": 430.079987,
-          "volume": 1566500,
-          "ema20": 431.9099,
-          "ema50": 436.75765,
-          "ema100": 443.271749,
-          "ema200": 450.561074,
-          "rsi14": 34.268146
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -10001,16 +10069,36 @@
           "ema100": 425.756819,
           "ema200": 436.803738,
           "rsi14": 39.385138
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 412.209991,
+          "high": 414.049988,
+          "low": 412.200012,
+          "close": 412.510101,
+          "volume": 1429506,
+          "ema20": 413.988043,
+          "ema50": 417.913798,
+          "ema100": 425.494507,
+          "ema200": 436.562011,
+          "rsi14": 40.844946
         }
       ],
-      "last_close": 412.190002,
-      "last_volume": 596395,
-      "ema20": 414.143616,
-      "ema50": 418.134357,
-      "ema100": 425.756819,
-      "ema200": 436.803738,
-      "rsi14": 39.385138,
-      "relative_volume_15m": 1.745458,
+      "last_close": 412.510101,
+      "last_volume": 1429506,
+      "ema20": 413.988043,
+      "ema50": 417.913798,
+      "ema100": 425.494507,
+      "ema200": 436.562011,
+      "rsi14": 40.844946,
+      "relative_volume_15m": 1.469025,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 412.190002,
+        "close_change": 0.320099,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -10023,28 +10111,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 265.315002,
-          "high": 265.380005,
-          "low": 262.76001,
-          "close": 263.170013,
-          "volume": 617262,
-          "ema20": 267.087886,
-          "ema50": 274.968676,
-          "ema100": 285.190262,
-          "ema200": 296.161054,
-          "rsi14": 33.022428
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -10758,18 +10833,38 @@
           "ema100": 256.043098,
           "ema200": 273.801869,
           "rsi14": 34.01749
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 231.830002,
+          "high": 233.009995,
+          "low": 231.600006,
+          "close": 232.929993,
+          "volume": 708512,
+          "ema20": 235.909914,
+          "ema50": 242.807887,
+          "ema100": 255.585412,
+          "ema200": 273.395184,
+          "rsi14": 37.904491
         }
       ],
-      "last_close": 231.789993,
-      "last_volume": 315067,
-      "ema20": 236.22359,
-      "ema50": 243.211066,
-      "ema100": 256.043098,
-      "ema200": 273.801869,
-      "rsi14": 34.01749,
-      "relative_volume_15m": 1.40181,
+      "last_close": 232.929993,
+      "last_volume": 708512,
+      "ema20": 235.909914,
+      "ema50": 242.807887,
+      "ema100": 255.585412,
+      "ema200": 273.395184,
+      "rsi14": 37.904491,
+      "relative_volume_15m": 1.297537,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 231.789993,
+        "close_change": 1.14,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 92
+      "research_rank_score": 84
     },
     {
       "ticker": "F",
@@ -10781,28 +10876,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 12.01,
-          "high": 12.06,
-          "low": 12.0,
-          "close": 12.055,
-          "volume": 2390339,
-          "ema20": 11.983431,
-          "ema50": 12.007412,
-          "ema100": 12.040909,
-          "ema200": 12.108674,
-          "rsi14": 61.809253
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -11516,16 +11597,36 @@
           "ema100": 12.305251,
           "ema200": 12.239997,
           "rsi14": 41.012961
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 12.4101,
+          "high": 12.45,
+          "low": 12.4,
+          "close": 12.425,
+          "volume": 3381747,
+          "ema20": 12.494755,
+          "ema50": 12.419483,
+          "ema100": 12.307622,
+          "ema200": 12.241837,
+          "rsi14": 42.373812
         }
       ],
-      "last_close": 12.415,
-      "last_volume": 1556271,
-      "ema20": 12.502098,
-      "ema50": 12.419258,
-      "ema100": 12.305251,
-      "ema200": 12.239997,
-      "rsi14": 41.012961,
-      "relative_volume_15m": 1.252948,
+      "last_close": 12.425,
+      "last_volume": 3381747,
+      "ema20": 12.494755,
+      "ema50": 12.419483,
+      "ema100": 12.307622,
+      "ema200": 12.241837,
+      "rsi14": 42.373812,
+      "relative_volume_15m": 0.941085,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 12.415,
+        "close_change": 0.01,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -11538,28 +11639,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 14.1674,
-          "high": 14.26,
-          "low": 14.14,
-          "close": 14.2242,
-          "volume": 6632723,
-          "ema20": 14.208065,
-          "ema50": 14.547993,
-          "ema100": 14.894621,
-          "ema200": 15.257012,
-          "rsi14": 45.119391
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -12273,18 +12361,38 @@
           "ema100": 14.777848,
           "ema200": 15.037773,
           "rsi14": 33.105591
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 14.405,
+          "high": 14.57,
+          "low": 14.39,
+          "close": 14.56,
+          "volume": 5901302,
+          "ema20": 14.621366,
+          "ema50": 14.680498,
+          "ema100": 14.773534,
+          "ema200": 15.033019,
+          "rsi14": 44.580417
         }
       ],
-      "last_close": 14.4032,
-      "last_volume": 1809320,
-      "ema20": 14.627825,
-      "ema50": 14.685416,
-      "ema100": 14.777848,
-      "ema200": 15.037773,
-      "rsi14": 33.105591,
-      "relative_volume_15m": 1.227532,
+      "last_close": 14.56,
+      "last_volume": 5901302,
+      "ema20": 14.621366,
+      "ema50": 14.680498,
+      "ema100": 14.773534,
+      "ema200": 15.033019,
+      "rsi14": 44.580417,
+      "relative_volume_15m": 1.618204,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 14.4032,
+        "close_change": 0.1568,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 92
+      "research_rank_score": 84
     },
     {
       "ticker": "SNAP",
@@ -12296,28 +12404,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 6.0852,
-          "high": 6.12,
-          "low": 6.05,
-          "close": 6.105,
-          "volume": 4950293,
-          "ema20": 6.133432,
-          "ema50": 6.270934,
-          "ema100": 6.269532,
-          "ema200": 6.122618,
-          "rsi14": 39.170455
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -13031,16 +13125,36 @@
           "ema100": 6.210186,
           "ema200": 6.145109,
           "rsi14": 41.088156
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 6.075,
+          "high": 6.1599,
+          "low": 6.07,
+          "close": 6.12,
+          "volume": 3373474,
+          "ema20": 6.129439,
+          "ema50": 6.178964,
+          "ema100": 6.2084,
+          "ema200": 6.144859,
+          "rsi14": 46.977612
         }
       ],
-      "last_close": 6.075,
-      "last_volume": 1094009,
-      "ema20": 6.130432,
-      "ema50": 6.18137,
-      "ema100": 6.210186,
-      "ema200": 6.145109,
-      "rsi14": 41.088156,
-      "relative_volume_15m": 0.621309,
+      "last_close": 6.12,
+      "last_volume": 3373474,
+      "ema20": 6.129439,
+      "ema50": 6.178964,
+      "ema100": 6.2084,
+      "ema200": 6.144859,
+      "rsi14": 46.977612,
+      "relative_volume_15m": 0.883791,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 6.075,
+        "close_change": 0.045,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -13053,28 +13167,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "status": "NO_15M_ALIGNMENT",
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "status": "WATCH_CALL_15M",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 29.23,
-          "high": 29.27,
-          "low": 29.139999,
-          "close": 29.225,
-          "volume": 3684206,
-          "ema20": 29.204255,
-          "ema50": 28.914749,
-          "ema100": 28.618165,
-          "ema200": 28.356528,
-          "rsi14": 57.632151
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -13788,17 +13889,38 @@
           "ema100": 29.235316,
           "ema200": 28.850368,
           "rsi14": 49.548958
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 29.535,
+          "high": 29.59,
+          "low": 29.49,
+          "close": 29.57,
+          "volume": 1984708,
+          "ema20": 29.541363,
+          "ema50": 29.485829,
+          "ema100": 29.241944,
+          "ema200": 28.857529,
+          "rsi14": 53.304948
         }
       ],
-      "last_close": 29.535,
-      "last_volume": 786371,
-      "ema20": 29.538348,
-      "ema50": 29.482393,
-      "ema100": 29.235316,
-      "ema200": 28.850368,
-      "rsi14": 49.548958,
-      "relative_volume_15m": 0.792392,
-      "15m_trend_direction": null
+      "last_close": 29.57,
+      "last_volume": 1984708,
+      "ema20": 29.541363,
+      "ema50": 29.485829,
+      "ema100": 29.241944,
+      "ema200": 28.857529,
+      "rsi14": 53.304948,
+      "relative_volume_15m": 0.623048,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 29.535,
+        "close_change": 0.035,
+        "new_completed_bars": 1
+      },
+      "15m_trend_direction": "CALL",
+      "research_rank_score": 84
     },
     {
       "ticker": "INTC",
@@ -13810,28 +13932,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 98.769997,
-          "high": 98.879997,
-          "low": 98.0,
-          "close": 98.110001,
-          "volume": 8298480,
-          "ema20": 98.970787,
-          "ema50": 100.144757,
-          "ema100": 102.212425,
-          "ema200": 106.018319,
-          "rsi14": 36.528095
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -14545,16 +14653,36 @@
           "ema100": 95.922337,
           "ema200": 100.641617,
           "rsi14": 27.50563
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 89.349998,
+          "high": 90.114998,
+          "low": 89.190002,
+          "close": 89.764999,
+          "volume": 11107790,
+          "ema20": 90.996635,
+          "ema50": 92.925606,
+          "ema100": 95.80041,
+          "ema200": 100.533392,
+          "rsi14": 33.272064
         }
       ],
-      "last_close": 89.330002,
-      "last_volume": 4892051,
-      "ema20": 91.126281,
-      "ema50": 93.05461,
-      "ema100": 95.922337,
-      "ema200": 100.641617,
-      "rsi14": 27.50563,
-      "relative_volume_15m": 1.589368,
+      "last_close": 89.764999,
+      "last_volume": 11107790,
+      "ema20": 90.996635,
+      "ema50": 92.925606,
+      "ema100": 95.80041,
+      "ema200": 100.533392,
+      "rsi14": 33.272064,
+      "relative_volume_15m": 1.669318,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 89.330002,
+        "close_change": 0.434997,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -14567,28 +14695,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 23.07,
-          "high": 23.105,
-          "low": 23.030001,
-          "close": 23.084999,
-          "volume": 6963707,
-          "ema20": 23.009911,
-          "ema50": 22.921587,
-          "ema100": 23.010979,
-          "ema200": 23.38476,
-          "rsi14": 59.623779
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -15302,16 +15416,36 @@
           "ema100": 23.385658,
           "ema200": 23.470052,
           "rsi14": 37.661679
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 23.445,
+          "high": 23.469999,
+          "low": 23.4,
+          "close": 23.43,
+          "volume": 4537427,
+          "ema20": 23.564257,
+          "ema50": 23.503667,
+          "ema100": 23.386536,
+          "ema200": 23.469654,
+          "rsi14": 36.419818
         }
       ],
-      "last_close": 23.4475,
-      "last_volume": 2064044,
-      "ema20": 23.578389,
-      "ema50": 23.506674,
-      "ema100": 23.385658,
-      "ema200": 23.470052,
-      "rsi14": 37.661679,
-      "relative_volume_15m": 1.309967,
+      "last_close": 23.43,
+      "last_volume": 4537427,
+      "ema20": 23.564257,
+      "ema50": 23.503667,
+      "ema100": 23.386536,
+      "ema200": 23.469654,
+      "rsi14": 36.419818,
+      "relative_volume_15m": 1.122418,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 23.4475,
+        "close_change": -0.0175,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -15324,28 +15458,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 200.350006,
-          "high": 201.070007,
-          "low": 199.850006,
-          "close": 201.059998,
-          "volume": 1873714,
-          "ema20": 202.457463,
-          "ema50": 204.380996,
-          "ema100": 204.031131,
-          "ema200": 200.913681,
-          "rsi14": 30.791931
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -16059,16 +16179,36 @@
           "ema100": 196.620008,
           "ema200": 197.819494,
           "rsi14": 28.860475
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 185.229996,
+          "high": 186.279999,
+          "low": 185.080093,
+          "close": 186.029999,
+          "volume": 1855954,
+          "ema20": 187.859476,
+          "ema50": 192.492561,
+          "ema100": 196.410305,
+          "ema200": 197.702186,
+          "rsi14": 34.440403
         }
       ],
-      "last_close": 185.195007,
-      "last_volume": 838273,
-      "ema20": 188.052053,
-      "ema50": 192.756339,
-      "ema100": 196.620008,
-      "ema200": 197.819494,
-      "rsi14": 28.860475,
-      "relative_volume_15m": 1.397462,
+      "last_close": 186.029999,
+      "last_volume": 1855954,
+      "ema20": 187.859476,
+      "ema50": 192.492561,
+      "ema100": 196.410305,
+      "ema200": 197.702186,
+      "rsi14": 34.440403,
+      "relative_volume_15m": 1.253176,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 185.195007,
+        "close_change": 0.834992,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -16081,28 +16221,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 51.255001,
-          "high": 51.52,
-          "low": 51.23,
-          "close": 51.41,
-          "volume": 8680906,
-          "ema20": 51.163083,
-          "ema50": 51.943457,
-          "ema100": 52.678256,
-          "ema200": 53.316411,
-          "rsi14": 51.707972
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -16816,16 +16942,36 @@
           "ema100": 52.080613,
           "ema200": 52.686494,
           "rsi14": 33.008462
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 51.244999,
+          "high": 51.509998,
+          "low": 51.209999,
+          "close": 51.224998,
+          "volume": 8166898,
+          "ema20": 51.595823,
+          "ema50": 51.74129,
+          "ema100": 52.06367,
+          "ema200": 52.671951,
+          "rsi14": 32.498487
         }
       ],
-      "last_close": 51.244999,
-      "last_volume": 2422706,
-      "ema20": 51.634857,
-      "ema50": 51.762363,
-      "ema100": 52.080613,
-      "ema200": 52.686494,
-      "rsi14": 33.008462,
-      "relative_volume_15m": 1.813595,
+      "last_close": 51.224998,
+      "last_volume": 8166898,
+      "ema20": 51.595823,
+      "ema50": 51.74129,
+      "ema100": 52.06367,
+      "ema200": 52.671951,
+      "rsi14": 32.498487,
+      "relative_volume_15m": 2.051869,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 51.244999,
+        "close_change": -0.020001,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -16838,30 +16984,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING",
         "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 11.815,
-          "high": 11.82,
-          "low": 11.76,
-          "close": 11.795,
-          "volume": 5529889,
-          "ema20": 11.831753,
-          "ema50": 12.057877,
-          "ema100": 12.285988,
-          "ema200": 12.541249,
-          "rsi14": 39.337637
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -17575,18 +17706,38 @@
           "ema100": 12.161934,
           "ema200": 12.362395,
           "rsi14": 31.923694
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 11.88,
+          "high": 11.91,
+          "low": 11.86,
+          "close": 11.875,
+          "volume": 4297153,
+          "ema20": 12.001561,
+          "ema50": 12.069649,
+          "ema100": 12.156252,
+          "ema200": 12.357546,
+          "rsi14": 31.922308
         }
       ],
       "last_close": 11.875,
-      "last_volume": 1812509,
-      "ema20": 12.014883,
-      "ema50": 12.077594,
-      "ema100": 12.161934,
-      "ema200": 12.362395,
-      "rsi14": 31.923694,
-      "relative_volume_15m": 0.732811,
+      "last_volume": 4297153,
+      "ema20": 12.001561,
+      "ema50": 12.069649,
+      "ema100": 12.156252,
+      "ema200": 12.357546,
+      "rsi14": 31.922308,
+      "relative_volume_15m": 1.044352,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 11.875,
+        "close_change": 0.0,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 76
+      "research_rank_score": 84
     },
     {
       "ticker": "UAL",
@@ -17598,29 +17749,16 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M_EXTENDED",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK"
+        "RSI_EXTENDED_REVERSAL_RISK",
+        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 98.860001,
-          "high": 98.980003,
-          "low": 98.620003,
-          "close": 98.970001,
-          "volume": 594398,
-          "ema20": 99.019865,
-          "ema50": 100.636327,
-          "ema100": 102.715304,
-          "ema200": 105.284848,
-          "rsi14": 42.169367
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -18334,18 +18472,38 @@
           "ema100": 100.491479,
           "ema200": 102.925648,
           "rsi14": 23.210851
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 96.220001,
+          "high": 96.345001,
+          "low": 96.07,
+          "close": 96.099998,
+          "volume": 582232,
+          "ema20": 97.753154,
+          "ema50": 99.014332,
+          "ema100": 100.404519,
+          "ema200": 102.857731,
+          "rsi14": 22.528259
         }
       ],
-      "last_close": 96.220001,
-      "last_volume": 273223,
-      "ema20": 97.92717,
-      "ema50": 99.133285,
-      "ema100": 100.491479,
-      "ema200": 102.925648,
-      "rsi14": 23.210851,
-      "relative_volume_15m": 1.586349,
+      "last_close": 96.099998,
+      "last_volume": 582232,
+      "ema20": 97.753154,
+      "ema50": 99.014332,
+      "ema100": 100.404519,
+      "ema200": 102.857731,
+      "rsi14": 22.528259,
+      "relative_volume_15m": 0.93419,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 96.220001,
+        "close_change": -0.120003,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 78
+      "research_rank_score": 70
     },
     {
       "ticker": "DAL",
@@ -18357,30 +18515,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING",
         "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 76.669998,
-          "high": 76.690002,
-          "low": 76.440002,
-          "close": 76.660004,
-          "volume": 909878,
-          "ema20": 76.771568,
-          "ema50": 77.770782,
-          "ema100": 78.998904,
-          "ema200": 80.373253,
-          "rsi14": 39.472212
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -19094,18 +19237,38 @@
           "ema100": 77.595543,
           "ema200": 78.962689,
           "rsi14": 32.837975
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 75.525002,
+          "high": 75.610001,
+          "low": 75.360001,
+          "close": 75.370003,
+          "volume": 840277,
+          "ema20": 76.139774,
+          "ema50": 76.770512,
+          "ema100": 77.551472,
+          "ema200": 78.926941,
+          "rsi14": 31.340337
         }
       ],
-      "last_close": 75.5,
-      "last_volume": 310452,
-      "ema20": 76.220803,
-      "ema50": 76.827676,
-      "ema100": 77.595543,
-      "ema200": 78.962689,
-      "rsi14": 32.837975,
-      "relative_volume_15m": 1.061304,
+      "last_close": 75.370003,
+      "last_volume": 840277,
+      "ema20": 76.139774,
+      "ema50": 76.770512,
+      "ema100": 77.551472,
+      "ema200": 78.926941,
+      "rsi14": 31.340337,
+      "relative_volume_15m": 0.833258,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 75.5,
+        "close_change": -0.129997,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 76
+      "research_rank_score": 84
     },
     {
       "ticker": "CCL",
@@ -19117,28 +19280,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 25.865,
-          "high": 25.99,
-          "low": 25.82,
-          "close": 25.985001,
-          "volume": 1625602,
-          "ema20": 25.969869,
-          "ema50": 26.154302,
-          "ema100": 26.222817,
-          "ema200": 25.99043,
-          "rsi14": 47.426181
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -19852,16 +20001,36 @@
           "ema100": 26.290341,
           "ema200": 26.130489,
           "rsi14": 34.088773
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 25.92,
+          "high": 25.945,
+          "low": 25.84,
+          "close": 25.895,
+          "volume": 2561835,
+          "ema20": 26.115416,
+          "ema50": 26.258043,
+          "ema100": 26.282512,
+          "ema200": 26.128145,
+          "rsi14": 33.347554
         }
       ],
-      "last_close": 25.915001,
-      "last_volume": 732030,
-      "ema20": 26.138618,
-      "ema50": 26.272861,
-      "ema100": 26.290341,
-      "ema200": 26.130489,
-      "rsi14": 34.088773,
-      "relative_volume_15m": 0.80354,
+      "last_close": 25.895,
+      "last_volume": 2561835,
+      "ema20": 26.115416,
+      "ema50": 26.258043,
+      "ema100": 26.282512,
+      "ema200": 26.128145,
+      "rsi14": 33.347554,
+      "relative_volume_15m": 0.990994,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 25.915001,
+        "close_change": -0.020001,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -19874,28 +20043,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 14.845,
-          "high": 14.9,
-          "low": 14.82,
-          "close": 14.8872,
-          "volume": 2042865,
-          "ema20": 14.919944,
-          "ema50": 15.053327,
-          "ema100": 15.156127,
-          "ema200": 15.150688,
-          "rsi14": 42.505425
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -20609,16 +20764,36 @@
           "ema100": 15.238422,
           "ema200": 15.204435,
           "rsi14": 31.899256
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 15.005,
+          "high": 15.05,
+          "low": 14.99,
+          "close": 15.035,
+          "volume": 2006646,
+          "ema20": 15.175854,
+          "ema50": 15.236123,
+          "ema100": 15.234394,
+          "ema200": 15.202749,
+          "rsi14": 35.117079
         }
       ],
-      "last_close": 15.005,
-      "last_volume": 438381,
-      "ema20": 15.190681,
-      "ema50": 15.244332,
-      "ema100": 15.238422,
-      "ema200": 15.204435,
-      "rsi14": 31.899256,
-      "relative_volume_15m": 0.480576,
+      "last_close": 15.035,
+      "last_volume": 2006646,
+      "ema20": 15.175854,
+      "ema50": 15.236123,
+      "ema100": 15.234394,
+      "ema200": 15.202749,
+      "rsi14": 35.117079,
+      "relative_volume_15m": 0.739636,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 15.005,
+        "close_change": 0.03,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -20631,28 +20806,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 12.905,
-          "high": 12.95,
-          "low": 12.88,
-          "close": 12.95,
-          "volume": 2226645,
-          "ema20": 12.942433,
-          "ema50": 13.151203,
-          "ema100": 13.425791,
-          "ema200": 13.795045,
-          "rsi14": 44.722973
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -21366,16 +21527,36 @@
           "ema100": 13.007132,
           "ema200": 13.395092,
           "rsi14": 25.443105
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 12.385,
+          "high": 12.44,
+          "low": 12.36,
+          "close": 12.425,
+          "volume": 4172173,
+          "ema20": 12.580269,
+          "ema50": 12.764009,
+          "ema100": 12.995605,
+          "ema200": 13.385439,
+          "rsi14": 30.573218
         }
       ],
-      "last_close": 12.385,
-      "last_volume": 1361968,
-      "ema20": 12.596614,
-      "ema50": 12.777846,
-      "ema100": 13.007132,
-      "ema200": 13.395092,
-      "rsi14": 25.443105,
-      "relative_volume_15m": 1.609297,
+      "last_close": 12.425,
+      "last_volume": 4172173,
+      "ema20": 12.580269,
+      "ema50": 12.764009,
+      "ema100": 12.995605,
+      "ema200": 13.385439,
+      "rsi14": 30.573218,
+      "relative_volume_15m": 1.637426,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 12.385,
+        "close_change": 0.04,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -21388,28 +21569,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 3.23,
-          "high": 3.305,
-          "low": 3.21,
-          "close": 3.3,
-          "volume": 3771436,
-          "ema20": 3.20734,
-          "ema50": 3.28645,
-          "ema100": 3.423963,
-          "ema200": 3.620681,
-          "rsi14": 63.387382
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -22123,16 +22290,36 @@
           "ema100": 3.353454,
           "ema200": 3.50383,
           "rsi14": 29.438321
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 3.1401,
+          "high": 3.15,
+          "low": 3.13,
+          "close": 3.135,
+          "volume": 1268408,
+          "ema20": 3.201932,
+          "ema50": 3.278012,
+          "ema100": 3.349128,
+          "ema200": 3.50016,
+          "rsi14": 28.165781
         }
       ],
-      "last_close": 3.145,
-      "last_volume": 387900,
-      "ema20": 3.208978,
-      "ema50": 3.283849,
-      "ema100": 3.353454,
-      "ema200": 3.50383,
-      "rsi14": 29.438321,
-      "relative_volume_15m": 0.95913,
+      "last_close": 3.135,
+      "last_volume": 1268408,
+      "ema20": 3.201932,
+      "ema50": 3.278012,
+      "ema100": 3.349128,
+      "ema200": 3.50016,
+      "rsi14": 28.165781,
+      "relative_volume_15m": 1.119347,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 3.145,
+        "close_change": -0.01,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -22145,28 +22332,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 100.824997,
-          "high": 101.169998,
-          "low": 100.440002,
-          "close": 101.099998,
-          "volume": 1953790,
-          "ema20": 102.202584,
-          "ema50": 104.866021,
-          "ema100": 106.754165,
-          "ema200": 108.760905,
-          "rsi14": 26.846897
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -22880,16 +23053,36 @@
           "ema100": 102.978057,
           "ema200": 105.628404,
           "rsi14": 27.253863
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 97.669998,
+          "high": 99.0,
+          "low": 97.589996,
+          "close": 98.885002,
+          "volume": 2327902,
+          "ema20": 99.667215,
+          "ema50": 101.083724,
+          "ema100": 102.897007,
+          "ema200": 105.561306,
+          "rsi14": 40.481555
         }
       ],
-      "last_close": 97.650002,
-      "last_volume": 898374,
-      "ema20": 99.749553,
-      "ema50": 101.173468,
-      "ema100": 102.978057,
-      "ema200": 105.628404,
-      "rsi14": 27.253863,
-      "relative_volume_15m": 1.676287,
+      "last_close": 98.885002,
+      "last_volume": 2327902,
+      "ema20": 99.667215,
+      "ema50": 101.083724,
+      "ema100": 102.897007,
+      "ema200": 105.561306,
+      "rsi14": 40.481555,
+      "relative_volume_15m": 1.627707,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 97.650002,
+        "close_change": 1.235,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -22902,28 +23095,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 69.279999,
-          "high": 69.385002,
-          "low": 69.190002,
-          "close": 69.300003,
-          "volume": 1494566,
-          "ema20": 69.269023,
-          "ema50": 69.83749,
-          "ema100": 70.088462,
-          "ema200": 69.933392,
-          "rsi14": 46.234886
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -23637,16 +23816,36 @@
           "ema100": 70.379859,
           "ema200": 70.184372,
           "rsi14": 44.166431
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 70.129997,
+          "high": 70.415001,
+          "low": 70.114998,
+          "close": 70.345001,
+          "volume": 1019073,
+          "ema20": 70.287264,
+          "ema50": 70.402806,
+          "ema100": 70.379169,
+          "ema200": 70.18597,
+          "rsi14": 49.878756
         }
       ],
-      "last_close": 70.129997,
-      "last_volume": 446045,
-      "ema20": 70.281187,
-      "ema50": 70.405165,
-      "ema100": 70.379859,
-      "ema200": 70.184372,
-      "rsi14": 44.166431,
-      "relative_volume_15m": 0.90205,
+      "last_close": 70.345001,
+      "last_volume": 1019073,
+      "ema20": 70.287264,
+      "ema50": 70.402806,
+      "ema100": 70.379169,
+      "ema200": 70.18597,
+      "rsi14": 49.878756,
+      "relative_volume_15m": 0.713235,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 70.129997,
+        "close_change": 0.215004,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -23659,28 +23858,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_CALL_15M",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 16.299999,
-          "high": 16.49,
-          "low": 16.290001,
-          "close": 16.48,
-          "volume": 2804496,
-          "ema20": 16.181248,
-          "ema50": 16.183562,
-          "ema100": 16.122709,
-          "ema200": 15.935798,
-          "rsi14": 67.252588
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -24394,18 +24580,38 @@
           "ema100": 16.546361,
           "ema200": 16.278635,
           "rsi14": 53.292389
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 16.77,
+          "high": 16.889999,
+          "low": 16.764999,
+          "close": 16.834999,
+          "volume": 1262761,
+          "ema20": 16.703783,
+          "ema50": 16.692998,
+          "ema100": 16.552077,
+          "ema200": 16.28417,
+          "rsi14": 56.755434
         }
       ],
-      "last_close": 16.764999,
-      "last_volume": 542033,
-      "ema20": 16.689971,
-      "ema50": 16.687202,
-      "ema100": 16.546361,
-      "ema200": 16.278635,
-      "rsi14": 53.292389,
-      "relative_volume_15m": 1.219252,
+      "last_close": 16.834999,
+      "last_volume": 1262761,
+      "ema20": 16.703783,
+      "ema50": 16.692998,
+      "ema100": 16.552077,
+      "ema200": 16.28417,
+      "rsi14": 56.755434,
+      "relative_volume_15m": 0.828848,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 16.764999,
+        "close_change": 0.07,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "CALL",
-      "research_rank_score": 99
+      "research_rank_score": 91
     },
     {
       "ticker": "HIMS",
@@ -24417,29 +24623,16 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING",
         "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 27.639999,
-          "high": 27.7754,
-          "low": 27.565001,
-          "close": 27.700001,
-          "volume": 1250035,
-          "ema20": 28.143853,
-          "ema50": 28.827674,
-          "ema100": 29.228644,
-          "ema200": 29.360465,
-          "rsi14": 28.013249
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -25153,18 +25346,38 @@
           "ema100": 28.603614,
           "ema200": 28.897418,
           "rsi14": 30.533889
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 27.58,
+          "high": 28.08,
+          "low": 27.530001,
+          "close": 28.07,
+          "volume": 1108725,
+          "ema20": 28.229722,
+          "ema50": 28.364317,
+          "ema100": 28.593048,
+          "ema200": 28.889185,
+          "rsi14": 45.135436
         }
       ],
-      "last_close": 27.566999,
-      "last_volume": 453752,
-      "ema20": 28.246535,
-      "ema50": 28.37633,
-      "ema100": 28.603614,
-      "ema200": 28.897418,
-      "rsi14": 30.533889,
-      "relative_volume_15m": 1.045648,
+      "last_close": 28.07,
+      "last_volume": 1108725,
+      "ema20": 28.229722,
+      "ema50": 28.364317,
+      "ema100": 28.593048,
+      "ema200": 28.889185,
+      "rsi14": 45.135436,
+      "relative_volume_15m": 1.07471,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 27.566999,
+        "close_change": 0.503001,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 91
+      "research_rank_score": 83
     },
     {
       "ticker": "MARA",
@@ -25176,28 +25389,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 8.2201,
-          "high": 8.24,
-          "low": 8.1826,
-          "close": 8.2242,
-          "volume": 2987919,
-          "ema20": 8.361397,
-          "ema50": 8.690575,
-          "ema100": 9.088237,
-          "ema200": 9.701563,
-          "rsi14": 26.116656
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -25911,16 +26110,36 @@
           "ema100": 8.318035,
           "ema200": 8.983441,
           "rsi14": 24.86116
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 7.435,
+          "high": 7.56,
+          "low": 7.435,
+          "close": 7.535,
+          "volume": 3643528,
+          "ema20": 7.69005,
+          "ema50": 7.932138,
+          "ema100": 8.30253,
+          "ema200": 8.969029,
+          "rsi14": 34.314107
         }
       ],
-      "last_close": 7.44,
-      "last_volume": 1694136,
-      "ema20": 7.706371,
-      "ema50": 7.948348,
-      "ema100": 8.318035,
-      "ema200": 8.983441,
-      "rsi14": 24.86116,
-      "relative_volume_15m": 1.385192,
+      "last_close": 7.535,
+      "last_volume": 3643528,
+      "ema20": 7.69005,
+      "ema50": 7.932138,
+      "ema100": 8.30253,
+      "ema200": 8.969029,
+      "rsi14": 34.314107,
+      "relative_volume_15m": 1.380554,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 7.44,
+        "close_change": 0.095,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -25933,28 +26152,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 14.955,
-          "high": 15.1,
-          "low": 14.83,
-          "close": 15.095,
-          "volume": 1861431,
-          "ema20": 15.183123,
-          "ema50": 15.652998,
-          "ema100": 16.19777,
-          "ema200": 17.188177,
-          "rsi14": 41.14645
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -26668,16 +26873,36 @@
           "ema100": 15.092283,
           "ema200": 16.116057,
           "rsi14": 21.62453
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 13.635,
+          "high": 13.76,
+          "low": 13.58,
+          "close": 13.735,
+          "volume": 2041098,
+          "ema20": 14.081604,
+          "ema50": 14.515252,
+          "ema100": 15.065406,
+          "ema200": 16.092364,
+          "rsi14": 28.293345
         }
       ],
-      "last_close": 13.635,
-      "last_volume": 687208,
-      "ema20": 14.118089,
-      "ema50": 14.547099,
-      "ema100": 15.092283,
-      "ema200": 16.116057,
-      "rsi14": 21.62453,
-      "relative_volume_15m": 1.231257,
+      "last_close": 13.735,
+      "last_volume": 2041098,
+      "ema20": 14.081604,
+      "ema50": 14.515252,
+      "ema100": 15.065406,
+      "ema200": 16.092364,
+      "rsi14": 28.293345,
+      "relative_volume_15m": 1.053146,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 13.635,
+        "close_change": 0.1,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -26690,28 +26915,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 9.135,
-          "high": 9.24,
-          "low": 9.08,
-          "close": 9.2299,
-          "volume": 3426183,
-          "ema20": 9.203255,
-          "ema50": 9.539081,
-          "ema100": 9.967942,
-          "ema200": 10.674927,
-          "rsi14": 46.294441
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -27425,16 +27636,36 @@
           "ema100": 9.195649,
           "ema200": 9.918844,
           "rsi14": 23.674665
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 8.265,
+          "high": 8.42,
+          "low": 8.24,
+          "close": 8.405,
+          "volume": 1951468,
+          "ema20": 8.545391,
+          "ema50": 8.800011,
+          "ema100": 9.179993,
+          "ema200": 9.903781,
+          "rsi14": 36.271129
         }
       ],
-      "last_close": 8.269,
-      "last_volume": 558244,
-      "ema20": 8.560169,
-      "ema50": 8.816133,
-      "ema100": 9.195649,
-      "ema200": 9.918844,
-      "rsi14": 23.674665,
-      "relative_volume_15m": 0.84023,
+      "last_close": 8.405,
+      "last_volume": 1951468,
+      "ema20": 8.545391,
+      "ema50": 8.800011,
+      "ema100": 9.179993,
+      "ema200": 9.903781,
+      "rsi14": 36.271129,
+      "relative_volume_15m": 1.239682,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 8.269,
+        "close_change": 0.136,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -27485,30 +27716,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M_EXTENDED",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "RSI_EXTENDED_REVERSAL_RISK"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 9.385,
-          "high": 9.4,
-          "low": 9.34,
-          "close": 9.39,
-          "volume": 7305711,
-          "ema20": 9.465392,
-          "ema50": 9.634799,
-          "ema100": 9.826944,
-          "ema200": 10.035826,
-          "rsi14": 31.791319
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -28222,18 +28438,38 @@
           "ema100": 9.524041,
           "ema200": 9.763722,
           "rsi14": 27.200137
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 9.16,
+          "high": 9.16,
+          "low": 9.115,
+          "close": 9.14,
+          "volume": 10132644,
+          "ema20": 9.290504,
+          "ema50": 9.373596,
+          "ema100": 9.516437,
+          "ema200": 9.757516,
+          "rsi14": 26.165371
         }
       ],
-      "last_close": 9.155,
-      "last_volume": 2433969,
-      "ema20": 9.306347,
-      "ema50": 9.383131,
-      "ema100": 9.524041,
-      "ema200": 9.763722,
-      "rsi14": 27.200137,
-      "relative_volume_15m": 1.163503,
+      "last_close": 9.14,
+      "last_volume": 10132644,
+      "ema20": 9.290504,
+      "ema50": 9.373596,
+      "ema100": 9.516437,
+      "ema200": 9.757516,
+      "rsi14": 26.165371,
+      "relative_volume_15m": 2.026993,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 9.155,
+        "close_change": -0.015,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 77
+      "research_rank_score": 85
     },
     {
       "ticker": "NIO",
@@ -28245,29 +28481,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "status": "WATCH_PUT_15M_EXTENDED",
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK"
+        "RSI_MOMENTUM_NOT_ACCELERATING"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 3.385,
-          "high": 3.4,
-          "low": 3.38,
-          "close": 3.4,
-          "volume": 4069420,
-          "ema20": 3.4232,
-          "ema50": 3.45693,
-          "ema100": 3.471243,
-          "ema200": 3.476678,
-          "rsi14": 37.240057
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -28981,18 +29203,38 @@
           "ema100": 3.458513,
           "ema200": 3.467424,
           "rsi14": 27.454003
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 3.375,
+          "high": 3.43,
+          "low": 3.365,
+          "close": 3.421,
+          "volume": 4401952,
+          "ema20": 3.427942,
+          "ema50": 3.446402,
+          "ema100": 3.45777,
+          "ema200": 3.466962,
+          "rsi14": 45.899737
         }
       ],
-      "last_close": 3.375,
-      "last_volume": 1875208,
-      "ema20": 3.428673,
-      "ema50": 3.447439,
-      "ema100": 3.458513,
-      "ema200": 3.467424,
-      "rsi14": 27.454003,
-      "relative_volume_15m": 1.551413,
+      "last_close": 3.421,
+      "last_volume": 4401952,
+      "ema20": 3.427942,
+      "ema50": 3.446402,
+      "ema100": 3.45777,
+      "ema200": 3.466962,
+      "rsi14": 45.899737,
+      "relative_volume_15m": 1.269355,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 3.375,
+        "close_change": 0.046,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 85
+      "research_rank_score": 91
     },
     {
       "ticker": "XPEV",
@@ -29004,29 +29246,16 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "status": "WATCH_PUT_15M_EXTENDED",
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK"
+        "RSI_MOMENTUM_NOT_ACCELERATING",
+        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 9.44,
-          "high": 9.46,
-          "low": 9.425,
-          "close": 9.43,
-          "volume": 962864,
-          "ema20": 9.486383,
-          "ema50": 9.567211,
-          "ema100": 9.609241,
-          "ema200": 9.631551,
-          "rsi14": 34.15021
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -29740,18 +29969,38 @@
           "ema100": 9.503504,
           "ema200": 9.562697,
           "rsi14": 18.962768
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 9.195,
+          "high": 9.255,
+          "low": 9.19,
+          "close": 9.25,
+          "volume": 580919,
+          "ema20": 9.327121,
+          "ema50": 9.425434,
+          "ema100": 9.498484,
+          "ema200": 9.559585,
+          "rsi14": 32.375374
         }
       ],
-      "last_close": 9.195,
-      "last_volume": 389530,
-      "ema20": 9.335239,
-      "ema50": 9.432595,
-      "ema100": 9.503504,
-      "ema200": 9.562697,
-      "rsi14": 18.962768,
-      "relative_volume_15m": 1.47094,
+      "last_close": 9.25,
+      "last_volume": 580919,
+      "ema20": 9.327121,
+      "ema50": 9.425434,
+      "ema100": 9.498484,
+      "ema200": 9.559585,
+      "rsi14": 32.375374,
+      "relative_volume_15m": 0.70174,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 9.195,
+        "close_change": 0.055,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 85
+      "research_rank_score": 83
     },
     {
       "ticker": "LI",
@@ -29763,28 +30012,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 11.245,
-          "high": 11.28,
-          "low": 11.24,
-          "close": 11.27,
-          "volume": 379210,
-          "ema20": 11.287445,
-          "ema50": 11.37497,
-          "ema100": 11.369474,
-          "ema200": 11.310639,
-          "rsi14": 41.337848
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -30498,16 +30733,36 @@
           "ema100": 11.39382,
           "ema200": 11.352215,
           "rsi14": 36.506497
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 11.315,
+          "high": 11.36,
+          "low": 11.31,
+          "close": 11.36,
+          "volume": 305438,
+          "ema20": 11.362733,
+          "ema50": 11.390155,
+          "ema100": 11.39315,
+          "ema200": 11.352292,
+          "rsi14": 47.491657
         }
       ],
-      "last_close": 11.315,
-      "last_volume": 77251,
-      "ema20": 11.36302,
-      "ema50": 11.391386,
-      "ema100": 11.39382,
-      "ema200": 11.352215,
-      "rsi14": 36.506497,
-      "relative_volume_15m": 0.645421,
+      "last_close": 11.36,
+      "last_volume": 305438,
+      "ema20": 11.362733,
+      "ema50": 11.390155,
+      "ema100": 11.39315,
+      "ema200": 11.352292,
+      "rsi14": 47.491657,
+      "relative_volume_15m": 0.736474,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 11.315,
+        "close_change": 0.045,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -30520,30 +30775,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "status": "WATCH_PUT_15M_EXTENDED",
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "RSI_MOMENTUM_NOT_ACCELERATING"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 14.2,
-          "high": 14.27,
-          "low": 14.19,
-          "close": 14.26,
-          "volume": 943665,
-          "ema20": 14.28022,
-          "ema50": 14.543736,
-          "ema100": 14.744243,
-          "ema200": 14.838798,
-          "rsi14": 39.884326
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -31257,18 +31497,38 @@
           "ema100": 14.425909,
           "ema200": 14.608534,
           "rsi14": 23.543562
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 13.96,
+          "high": 14.07,
+          "low": 13.96,
+          "close": 14.065,
+          "volume": 598451,
+          "ema20": 14.127034,
+          "ema50": 14.249027,
+          "ema100": 14.418763,
+          "ema200": 14.603126,
+          "rsi14": 39.067596
         }
       ],
-      "last_close": 13.97,
-      "last_volume": 113190,
-      "ema20": 14.133564,
-      "ema50": 14.256538,
-      "ema100": 14.425909,
-      "ema200": 14.608534,
-      "rsi14": 23.543562,
-      "relative_volume_15m": 0.799715,
+      "last_close": 14.065,
+      "last_volume": 598451,
+      "ema20": 14.127034,
+      "ema50": 14.249027,
+      "ema100": 14.418763,
+      "ema200": 14.603126,
+      "rsi14": 39.067596,
+      "relative_volume_15m": 1.611288,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 13.97,
+        "close_change": 0.095,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 77
+      "research_rank_score": 91
     },
     {
       "ticker": "JD",
@@ -31280,28 +31540,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 26.625,
-          "high": 26.705,
-          "low": 26.620001,
-          "close": 26.684999,
-          "volume": 1129133,
-          "ema20": 26.623158,
-          "ema50": 26.689271,
-          "ema100": 26.74006,
-          "ema200": 26.721869,
-          "rsi14": 56.602746
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -32015,16 +32261,36 @@
           "ema100": 26.976665,
           "ema200": 26.883176,
           "rsi14": 36.012077
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 26.875,
+          "high": 27.01,
+          "low": 26.865,
+          "close": 27.01,
+          "volume": 1668866,
+          "ema20": 27.00841,
+          "ema50": 27.027751,
+          "ema100": 26.977325,
+          "ema200": 26.884438,
+          "rsi14": 48.843738
         }
       ],
-      "last_close": 26.875,
-      "last_volume": 250217,
-      "ema20": 27.008243,
-      "ema50": 27.028475,
-      "ema100": 26.976665,
-      "ema200": 26.883176,
-      "rsi14": 36.012077,
-      "relative_volume_15m": 0.809574,
+      "last_close": 27.01,
+      "last_volume": 1668866,
+      "ema20": 27.00841,
+      "ema50": 27.027751,
+      "ema100": 26.977325,
+      "ema200": 26.884438,
+      "rsi14": 48.843738,
+      "relative_volume_15m": 1.414065,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 26.875,
+        "close_change": 0.135,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -32037,28 +32303,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 81.425003,
-          "high": 81.730003,
-          "low": 81.364998,
-          "close": 81.410004,
-          "volume": 825287,
-          "ema20": 81.409836,
-          "ema50": 81.537859,
-          "ema100": 81.147411,
-          "ema200": 80.238119,
-          "rsi14": 48.056116
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -32772,16 +33024,36 @@
           "ema100": 81.567436,
           "ema200": 80.887939,
           "rsi14": 28.184964
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 80.779999,
+          "high": 81.010002,
+          "low": 80.660004,
+          "close": 80.980003,
+          "volume": 786763,
+          "ema20": 81.326074,
+          "ema50": 81.633867,
+          "ema100": 81.555804,
+          "ema200": 80.888855,
+          "rsi14": 35.870482
         }
       ],
-      "last_close": 80.790001,
-      "last_volume": 113953,
-      "ema20": 81.362502,
-      "ema50": 81.660556,
-      "ema100": 81.567436,
-      "ema200": 80.887939,
-      "rsi14": 28.184964,
-      "relative_volume_15m": 0.531522,
+      "last_close": 80.980003,
+      "last_volume": 786763,
+      "ema20": 81.326074,
+      "ema50": 81.633867,
+      "ema100": 81.555804,
+      "ema200": 80.888855,
+      "rsi14": 35.870482,
+      "relative_volume_15m": 1.310805,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 80.790001,
+        "close_change": 0.190002,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -32794,28 +33066,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 111.269997,
-          "high": 112.239998,
-          "low": 111.160004,
-          "close": 111.18,
-          "volume": 1388748,
-          "ema20": 110.920127,
-          "ema50": 110.710334,
-          "ema100": 110.252408,
-          "ema200": 109.652843,
-          "rsi14": 57.192722
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -33529,16 +33787,36 @@
           "ema100": 110.114334,
           "ema200": 109.820264,
           "rsi14": 29.94343
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 108.660004,
+          "high": 109.154999,
+          "low": 108.620003,
+          "close": 109.095001,
+          "volume": 667212,
+          "ema20": 109.588252,
+          "ema50": 110.008015,
+          "ema100": 110.094149,
+          "ema200": 109.813047,
+          "rsi14": 39.373083
         }
       ],
-      "last_close": 108.654999,
-      "last_volume": 240625,
-      "ema20": 109.640173,
-      "ema50": 110.04528,
-      "ema100": 110.114334,
-      "ema200": 109.820264,
-      "rsi14": 29.94343,
-      "relative_volume_15m": 0.810392,
+      "last_close": 109.095001,
+      "last_volume": 667212,
+      "ema20": 109.588252,
+      "ema50": 110.008015,
+      "ema100": 110.094149,
+      "ema200": 109.813047,
+      "rsi14": 39.373083,
+      "relative_volume_15m": 0.705591,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 108.654999,
+        "close_change": 0.440002,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -33551,28 +33829,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 24.434999,
-          "high": 24.5,
-          "low": 24.43,
-          "close": 24.5,
-          "volume": 1845372,
-          "ema20": 24.476068,
-          "ema50": 24.559825,
-          "ema100": 24.577705,
-          "ema200": 24.540865,
-          "rsi14": 49.80006
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -34286,16 +34550,36 @@
           "ema100": 24.53293,
           "ema200": 24.529251,
           "rsi14": 31.968332
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 24.34,
+          "high": 24.41,
+          "low": 24.33,
+          "close": 24.405001,
+          "volume": 1811956,
+          "ema20": 24.449211,
+          "ema50": 24.500518,
+          "ema100": 24.530397,
+          "ema200": 24.528014,
+          "rsi14": 42.52895
         }
       ],
-      "last_close": 24.334999,
-      "last_volume": 542930,
-      "ema20": 24.453864,
-      "ema50": 24.504416,
-      "ema100": 24.53293,
-      "ema200": 24.529251,
-      "rsi14": 31.968332,
-      "relative_volume_15m": 0.755072,
+      "last_close": 24.405001,
+      "last_volume": 1811956,
+      "ema20": 24.449211,
+      "ema50": 24.500518,
+      "ema100": 24.530397,
+      "ema200": 24.528014,
+      "rsi14": 42.52895,
+      "relative_volume_15m": 0.810413,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 24.334999,
+        "close_change": 0.070002,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -34308,28 +34592,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 42.494999,
-          "high": 42.610001,
-          "low": 42.419998,
-          "close": 42.610001,
-          "volume": 3564690,
-          "ema20": 42.541504,
-          "ema50": 42.693373,
-          "ema100": 42.770178,
-          "ema200": 42.210473,
-          "rsi14": 52.530667
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -35043,16 +35313,36 @@
           "ema100": 42.232357,
           "ema200": 42.105463,
           "rsi14": 51.049573
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 41.900002,
+          "high": 41.939999,
+          "low": 41.790001,
+          "close": 41.830002,
+          "volume": 8895496,
+          "ema20": 41.862431,
+          "ema50": 41.995286,
+          "ema100": 42.22439,
+          "ema200": 42.102722,
+          "rsi14": 47.259296
         }
       ],
-      "last_close": 41.904999,
-      "last_volume": 2271022,
-      "ema20": 41.865845,
-      "ema50": 42.002032,
-      "ema100": 42.232357,
-      "ema200": 42.105463,
-      "rsi14": 51.049573,
-      "relative_volume_15m": 1.103508,
+      "last_close": 41.830002,
+      "last_volume": 8895496,
+      "ema20": 41.862431,
+      "ema50": 41.995286,
+      "ema100": 42.22439,
+      "ema200": 42.102722,
+      "rsi14": 47.259296,
+      "relative_volume_15m": 2.338115,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 41.904999,
+        "close_change": -0.074997,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -35065,28 +35355,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 64.415001,
-          "high": 64.489998,
-          "low": 64.349998,
-          "close": 64.405197,
-          "volume": 3571165,
-          "ema20": 64.557672,
-          "ema50": 64.990536,
-          "ema100": 65.528097,
-          "ema200": 66.157229,
-          "rsi14": 35.314826
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -35800,18 +36077,38 @@
           "ema100": 64.118174,
           "ema200": 65.039612,
           "rsi14": 30.022006
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 62.709999,
+          "high": 62.860001,
+          "low": 62.700001,
+          "close": 62.849998,
+          "volume": 5166049,
+          "ema20": 63.045898,
+          "ema50": 63.448851,
+          "ema100": 64.093061,
+          "ema200": 65.017825,
+          "rsi14": 38.047527
         }
       ],
-      "last_close": 62.700001,
-      "last_volume": 1318288,
-      "ema20": 63.066519,
-      "ema50": 63.473294,
-      "ema100": 64.118174,
-      "ema200": 65.039612,
-      "rsi14": 30.022006,
-      "relative_volume_15m": 2.285502,
+      "last_close": 62.849998,
+      "last_volume": 5166049,
+      "ema20": 63.045898,
+      "ema50": 63.448851,
+      "ema100": 64.093061,
+      "ema200": 65.017825,
+      "rsi14": 38.047527,
+      "relative_volume_15m": 1.821454,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 62.700001,
+        "close_change": 0.149997,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 92
+      "research_rank_score": 84
     },
     {
       "ticker": "XLF",
@@ -35823,28 +36120,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 54.41,
-          "high": 54.509998,
-          "low": 54.384998,
-          "close": 54.5,
-          "volume": 7699339,
-          "ema20": 54.366559,
-          "ema50": 54.511518,
-          "ema100": 54.537129,
-          "ema200": 54.418737,
-          "rsi14": 58.205056
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -36558,17 +36841,37 @@
           "ema100": 55.053871,
           "ema200": 54.779898,
           "rsi14": 48.570553
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 55.34,
+          "high": 55.52,
+          "low": 55.330002,
+          "close": 55.5,
+          "volume": 4093431,
+          "ema20": 55.390431,
+          "ema50": 55.273106,
+          "ema100": 55.062705,
+          "ema200": 54.787063,
+          "rsi14": 56.51446
         }
       ],
-      "last_close": 55.345001,
-      "last_volume": 1053865,
-      "ema20": 55.378897,
-      "ema50": 55.263845,
-      "ema100": 55.053871,
-      "ema200": 54.779898,
-      "rsi14": 48.570553,
-      "relative_volume_15m": 0.713099,
-      "15m_trend_direction": null
+      "last_close": 55.5,
+      "last_volume": 4093431,
+      "ema20": 55.390431,
+      "ema50": 55.273106,
+      "ema100": 55.062705,
+      "ema200": 54.787063,
+      "rsi14": 56.51446,
+      "relative_volume_15m": 0.672111,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 55.345001,
+        "close_change": 0.154999,
+        "new_completed_bars": 1
+      },
+      "15m_trend_direction": "CALL"
     },
     {
       "ticker": "XLE",
@@ -36580,29 +36883,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_CALL_15M_EXTENDED",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
         "RSI_EXTENDED_REVERSAL_RISK"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 67.68,
-          "high": 67.684998,
-          "low": 67.519997,
-          "close": 67.620003,
-          "volume": 2401287,
-          "ema20": 67.502562,
-          "ema50": 67.145004,
-          "ema100": 66.521894,
-          "ema200": 65.546577,
-          "rsi14": 59.686117
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -37316,16 +37605,36 @@
           "ema100": 67.014074,
           "ema200": 66.212808,
           "rsi14": 71.186681
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 68.129997,
+          "high": 68.290001,
+          "low": 68.129997,
+          "close": 68.239998,
+          "volume": 4278067,
+          "ema20": 67.827302,
+          "ema50": 67.438134,
+          "ema100": 67.03835,
+          "ema200": 66.232979,
+          "rsi14": 73.915499
         }
       ],
-      "last_close": 68.125,
-      "last_volume": 1595657,
-      "ema20": 67.783861,
-      "ema50": 67.405405,
-      "ema100": 67.014074,
-      "ema200": 66.212808,
-      "rsi14": 71.186681,
-      "relative_volume_15m": 1.305254,
+      "last_close": 68.239998,
+      "last_volume": 4278067,
+      "ema20": 67.827302,
+      "ema50": 67.438134,
+      "ema100": 67.03835,
+      "ema200": 66.232979,
+      "rsi14": 73.915499,
+      "relative_volume_15m": 1.479762,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 68.125,
+        "close_change": 0.114998,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "CALL",
       "research_rank_score": 78
     },
@@ -37339,28 +37648,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 166.929993,
-          "high": 167.070007,
-          "low": 166.690002,
-          "close": 167.039993,
-          "volume": 1133659,
-          "ema20": 166.670877,
-          "ema50": 167.244033,
-          "ema100": 167.83721,
-          "ema200": 168.385878,
-          "rsi14": 54.772872
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -38074,16 +38369,36 @@
           "ema100": 167.665435,
           "ema200": 168.028371,
           "rsi14": 46.474242
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 167.539993,
+          "high": 167.889999,
+          "low": 167.520004,
+          "close": 167.740005,
+          "volume": 583610,
+          "ema20": 167.736318,
+          "ema50": 167.628203,
+          "ema100": 167.666911,
+          "ema200": 168.025501,
+          "rsi14": 50.170888
         }
       ],
-      "last_close": 167.539993,
-      "last_volume": 1482283,
-      "ema20": 167.73593,
-      "ema50": 167.62364,
-      "ema100": 167.665435,
-      "ema200": 168.028371,
-      "rsi14": 46.474242,
-      "relative_volume_15m": 4.815888,
+      "last_close": 167.740005,
+      "last_volume": 583610,
+      "ema20": 167.736318,
+      "ema50": 167.628203,
+      "ema100": 167.666911,
+      "ema200": 168.025501,
+      "rsi14": 50.170888,
+      "relative_volume_15m": 0.685184,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 167.539993,
+        "close_change": 0.200012,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -38096,28 +38411,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 190.610001,
-          "high": 190.740005,
-          "low": 190.160004,
-          "close": 190.380005,
-          "volume": 2072344,
-          "ema20": 191.262623,
-          "ema50": 193.023586,
-          "ema100": 194.796866,
-          "ema200": 196.252899,
-          "rsi14": 30.700566
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -38831,16 +39132,36 @@
           "ema100": 189.263065,
           "ema200": 192.294628,
           "rsi14": 30.740938
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 183.309998,
+          "high": 183.75,
+          "low": 183.244995,
+          "close": 183.429993,
+          "volume": 2648079,
+          "ema20": 184.661777,
+          "ema50": 186.551221,
+          "ema100": 189.147559,
+          "ema200": 192.206423,
+          "rsi14": 32.343745
         }
       ],
-      "last_close": 183.309998,
-      "last_volume": 988784,
-      "ema20": 184.791439,
-      "ema50": 186.678619,
-      "ema100": 189.263065,
-      "ema200": 192.294628,
-      "rsi14": 30.740938,
-      "relative_volume_15m": 2.542635,
+      "last_close": 183.429993,
+      "last_volume": 2648079,
+      "ema20": 184.661777,
+      "ema50": 186.551221,
+      "ema100": 189.147559,
+      "ema200": 192.206423,
+      "rsi14": 32.343745,
+      "relative_volume_15m": 2.72382,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 183.309998,
+        "close_change": 0.119995,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -38853,29 +39174,16 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
-      "status": "WATCH_PUT_15M_EXTENDED",
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
+      "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK"
+        "RSI_MOMENTUM_NOT_ACCELERATING",
+        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 270.75,
-          "high": 271.420013,
-          "low": 270.529999,
-          "close": 271.410004,
-          "volume": 3775346,
-          "ema20": 271.650909,
-          "ema50": 273.542563,
-          "ema100": 275.285295,
-          "ema200": 277.047322,
-          "rsi14": 40.268941
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -39589,18 +39897,38 @@
           "ema100": 273.542576,
           "ema200": 275.316527,
           "rsi14": 29.636985
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 269.98999,
+          "high": 270.559998,
+          "low": 269.934998,
+          "close": 270.480011,
+          "volume": 3156312,
+          "ema20": 271.260117,
+          "ema50": 272.321457,
+          "ema100": 273.481931,
+          "ema200": 275.268403,
+          "rsi14": 37.128871
         }
       ],
-      "last_close": 269.980011,
-      "last_volume": 1847630,
-      "ema20": 271.342233,
-      "ema50": 272.396619,
-      "ema100": 273.542576,
-      "ema200": 275.316527,
-      "rsi14": 29.636985,
-      "relative_volume_15m": 2.075633,
+      "last_close": 270.480011,
+      "last_volume": 3156312,
+      "ema20": 271.260117,
+      "ema50": 272.321457,
+      "ema100": 273.481931,
+      "ema200": 275.268403,
+      "rsi14": 37.128871,
+      "relative_volume_15m": 1.052096,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 269.980011,
+        "close_change": 0.5,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 78
+      "research_rank_score": 76
     },
     {
       "ticker": "QQQ",
@@ -39612,28 +39940,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 728.900024,
-          "high": 729.400024,
-          "low": 728.005005,
-          "close": 728.840027,
-          "volume": 6744781,
-          "ema20": 730.64009,
-          "ema50": 735.51667,
-          "ema100": 740.351302,
-          "ema200": 743.874554,
-          "rsi14": 33.57911
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -40347,16 +40661,36 @@
           "ema100": 726.44015,
           "ema200": 734.050379,
           "rsi14": 26.146396
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 708.390015,
+          "high": 710.64502,
+          "low": 708.22998,
+          "close": 709.929993,
+          "volume": 6604049,
+          "ema20": 713.452118,
+          "ema50": 719.18577,
+          "ema100": 726.113216,
+          "ema200": 733.810375,
+          "rsi14": 33.226055
         }
       ],
-      "last_close": 708.369995,
-      "last_volume": 2519146,
-      "ema20": 713.822868,
-      "ema50": 719.563557,
-      "ema100": 726.44015,
-      "ema200": 734.050379,
-      "rsi14": 26.146396,
-      "relative_volume_15m": 2.041067,
+      "last_close": 709.929993,
+      "last_volume": 6604049,
+      "ema20": 713.452118,
+      "ema50": 719.18577,
+      "ema100": 726.113216,
+      "ema200": 733.810375,
+      "rsi14": 33.226055,
+      "relative_volume_15m": 2.007942,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 708.369995,
+        "close_change": 1.559998,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -40369,28 +40703,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 768.969971,
-          "high": 769.719971,
-          "low": 768.400024,
-          "close": 769.609985,
-          "volume": 10123349,
-          "ema20": 769.754804,
-          "ema50": 772.442344,
-          "ema100": 774.133287,
-          "ema200": 774.139246,
-          "rsi14": 42.966929
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -41104,16 +41424,36 @@
           "ema100": 770.00449,
           "ema200": 771.6902,
           "rsi14": 30.767597
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 762.085022,
+          "high": 763.830017,
+          "low": 762.030029,
+          "close": 763.294983,
+          "volume": 5331025,
+          "ema20": 764.840567,
+          "ema50": 767.492366,
+          "ema100": 769.871628,
+          "ema200": 771.606665,
+          "rsi14": 38.407827
         }
       ],
-      "last_close": 762.080017,
-      "last_volume": 4238338,
-      "ema20": 765.00326,
-      "ema50": 767.663688,
-      "ema100": 770.00449,
-      "ema200": 771.6902,
-      "rsi14": 30.767597,
-      "relative_volume_15m": 2.75273,
+      "last_close": 763.294983,
+      "last_volume": 5331025,
+      "ema20": 764.840567,
+      "ema50": 767.492366,
+      "ema100": 769.871628,
+      "ema200": 771.606665,
+      "rsi14": 38.407827,
+      "relative_volume_15m": 0.877008,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 762.080017,
+        "close_change": 1.214966,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT"
     },
     {
@@ -41126,29 +41466,16 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING",
         "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 50.169998,
-          "high": 50.259998,
-          "low": 50.110001,
-          "close": 50.209999,
-          "volume": 2163111,
-          "ema20": 50.534123,
-          "ema50": 51.609939,
-          "ema100": 52.600596,
-          "ema200": 53.549888,
-          "rsi14": 28.086173
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -41862,18 +42189,38 @@
           "ema100": 51.98337,
           "ema200": 52.780749,
           "rsi14": 41.710138
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 51.459999,
+          "high": 51.529999,
+          "low": 51.455002,
+          "close": 51.509998,
+          "volume": 560780,
+          "ema20": 51.599825,
+          "ema50": 51.635709,
+          "ema100": 51.973997,
+          "ema200": 52.768105,
+          "rsi14": 44.825101
         }
       ],
-      "last_close": 51.455002,
-      "last_volume": 470056,
-      "ema20": 51.60928,
-      "ema50": 51.640841,
-      "ema100": 51.98337,
-      "ema200": 52.780749,
-      "rsi14": 41.710138,
-      "relative_volume_15m": 0.901274,
+      "last_close": 51.509998,
+      "last_volume": 560780,
+      "ema20": 51.599825,
+      "ema50": 51.635709,
+      "ema100": 51.973997,
+      "ema200": 52.768105,
+      "rsi14": 44.825101,
+      "relative_volume_15m": 0.54949,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 51.455002,
+        "close_change": 0.054996,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 91
+      "research_rank_score": 83
     },
     {
       "ticker": "GLD",
@@ -41885,28 +42232,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 375.829987,
-          "high": 376.079987,
-          "low": 375.640015,
-          "close": 375.970001,
-          "volume": 605897,
-          "ema20": 375.619928,
-          "ema50": 377.341743,
-          "ema100": 378.795448,
-          "ema200": 380.091567,
-          "rsi14": 49.517585
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -42620,16 +42953,36 @@
           "ema100": 380.631152,
           "ema200": 380.693461,
           "rsi14": 55.517939
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 382.119995,
+          "high": 382.220001,
+          "low": 381.880005,
+          "close": 382.040009,
+          "volume": 507568,
+          "ema20": 381.814641,
+          "ema50": 381.224335,
+          "ema100": 380.65905,
+          "ema200": 380.70686,
+          "rsi14": 54.317426
         }
       ],
-      "last_close": 382.125214,
-      "last_volume": 303369,
-      "ema20": 381.790918,
-      "ema50": 381.191043,
-      "ema100": 380.631152,
-      "ema200": 380.693461,
-      "rsi14": 55.517939,
-      "relative_volume_15m": 1.069744,
+      "last_close": 382.040009,
+      "last_volume": 507568,
+      "ema20": 381.814641,
+      "ema50": 381.224335,
+      "ema100": 380.65905,
+      "ema200": 380.70686,
+      "rsi14": 54.317426,
+      "relative_volume_15m": 0.785163,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 382.125214,
+        "close_change": -0.085205,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -42642,28 +42995,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 83.059998,
-          "high": 83.440002,
-          "low": 82.970001,
-          "close": 83.410004,
-          "volume": 2622746,
-          "ema20": 83.470504,
-          "ema50": 84.809208,
-          "ema100": 85.925901,
-          "ema200": 86.863692,
-          "rsi14": 43.220849
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -43377,16 +43716,36 @@
           "ema100": 86.525807,
           "ema200": 86.825198,
           "rsi14": 55.039741
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 87.364998,
+          "high": 87.769997,
+          "low": 87.364998,
+          "close": 87.695,
+          "volume": 1885143,
+          "ema20": 87.210316,
+          "ema50": 86.766278,
+          "ema100": 86.54896,
+          "ema200": 86.833852,
+          "rsi14": 59.777358
         }
       ],
-      "last_close": 87.360001,
-      "last_volume": 806210,
-      "ema20": 87.159297,
-      "ema50": 86.728371,
-      "ema100": 86.525807,
-      "ema200": 86.825198,
-      "rsi14": 55.039741,
-      "relative_volume_15m": 1.157964,
+      "last_close": 87.695,
+      "last_volume": 1885143,
+      "ema20": 87.210316,
+      "ema50": 86.766278,
+      "ema100": 86.54896,
+      "ema200": 86.833852,
+      "rsi14": 59.777358,
+      "relative_volume_15m": 0.852123,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 87.360001,
+        "close_change": 0.334999,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -43399,28 +43758,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_DAILY_WATCH",
       "reasons": [
         "DAILY_EMA_RSI_FILTER_NOT_PASSED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 78.845001,
-          "high": 78.93,
-          "low": 78.834999,
-          "close": 78.885002,
-          "volume": 2988426,
-          "ema20": 78.671843,
-          "ema50": 78.447339,
-          "ema100": 78.211924,
-          "ema200": 78.060174,
-          "rsi14": 66.031704
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -44134,16 +44479,36 @@
           "ema100": 79.371873,
           "ema200": 78.850583,
           "rsi14": 54.453517
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 80.025002,
+          "high": 80.059998,
+          "low": 79.945,
+          "close": 80.035004,
+          "volume": 4466129,
+          "ema20": 79.971282,
+          "ema50": 79.811329,
+          "ema100": 79.385004,
+          "ema200": 78.862368,
+          "rsi14": 54.704737
         }
       ],
-      "last_close": 80.029999,
-      "last_volume": 1003318,
-      "ema20": 79.964574,
-      "ema50": 79.8022,
-      "ema100": 79.371873,
-      "ema200": 78.850583,
-      "rsi14": 54.453517,
-      "relative_volume_15m": 0.58761,
+      "last_close": 80.035004,
+      "last_volume": 4466129,
+      "ema20": 79.971282,
+      "ema50": 79.811329,
+      "ema100": 79.385004,
+      "ema200": 78.862368,
+      "rsi14": 54.704737,
+      "relative_volume_15m": 1.111175,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 80.029999,
+        "close_change": 0.005005,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "CALL"
     },
     {
@@ -44156,28 +44521,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
         "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 76.815002,
-          "high": 76.839996,
-          "low": 76.809998,
-          "close": 76.82,
-          "volume": 3211554,
-          "ema20": 76.841827,
-          "ema50": 76.931077,
-          "ema100": 77.016489,
-          "ema200": 77.106416,
-          "rsi14": 42.68974
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -44891,16 +45242,36 @@
           "ema100": 77.008756,
           "ema200": 77.0694,
           "rsi14": 40.22875
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 76.885002,
+          "high": 76.919998,
+          "low": 76.870003,
+          "close": 76.875,
+          "volume": 8887844,
+          "ema20": 76.921715,
+          "ema50": 76.972784,
+          "ema100": 77.006108,
+          "ema200": 77.067465,
+          "rsi14": 38.996736
         }
       ],
-      "last_close": 76.885002,
-      "last_volume": 3143757,
-      "ema20": 76.926632,
-      "ema50": 76.976775,
-      "ema100": 77.008756,
-      "ema200": 77.0694,
-      "rsi14": 40.22875,
-      "relative_volume_15m": 1.259972,
+      "last_close": 76.875,
+      "last_volume": 8887844,
+      "ema20": 76.921715,
+      "ema50": 76.972784,
+      "ema100": 77.006108,
+      "ema200": 77.067465,
+      "rsi14": 38.996736,
+      "relative_volume_15m": 1.67754,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 76.885002,
+        "close_change": -0.010002,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
       "research_rank_score": 96
     },
@@ -44914,28 +45285,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 68.370003,
-          "high": 68.610001,
-          "low": 68.330002,
-          "close": 68.589996,
-          "volume": 2862408,
-          "ema20": 68.50319,
-          "ema50": 68.72477,
-          "ema100": 68.963691,
-          "ema200": 69.295783,
-          "rsi14": 51.372242
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -45649,16 +46006,36 @@
           "ema100": 69.53464,
           "ema200": 69.51112,
           "rsi14": 45.612694
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 69.760002,
+          "high": 69.959999,
+          "low": 69.730003,
+          "close": 69.830002,
+          "volume": 1759775,
+          "ema20": 69.865797,
+          "ema50": 69.737904,
+          "ema100": 69.540489,
+          "ema200": 69.514293,
+          "rsi14": 48.82215
         }
       ],
-      "last_close": 69.75,
-      "last_volume": 529832,
-      "ema20": 69.869565,
-      "ema50": 69.734145,
-      "ema100": 69.53464,
-      "ema200": 69.51112,
-      "rsi14": 45.612694,
-      "relative_volume_15m": 0.981895,
+      "last_close": 69.830002,
+      "last_volume": 1759775,
+      "ema20": 69.865797,
+      "ema50": 69.737904,
+      "ema100": 69.540489,
+      "ema200": 69.514293,
+      "rsi14": 48.82215,
+      "relative_volume_15m": 0.854578,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 69.75,
+        "close_change": 0.080002,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     },
     {
@@ -45671,28 +46048,15 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "WATCH_PUT_15M",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
+        "RSI_MOMENTUM_NOT_ACCELERATING"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 146.440002,
-          "high": 146.850006,
-          "low": 146.330002,
-          "close": 146.740005,
-          "volume": 866502,
-          "ema20": 146.961246,
-          "ema50": 147.784019,
-          "ema100": 148.973143,
-          "ema200": 150.562747,
-          "rsi14": 44.943903
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -46406,18 +46770,38 @@
           "ema100": 147.645536,
           "ema200": 149.225488,
           "rsi14": 33.953624
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 144.039993,
+          "high": 144.360001,
+          "low": 143.849197,
+          "close": 144.360001,
+          "volume": 1356806,
+          "ema20": 145.046621,
+          "ema50": 146.40737,
+          "ema100": 147.580476,
+          "ema200": 149.177075,
+          "rsi14": 38.378293
         }
       ],
-      "last_close": 144.020004,
-      "last_volume": 573470,
-      "ema20": 145.118897,
-      "ema50": 146.490937,
-      "ema100": 147.645536,
-      "ema200": 149.225488,
-      "rsi14": 33.953624,
-      "relative_volume_15m": 1.525597,
+      "last_close": 144.360001,
+      "last_volume": 1356806,
+      "ema20": 145.046621,
+      "ema50": 146.40737,
+      "ema100": 147.580476,
+      "ema200": 149.177075,
+      "rsi14": 38.378293,
+      "relative_volume_15m": 1.222829,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 144.020004,
+        "close_change": 0.339997,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": "PUT",
-      "research_rank_score": 99
+      "research_rank_score": 91
     },
     {
       "ticker": "EFA",
@@ -46429,28 +46813,14 @@
       "decision": "BEKLE",
       "research_only": true,
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
-      "last_completed_bar_utc": "2026-10-16T19:30:00+00:00",
-      "last_completed_bar_end_utc": "2026-10-16T19:45:00+00:00",
-      "data_age_minutes": 15.805209,
+      "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
+      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
+      "data_age_minutes": 12.782146,
       "status": "NO_15M_ALIGNMENT",
       "reasons": [
         "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
       ],
       "candles": [
-        {
-          "time_utc": "2026-10-14T19:45:00+00:00",
-          "end_utc": "2026-10-14T20:00:00+00:00",
-          "open": 102.745003,
-          "high": 102.824997,
-          "low": 102.705002,
-          "close": 102.764999,
-          "volume": 1713426,
-          "ema20": 102.7724,
-          "ema50": 102.931353,
-          "ema100": 103.047837,
-          "ema200": 103.266478,
-          "rsi14": 46.484503
-        },
         {
           "time_utc": "2026-10-15T13:30:00+00:00",
           "end_utc": "2026-10-15T13:45:00+00:00",
@@ -47164,16 +47534,36 @@
           "ema100": 103.449929,
           "ema200": 103.421541,
           "rsi14": 39.936848
+        },
+        {
+          "time_utc": "2026-10-16T19:45:00+00:00",
+          "end_utc": "2026-10-16T20:00:00+00:00",
+          "open": 103.43,
+          "high": 103.589996,
+          "low": 103.415001,
+          "close": 103.57,
+          "volume": 2341908,
+          "ema20": 103.652652,
+          "ema50": 103.600037,
+          "ema100": 103.452306,
+          "ema200": 103.423018,
+          "rsi14": 46.144783
         }
       ],
-      "last_close": 103.43,
-      "last_volume": 317254,
-      "ema20": 103.661352,
-      "ema50": 103.601263,
-      "ema100": 103.449929,
-      "ema200": 103.421541,
-      "rsi14": 39.936848,
-      "relative_volume_15m": 0.729845,
+      "last_close": 103.57,
+      "last_volume": 2341908,
+      "ema20": 103.652652,
+      "ema50": 103.600037,
+      "ema100": 103.452306,
+      "ema200": 103.423018,
+      "rsi14": 46.144783,
+      "relative_volume_15m": 0.811335,
+      "change_since_previous_snapshot": {
+        "previous_bar_utc": "2026-10-16T19:30:00+00:00",
+        "previous_close": 103.43,
+        "close_change": 0.14,
+        "new_completed_bars": 1
+      },
       "15m_trend_direction": null
     }
   ],
