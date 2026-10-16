@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at_utc": "2026-10-16T15:04:03.389070+00:00",
+  "generated_at_utc": "2026-10-16T15:10:03.600034+00:00",
   "source": "yfinance unofficial (data may be delayed, missing or inaccurate)",
   "score_note": "0-100 heuristic ranking only; NOT win probability or investment advice",
   "top_call_candidates": [
@@ -36,7 +36,7 @@
     {
       "ticker": "RDDT",
       "status": "NO_SIGNAL",
-      "call_score": 45,
+      "call_score": 35,
       "put_score": 10,
       "candidate_direction": null,
       "option": null,
@@ -46,10 +46,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 160.38,
-      "ema20": 154.17,
-      "ema50": 156.35,
-      "rsi14": 55.67,
+      "last_price": 159.07,
+      "ema20": 154.04,
+      "ema50": 156.3,
+      "rsi14": 54.6,
       "relative_volume": null
     },
     {
@@ -65,10 +65,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 130.41,
-      "ema20": 139.09,
-      "ema50": 143.19,
-      "rsi14": 41.41,
+      "last_price": 129.14,
+      "ema20": 138.97,
+      "ema50": 143.14,
+      "rsi14": 40.57,
       "relative_volume": null
     },
     {
@@ -84,17 +84,17 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 154.02,
-      "ema20": 150.91,
+      "last_price": 154.1,
+      "ema20": 150.92,
       "ema50": 148.23,
-      "rsi14": 54.36,
+      "rsi14": 54.43,
       "relative_volume": null
     },
     {
       "ticker": "CEG",
       "status": "NO_SIGNAL",
       "call_score": 10,
-      "put_score": 10,
+      "put_score": 35,
       "candidate_direction": null,
       "option": null,
       "reasons": [
@@ -103,10 +103,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 273.66,
-      "ema20": 278.14,
-      "ema50": 274.71,
-      "rsi14": 48.2,
+      "last_price": 273.11,
+      "ema20": 278.09,
+      "ema50": 274.69,
+      "rsi14": 47.93,
       "relative_volume": null
     },
     {
@@ -122,10 +122,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 142.57,
-      "ema20": 138.82,
-      "ema50": 132.8,
-      "rsi14": 56.25,
+      "last_price": 141.68,
+      "ema20": 138.74,
+      "ema50": 132.77,
+      "rsi14": 55.11,
       "relative_volume": null
     },
     {
@@ -141,10 +141,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 55.47,
-      "ema20": 60.14,
-      "ema50": 61.16,
-      "rsi14": 37.25,
+      "last_price": 55.05,
+      "ema20": 60.1,
+      "ema50": 61.15,
+      "rsi14": 36.51,
       "relative_volume": null
     },
     {
@@ -160,10 +160,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 142.55,
-      "ema20": 150.26,
-      "ema50": 139.78,
-      "rsi14": 46.04,
+      "last_price": 141.48,
+      "ema20": 150.16,
+      "ema50": 139.74,
+      "rsi14": 45.36,
       "relative_volume": null
     },
     {
@@ -179,10 +179,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 230.24,
-      "ema20": 262.68,
-      "ema50": 256.22,
-      "rsi14": 38.68,
+      "last_price": 228.0,
+      "ema20": 262.46,
+      "ema50": 256.13,
+      "rsi14": 38.12,
       "relative_volume": null
     },
     {
@@ -198,10 +198,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 933.0,
-      "ema20": 967.02,
-      "ema50": 971.57,
-      "rsi14": 42.53,
+      "last_price": 928.4,
+      "ema20": 966.58,
+      "ema50": 971.39,
+      "rsi14": 41.42,
       "relative_volume": null
     },
     {
@@ -217,10 +217,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 235.22,
-      "ema20": 256.59,
-      "ema50": 245.2,
-      "rsi14": 40.25,
+      "last_price": 232.7,
+      "ema20": 256.35,
+      "ema50": 245.1,
+      "rsi14": 39.29,
       "relative_volume": null
     },
     {
@@ -236,10 +236,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 899.87,
-      "ema20": 997.65,
-      "ema50": 983.98,
-      "rsi14": 35.93,
+      "last_price": 892.93,
+      "ema20": 996.99,
+      "ema50": 983.71,
+      "rsi14": 35.28,
       "relative_volume": null
     },
     {
@@ -255,10 +255,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 79.74,
-      "ema20": 101.42,
-      "ema50": 109.14,
-      "rsi14": 34.48,
+      "last_price": 78.63,
+      "ema20": 101.31,
+      "ema50": 109.09,
+      "rsi14": 34.02,
       "relative_volume": null
     },
     {
@@ -274,10 +274,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 414.56,
-      "ema20": 444.17,
-      "ema50": 436.89,
-      "rsi14": 34.96,
+      "last_price": 412.45,
+      "ema20": 443.97,
+      "ema50": 436.81,
+      "rsi14": 34.25,
       "relative_volume": null
     },
     {
@@ -293,10 +293,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 238.07,
-      "ema20": 291.11,
-      "ema50": 299.91,
-      "rsi14": 34.28,
+      "last_price": 235.46,
+      "ema20": 290.86,
+      "ema50": 299.8,
+      "rsi14": 33.82,
       "relative_volume": null
     }
   ]
