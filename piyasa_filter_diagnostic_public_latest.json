@@ -18,7 +18,7 @@
       "direction": null,
       "m15_relative_volume": 0.617624,
       "m15_rsi14": 48.896366,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -31,7 +31,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -42,7 +42,7 @@
       "direction": "PUT",
       "m15_relative_volume": 2.074931,
       "m15_rsi14": 35.421728,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -55,7 +55,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -66,7 +66,7 @@
       "direction": "CALL",
       "m15_relative_volume": 0.726529,
       "m15_rsi14": 41.831849,
-      "m15_status": "DIRECTION_CONFLICT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -87,7 +87,7 @@
       "direction": null,
       "m15_relative_volume": 1.350388,
       "m15_rsi14": 45.588851,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -100,7 +100,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -111,7 +111,7 @@
       "direction": "CALL",
       "m15_relative_volume": 1.329797,
       "m15_rsi14": 47.019586,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -124,7 +124,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -135,7 +135,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.878314,
       "m15_rsi14": 30.740067,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -156,7 +156,7 @@
       "direction": null,
       "m15_relative_volume": 1.985546,
       "m15_rsi14": 37.288871,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -177,7 +177,7 @@
       "direction": null,
       "m15_relative_volume": 1.356748,
       "m15_rsi14": 37.704547,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -190,8 +190,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -202,7 +201,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.110019,
       "m15_rsi14": 43.025817,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -223,7 +222,7 @@
       "direction": null,
       "m15_relative_volume": 1.495625,
       "m15_rsi14": 31.780171,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -244,7 +243,7 @@
       "direction": null,
       "m15_relative_volume": 1.332089,
       "m15_rsi14": 29.398526,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -257,6 +256,7 @@
     },
     {
       "blockers": [
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -267,7 +267,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.559345,
       "m15_rsi14": 30.752754,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -288,7 +288,7 @@
       "direction": null,
       "m15_relative_volume": 1.588724,
       "m15_rsi14": 40.84451,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -301,7 +301,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -312,7 +312,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.407652,
       "m15_rsi14": 37.904491,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -325,7 +325,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_BREAKOUT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -335,7 +335,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.989847,
       "m15_rsi14": 42.373812,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": false,
       "m5_status": "ALIGNED_WATCH_NO_BREAKOUT",
       "m5_technical_watch": "TECHNICAL_WATCH_PUT_5M",
@@ -348,7 +348,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -358,7 +358,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.618204,
       "m15_rsi14": 44.580417,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -371,7 +371,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -381,7 +381,7 @@
       "direction": "CALL",
       "m15_relative_volume": 1.013214,
       "m15_rsi14": 46.977612,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -394,7 +394,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -405,7 +405,7 @@
       "direction": "CALL",
       "m15_relative_volume": 0.681117,
       "m15_rsi14": 53.304948,
-      "m15_status": "WATCH_CALL_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -426,7 +426,7 @@
       "direction": null,
       "m15_relative_volume": 1.669318,
       "m15_rsi14": 33.272064,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -439,7 +439,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -450,7 +450,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.213511,
       "m15_rsi14": 36.419818,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -471,7 +471,7 @@
       "direction": null,
       "m15_relative_volume": 1.253176,
       "m15_rsi14": 34.440403,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -492,7 +492,7 @@
       "direction": null,
       "m15_relative_volume": 2.313327,
       "m15_rsi14": 32.498487,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -505,7 +505,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -516,7 +516,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.044352,
       "m15_rsi14": 31.922308,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -529,8 +529,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
-        "15M_RSI_EXTENDED_REVERSAL_RISK",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -541,7 +540,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.93419,
       "m15_rsi14": 22.528259,
-      "m15_status": "WATCH_PUT_15M_EXTENDED",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -554,7 +553,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -565,7 +564,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.927835,
       "m15_rsi14": 31.340337,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -578,7 +577,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -589,7 +588,7 @@
       "direction": "CALL",
       "m15_relative_volume": 1.087098,
       "m15_rsi14": 33.529934,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DIRECTION_CONFLICT",
       "m5_technical_watch": "TECHNICAL_WATCH_PUT_5M",
@@ -602,7 +601,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -613,7 +612,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.806376,
       "m15_rsi14": 35.62381,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -634,7 +633,7 @@
       "direction": null,
       "m15_relative_volume": 1.637426,
       "m15_rsi14": 30.573218,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -655,7 +654,7 @@
       "direction": null,
       "m15_relative_volume": 1.119347,
       "m15_rsi14": 28.165781,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -676,7 +675,7 @@
       "direction": null,
       "m15_relative_volume": 1.627707,
       "m15_rsi14": 40.481555,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -689,7 +688,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -699,7 +698,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.793026,
       "m15_rsi14": 49.878756,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -712,7 +711,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -723,7 +722,7 @@
       "direction": "CALL",
       "m15_relative_volume": 0.828848,
       "m15_rsi14": 56.755434,
-      "m15_status": "WATCH_CALL_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -736,8 +735,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -748,7 +746,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.152005,
       "m15_rsi14": 45.135436,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -769,7 +767,7 @@
       "direction": null,
       "m15_relative_volume": 1.380554,
       "m15_rsi14": 34.314107,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -790,7 +788,7 @@
       "direction": null,
       "m15_relative_volume": 1.053146,
       "m15_rsi14": 28.293345,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -811,7 +809,7 @@
       "direction": null,
       "m15_relative_volume": 1.239682,
       "m15_rsi14": 36.271129,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -868,7 +866,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_EXTENDED_REVERSAL_RISK",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -878,7 +876,7 @@
       "direction": "PUT",
       "m15_relative_volume": 2.189013,
       "m15_rsi14": 26.165371,
-      "m15_status": "WATCH_PUT_15M_EXTENDED",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -891,7 +889,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -902,7 +900,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.903287,
       "m15_rsi14": 47.066838,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -915,8 +913,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -927,7 +924,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.864891,
       "m15_rsi14": 32.375374,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -940,7 +937,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -951,7 +948,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.736474,
       "m15_rsi14": 47.491657,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -964,7 +961,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -974,7 +971,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.611288,
       "m15_rsi14": 39.067596,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -987,7 +984,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -998,7 +995,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.414065,
       "m15_rsi14": 48.843738,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1019,7 +1016,7 @@
       "direction": null,
       "m15_relative_volume": 1.310805,
       "m15_rsi14": 35.870482,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -1032,7 +1029,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -1043,7 +1040,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.763612,
       "m15_rsi14": 39.465638,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1056,7 +1053,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -1066,7 +1063,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.885993,
       "m15_rsi14": 41.88485,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1079,7 +1076,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -1089,7 +1086,7 @@
       "direction": "CALL",
       "m15_relative_volume": 2.430686,
       "m15_rsi14": 48.213503,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1102,7 +1099,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -1113,7 +1110,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.91959,
       "m15_rsi14": 38.517433,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1134,7 +1131,7 @@
       "direction": null,
       "m15_relative_volume": 0.744785,
       "m15_rsi14": 56.51446,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -1147,7 +1144,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_EXTENDED_REVERSAL_RISK",
+        "15M_BAR_STALE",
         "5M_BREAKOUT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -1158,7 +1155,7 @@
       "direction": "CALL",
       "m15_relative_volume": 1.700228,
       "m15_rsi14": 73.699015,
-      "m15_status": "WATCH_CALL_15M_EXTENDED",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": false,
       "m5_status": "ALIGNED_WATCH_NO_BREAKOUT",
       "m5_technical_watch": "TECHNICAL_WATCH_CALL_5M",
@@ -1171,7 +1168,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -1182,7 +1179,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.77821,
       "m15_rsi14": 50.170888,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1203,7 +1200,7 @@
       "direction": null,
       "m15_relative_volume": 2.969647,
       "m15_rsi14": 32.343745,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -1216,8 +1213,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -1227,7 +1223,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.164466,
       "m15_rsi14": 37.128871,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1248,7 +1244,7 @@
       "direction": null,
       "m15_relative_volume": 2.007942,
       "m15_rsi14": 33.226055,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -1269,7 +1265,7 @@
       "direction": null,
       "m15_relative_volume": 0.986642,
       "m15_rsi14": 38.491674,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -1282,8 +1278,7 @@
     },
     {
       "blockers": [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -1293,7 +1288,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.662751,
       "m15_rsi14": 44.825101,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1306,7 +1301,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -1317,7 +1312,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.946055,
       "m15_rsi14": 54.734159,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1330,7 +1325,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -1341,7 +1336,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.038011,
       "m15_rsi14": 59.777358,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1362,7 +1357,7 @@
       "direction": null,
       "m15_relative_volume": 1.111175,
       "m15_rsi14": 54.704737,
-      "m15_status": "NO_DAILY_WATCH",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "DAILY_NO_SIGNAL",
       "m5_technical_watch": null,
@@ -1375,6 +1370,7 @@
     },
     {
       "blockers": [
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED"
@@ -1384,7 +1380,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.906176,
       "m15_rsi14": 38.407851,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1397,7 +1393,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -1408,7 +1404,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.952235,
       "m15_rsi14": 48.82215,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1421,7 +1417,7 @@
     },
     {
       "blockers": [
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
@@ -1432,7 +1428,7 @@
       "direction": "PUT",
       "m15_relative_volume": 1.382544,
       "m15_rsi14": 38.499426,
-      "m15_status": "WATCH_PUT_15M",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1445,7 +1441,7 @@
     },
     {
       "blockers": [
-        "15M_TREND_NOT_ALIGNED",
+        "15M_BAR_STALE",
         "5M_ALIGNMENT_NOT_CONFIRMED",
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
@@ -1456,7 +1452,7 @@
       "direction": "PUT",
       "m15_relative_volume": 0.89621,
       "m15_rsi14": 46.144783,
-      "m15_status": "NO_15M_ALIGNMENT",
+      "m15_status": "BAR_STALE",
       "m5_breakout_3bars": null,
       "m5_status": "NO_ALIGNED_5M_SETUP",
       "m5_technical_watch": "NO_SIGNAL",
@@ -1468,24 +1464,24 @@
       "ticker": "EFA"
     }
   ],
-  "snapshot_asof_utc": "2026-10-16T20:41:44.935808+00:00",
+  "snapshot_asof_utc": "2026-10-16T22:16:04.519930+00:00",
   "source_generated_at_utc": {
-    "daily": "2026-10-16T20:41:44.594873+00:00",
+    "daily": "2026-10-16T22:16:04.187453+00:00",
     "entry": "2026-10-16T20:09:03.222762+00:00",
-    "m15": "2026-10-16T20:41:44.935808+00:00"
+    "m15": "2026-10-16T22:16:04.519930+00:00"
   },
   "source_location_type": {
     "daily": "V10_LOCAL",
     "entry": "LOCAL_DATA_REPO_COPY",
     "m15": "V10_LOCAL"
   },
-  "source_max_skew_minutes": 32.7,
+  "source_max_skew_minutes": 127.02,
   "source_windows_within_20_minutes": false,
   "summary": {
     "blockers_by_category": {
-      "DATA": 106,
+      "DATA": 146,
       "OPTION": 29,
-      "TECHNICAL": 108
+      "TECHNICAL": 64
     },
     "daily_direction_candidates": 40,
     "daily_recorded_complete_count": 62,
@@ -1496,6 +1492,10 @@
       [
         "SOURCE_WINDOWS_NOT_SYNCHRONOUS",
         64
+      ],
+      [
+        "15M_BAR_STALE",
+        40
       ],
       [
         "BROKER_OR_EXCHANGE_QUOTE_NOT_VERIFIED",
@@ -1510,28 +1510,12 @@
         22
       ],
       [
-        "15M_TREND_NOT_ALIGNED",
-        18
-      ],
-      [
         "BASIC_PASS_BUT_UPSTREAM_REJECTED",
         18
       ],
       [
-        "15M_RSI_MOMENTUM_NOT_ACCELERATING",
-        12
-      ],
-      [
         "OPTION_CONTRACT_SNAPSHOT_MISSING",
         11
-      ],
-      [
-        "15M_RELATIVE_VOLUME_BELOW_1_2",
-        11
-      ],
-      [
-        "15M_RSI_EXTENDED_REVERSAL_RISK",
-        3
       ],
       [
         "5M_BREAKOUT_NOT_CONFIRMED",
