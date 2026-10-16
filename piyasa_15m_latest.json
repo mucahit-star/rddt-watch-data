@@ -1,7 +1,7 @@
 {
   "version": "piyasa-15m-v1",
-  "generated_at_utc": "2026-10-16T22:16:04.519930+00:00",
-  "unified64_source_utc": "2026-10-16T22:16:04.187453+00:00",
+  "generated_at_utc": "2026-10-16T22:41:20.120235+00:00",
+  "unified64_source_utc": "2026-10-16T22:41:19.970245+00:00",
   "universe_count": 64,
   "status_counts": {
     "BAR_STALE": 62,
@@ -21,7 +21,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -777,7 +777,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -1533,7 +1533,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -2289,7 +2289,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -3045,7 +3045,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -3801,7 +3801,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -4557,7 +4557,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -5313,7 +5313,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -6069,7 +6069,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -6825,7 +6825,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -7581,7 +7581,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -8337,7 +8337,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -9093,7 +9093,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -9849,7 +9849,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -10605,7 +10605,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -11361,7 +11361,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -12117,7 +12117,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -12873,7 +12873,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -13629,7 +13629,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -14385,7 +14385,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -15141,7 +15141,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -15897,7 +15897,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -16653,7 +16653,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -17409,7 +17409,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -18165,7 +18165,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -18921,7 +18921,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -19677,7 +19677,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -20433,7 +20433,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -21189,7 +21189,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -21945,7 +21945,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -22701,7 +22701,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -23457,7 +23457,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -24213,7 +24213,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -24969,7 +24969,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -25725,7 +25725,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -26481,7 +26481,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -27275,7 +27275,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -28031,7 +28031,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -28787,7 +28787,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -29543,7 +29543,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -30299,7 +30299,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -31055,7 +31055,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -31811,7 +31811,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -32567,7 +32567,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -33323,7 +33323,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -34079,7 +34079,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -34835,7 +34835,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -35591,7 +35591,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -36347,7 +36347,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -37103,7 +37103,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -37859,7 +37859,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -38615,7 +38615,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -39371,7 +39371,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -40127,7 +40127,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -40883,7 +40883,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -41639,7 +41639,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -42395,7 +42395,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -43151,7 +43151,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -43907,7 +43907,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -44663,7 +44663,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -45419,7 +45419,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
@@ -46175,7 +46175,7 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 136.075332,
+      "data_age_minutes": 161.335337,
       "status": "BAR_STALE",
       "reasons": [
         "LAST_CLOSED_15M_BAR_NOT_RECENT"
