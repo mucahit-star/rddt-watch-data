@@ -1,179 +1,13 @@
 {
   "version": "piyasa-15m-v1",
-  "generated_at_utc": "2026-10-16T20:41:44.935808+00:00",
-  "unified64_source_utc": "2026-10-16T20:41:44.594873+00:00",
+  "generated_at_utc": "2026-10-16T22:16:04.519930+00:00",
+  "unified64_source_utc": "2026-10-16T22:16:04.187453+00:00",
   "universe_count": 64,
   "status_counts": {
-    "NO_DAILY_WATCH": 24,
-    "WATCH_PUT_15M": 17,
-    "DIRECTION_CONFLICT": 1,
-    "NO_15M_ALIGNMENT": 15,
-    "WATCH_CALL_15M": 2,
-    "WATCH_PUT_15M_EXTENDED": 2,
-    "INACTIVE_CORPORATE_ACTION": 2,
-    "WATCH_CALL_15M_EXTENDED": 1
+    "BAR_STALE": 62,
+    "INACTIVE_CORPORATE_ACTION": 2
   },
-  "top10_research": [
-    {
-      "ticker": "AAOI",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 99,
-      "last_close": 75.589996,
-      "rsi14": 30.752754,
-      "relative_volume_15m": 1.559345,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
-    {
-      "ticker": "HYG",
-      "daily_direction": "PUT",
-      "daily_score": 80,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 96,
-      "last_close": 76.870003,
-      "rsi14": 38.407851,
-      "relative_volume_15m": 1.906176,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
-      ]
-    },
-    {
-      "ticker": "EEM",
-      "daily_direction": "PUT",
-      "daily_score": 90,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 95,
-      "last_close": 62.860001,
-      "rsi14": 38.517433,
-      "relative_volume_15m": 1.91959,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
-      ]
-    },
-    {
-      "ticker": "BILI",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 91,
-      "last_close": 14.065,
-      "rsi14": 39.067596,
-      "relative_volume_15m": 1.611288,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
-      ]
-    },
-    {
-      "ticker": "GEV",
-      "daily_direction": "PUT",
-      "daily_score": 95,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 91,
-      "last_close": 921.049988,
-      "rsi14": 43.025817,
-      "relative_volume_15m": 1.110019,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
-      ]
-    },
-    {
-      "ticker": "LYFT",
-      "daily_direction": "CALL",
-      "daily_score": 85,
-      "status": "WATCH_CALL_15M",
-      "research_rank_score": 91,
-      "last_close": 16.834999,
-      "rsi14": 56.755434,
-      "relative_volume_15m": 0.828848,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
-      ]
-    },
-    {
-      "ticker": "NIO",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 91,
-      "last_close": 3.425,
-      "rsi14": 47.066838,
-      "relative_volume_15m": 1.903287,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
-      ]
-    },
-    {
-      "ticker": "ORCL",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 91,
-      "last_close": 128.229996,
-      "rsi14": 35.421728,
-      "relative_volume_15m": 2.074931,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
-      ]
-    },
-    {
-      "ticker": "XBI",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M",
-      "research_rank_score": 91,
-      "last_close": 144.369995,
-      "rsi14": 38.499426,
-      "relative_volume_15m": 1.382544,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
-      ]
-    },
-    {
-      "ticker": "NOK",
-      "daily_direction": "PUT",
-      "daily_score": 85,
-      "status": "WATCH_PUT_15M_EXTENDED",
-      "research_rank_score": 85,
-      "last_close": 9.14,
-      "rsi14": 26.165371,
-      "relative_volume_15m": 2.189013,
-      "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK"
-      ]
-    }
-  ],
+  "top10_research": [],
   "rows": [
     {
       "ticker": "RDDT",
@@ -187,10 +21,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -929,8 +763,7 @@
       "ema100": 155.926436,
       "ema200": 155.085664,
       "rsi14": 48.896366,
-      "relative_volume_15m": 0.617624,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.617624
     },
     {
       "ticker": "ORCL",
@@ -944,11 +777,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -1687,9 +1519,7 @@
       "ema100": 133.018647,
       "ema200": 135.638576,
       "rsi14": 35.421728,
-      "relative_volume_15m": 2.074931,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 91
+      "relative_volume_15m": 2.074931
     },
     {
       "ticker": "VST",
@@ -1703,10 +1533,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "DIRECTION_CONFLICT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_15M_DIRECTIONS_DIFFER"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -2445,8 +2275,7 @@
       "ema100": 153.957957,
       "ema200": 154.151252,
       "rsi14": 41.831849,
-      "relative_volume_15m": 0.726529,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 0.726529
     },
     {
       "ticker": "CEG",
@@ -2460,10 +2289,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -3202,8 +3031,7 @@
       "ema100": 278.149905,
       "ema200": 280.879833,
       "rsi14": 45.588851,
-      "relative_volume_15m": 1.350388,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.350388
     },
     {
       "ticker": "NOW",
@@ -3217,10 +3045,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -3959,8 +3787,7 @@
       "ema100": 142.606631,
       "ema200": 141.340167,
       "rsi14": 47.019586,
-      "relative_volume_15m": 1.329797,
-      "15m_trend_direction": null
+      "relative_volume_15m": 1.329797
     },
     {
       "ticker": "CGNX",
@@ -3974,11 +3801,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -4717,9 +4543,7 @@
       "ema100": 56.708072,
       "ema200": 58.469182,
       "rsi14": 30.740067,
-      "relative_volume_15m": 0.878314,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 84
+      "relative_volume_15m": 0.878314
     },
     {
       "ticker": "MSTR",
@@ -4733,10 +4557,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -5475,8 +5299,7 @@
       "ema100": 144.834223,
       "ema200": 148.559193,
       "rsi14": 37.288871,
-      "relative_volume_15m": 1.985546,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.985546
     },
     {
       "ticker": "BE",
@@ -5490,10 +5313,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -6232,8 +6055,7 @@
       "ema100": 238.109137,
       "ema200": 250.708934,
       "rsi14": 37.704547,
-      "relative_volume_15m": 1.356748,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.356748
     },
     {
       "ticker": "GEV",
@@ -6247,12 +6069,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -6991,9 +6811,7 @@
       "ema100": 940.665536,
       "ema200": 957.272868,
       "rsi14": 43.025817,
-      "relative_volume_15m": 1.110019,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 91
+      "relative_volume_15m": 1.110019
     },
     {
       "ticker": "MRVL",
@@ -7007,10 +6825,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -7749,8 +7567,7 @@
       "ema100": 243.893901,
       "ema200": 253.071916,
       "rsi14": 31.780171,
-      "relative_volume_15m": 1.495625,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.495625
     },
     {
       "ticker": "MU",
@@ -7764,10 +7581,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -8506,8 +8323,7 @@
       "ema100": 922.620832,
       "ema200": 957.838783,
       "rsi14": 29.398526,
-      "relative_volume_15m": 1.332089,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.332089
     },
     {
       "ticker": "AAOI",
@@ -8521,10 +8337,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -9263,9 +9079,7 @@
       "ema100": 85.683304,
       "ema200": 93.399572,
       "rsi14": 30.752754,
-      "relative_volume_15m": 1.559345,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 99
+      "relative_volume_15m": 1.559345
     },
     {
       "ticker": "TSM",
@@ -9279,10 +9093,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -10021,8 +9835,7 @@
       "ema100": 425.494506,
       "ema200": 436.56201,
       "rsi14": 40.84451,
-      "relative_volume_15m": 1.588724,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.588724
     },
     {
       "ticker": "COHR",
@@ -10036,11 +9849,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -10779,9 +10591,7 @@
       "ema100": 255.585412,
       "ema200": 273.395184,
       "rsi14": 37.904491,
-      "relative_volume_15m": 1.407652,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 84
+      "relative_volume_15m": 1.407652
     },
     {
       "ticker": "F",
@@ -10795,10 +10605,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -11537,8 +11347,7 @@
       "ema100": 12.307622,
       "ema200": 12.241837,
       "rsi14": 42.373812,
-      "relative_volume_15m": 0.989847,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.989847
     },
     {
       "ticker": "SOFI",
@@ -11552,11 +11361,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -12295,9 +12103,7 @@
       "ema100": 14.773534,
       "ema200": 15.033019,
       "rsi14": 44.580417,
-      "relative_volume_15m": 1.618204,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 84
+      "relative_volume_15m": 1.618204
     },
     {
       "ticker": "SNAP",
@@ -12311,10 +12117,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -13053,8 +12859,7 @@
       "ema100": 6.2084,
       "ema200": 6.144859,
       "rsi14": 46.977612,
-      "relative_volume_15m": 1.013214,
-      "15m_trend_direction": null
+      "relative_volume_15m": 1.013214
     },
     {
       "ticker": "PFE",
@@ -13068,11 +12873,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_CALL_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -13811,9 +13615,7 @@
       "ema100": 29.241944,
       "ema200": 28.857529,
       "rsi14": 53.304948,
-      "relative_volume_15m": 0.681117,
-      "15m_trend_direction": "CALL",
-      "research_rank_score": 84
+      "relative_volume_15m": 0.681117
     },
     {
       "ticker": "INTC",
@@ -13827,10 +13629,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -14569,8 +14371,7 @@
       "ema100": 95.80041,
       "ema200": 100.533392,
       "rsi14": 33.272064,
-      "relative_volume_15m": 1.669318,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.669318
     },
     {
       "ticker": "T",
@@ -14584,10 +14385,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -15326,8 +15127,7 @@
       "ema100": 23.386536,
       "ema200": 23.469654,
       "rsi14": 36.419818,
-      "relative_volume_15m": 1.213511,
-      "15m_trend_direction": null
+      "relative_volume_15m": 1.213511
     },
     {
       "ticker": "PLTR",
@@ -15341,10 +15141,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -16083,8 +15883,7 @@
       "ema100": 196.410305,
       "ema200": 197.702186,
       "rsi14": 34.440403,
-      "relative_volume_15m": 1.253176,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.253176
     },
     {
       "ticker": "BAC",
@@ -16098,10 +15897,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -16840,8 +16639,7 @@
       "ema100": 52.06367,
       "ema200": 52.671951,
       "rsi14": 32.498487,
-      "relative_volume_15m": 2.313327,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 2.313327
     },
     {
       "ticker": "AAL",
@@ -16855,11 +16653,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -17598,9 +17395,7 @@
       "ema100": 12.156252,
       "ema200": 12.357546,
       "rsi14": 31.922308,
-      "relative_volume_15m": 1.044352,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 84
+      "relative_volume_15m": 1.044352
     },
     {
       "ticker": "UAL",
@@ -17614,12 +17409,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M_EXTENDED",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -18358,9 +18151,7 @@
       "ema100": 100.404519,
       "ema200": 102.857731,
       "rsi14": 22.528259,
-      "relative_volume_15m": 0.93419,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 70
+      "relative_volume_15m": 0.93419
     },
     {
       "ticker": "DAL",
@@ -18374,11 +18165,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -19117,9 +18907,7 @@
       "ema100": 77.551472,
       "ema200": 78.926941,
       "rsi14": 31.340337,
-      "relative_volume_15m": 0.927835,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 84
+      "relative_volume_15m": 0.927835
     },
     {
       "ticker": "CCL",
@@ -19133,10 +18921,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -19875,8 +19663,7 @@
       "ema100": 26.282611,
       "ema200": 26.128195,
       "rsi14": 33.529934,
-      "relative_volume_15m": 1.087098,
-      "15m_trend_direction": null
+      "relative_volume_15m": 1.087098
     },
     {
       "ticker": "NCLH",
@@ -19890,10 +19677,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -20632,8 +20419,7 @@
       "ema100": 15.234493,
       "ema200": 15.202798,
       "rsi14": 35.62381,
-      "relative_volume_15m": 0.806376,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.806376
     },
     {
       "ticker": "RIVN",
@@ -20647,10 +20433,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -21389,8 +21175,7 @@
       "ema100": 12.995605,
       "ema200": 13.385439,
       "rsi14": 30.573218,
-      "relative_volume_15m": 1.637426,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.637426
     },
     {
       "ticker": "LCID",
@@ -21404,10 +21189,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -22146,8 +21931,7 @@
       "ema100": 3.349128,
       "ema200": 3.50016,
       "rsi14": 28.165781,
-      "relative_volume_15m": 1.119347,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.119347
     },
     {
       "ticker": "HOOD",
@@ -22161,10 +21945,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -22903,8 +22687,7 @@
       "ema100": 102.897007,
       "ema200": 105.561306,
       "rsi14": 40.481555,
-      "relative_volume_15m": 1.627707,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.627707
     },
     {
       "ticker": "UBER",
@@ -22918,10 +22701,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -23660,8 +23443,7 @@
       "ema100": 70.379169,
       "ema200": 70.18597,
       "rsi14": 49.878756,
-      "relative_volume_15m": 0.793026,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.793026
     },
     {
       "ticker": "LYFT",
@@ -23675,11 +23457,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_CALL_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -24418,9 +24199,7 @@
       "ema100": 16.552077,
       "ema200": 16.28417,
       "rsi14": 56.755434,
-      "relative_volume_15m": 0.828848,
-      "15m_trend_direction": "CALL",
-      "research_rank_score": 91
+      "relative_volume_15m": 0.828848
     },
     {
       "ticker": "HIMS",
@@ -24434,12 +24213,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -25178,9 +24955,7 @@
       "ema100": 28.593048,
       "ema200": 28.889185,
       "rsi14": 45.135436,
-      "relative_volume_15m": 1.152005,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 76
+      "relative_volume_15m": 1.152005
     },
     {
       "ticker": "MARA",
@@ -25194,10 +24969,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -25936,8 +25711,7 @@
       "ema100": 8.30253,
       "ema200": 8.969029,
       "rsi14": 34.314107,
-      "relative_volume_15m": 1.380554,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.380554
     },
     {
       "ticker": "RIOT",
@@ -25951,10 +25725,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -26693,8 +26467,7 @@
       "ema100": 15.065406,
       "ema200": 16.092364,
       "rsi14": 28.293345,
-      "relative_volume_15m": 1.053146,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.053146
     },
     {
       "ticker": "CLSK",
@@ -26708,10 +26481,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -27450,8 +27223,7 @@
       "ema100": 9.179993,
       "ema200": 9.903781,
       "rsi14": 36.271129,
-      "relative_volume_15m": 1.239682,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 1.239682
     },
     {
       "ticker": "WBD",
@@ -27503,11 +27275,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M_EXTENDED",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -28246,9 +28017,7 @@
       "ema100": 9.516437,
       "ema200": 9.757516,
       "rsi14": 26.165371,
-      "relative_volume_15m": 2.189013,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 85
+      "relative_volume_15m": 2.189013
     },
     {
       "ticker": "NIO",
@@ -28262,11 +28031,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -29005,9 +28773,7 @@
       "ema100": 3.457849,
       "ema200": 3.467002,
       "rsi14": 47.066838,
-      "relative_volume_15m": 1.903287,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 91
+      "relative_volume_15m": 1.903287
     },
     {
       "ticker": "XPEV",
@@ -29021,12 +28787,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -29765,9 +29529,7 @@
       "ema100": 9.498484,
       "ema200": 9.559585,
       "rsi14": 32.375374,
-      "relative_volume_15m": 0.864891,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 83
+      "relative_volume_15m": 0.864891
     },
     {
       "ticker": "LI",
@@ -29781,10 +29543,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -30523,8 +30285,7 @@
       "ema100": 11.39315,
       "ema200": 11.352292,
       "rsi14": 47.491657,
-      "relative_volume_15m": 0.736474,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.736474
     },
     {
       "ticker": "BILI",
@@ -30538,11 +30299,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -31281,9 +31041,7 @@
       "ema100": 14.418763,
       "ema200": 14.603126,
       "rsi14": 39.067596,
-      "relative_volume_15m": 1.611288,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 91
+      "relative_volume_15m": 1.611288
     },
     {
       "ticker": "JD",
@@ -31297,10 +31055,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -32039,8 +31797,7 @@
       "ema100": 26.977325,
       "ema200": 26.884438,
       "rsi14": 48.843738,
-      "relative_volume_15m": 1.414065,
-      "15m_trend_direction": null
+      "relative_volume_15m": 1.414065
     },
     {
       "ticker": "PDD",
@@ -32054,10 +31811,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -32796,8 +32553,7 @@
       "ema100": 81.555804,
       "ema200": 80.888855,
       "rsi14": 35.870482,
-      "relative_volume_15m": 1.310805,
-      "15m_trend_direction": null
+      "relative_volume_15m": 1.310805
     },
     {
       "ticker": "BABA",
@@ -32811,10 +32567,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -33553,8 +33309,7 @@
       "ema100": 110.094248,
       "ema200": 109.813097,
       "rsi14": 39.465638,
-      "relative_volume_15m": 0.763612,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.763612
     },
     {
       "ticker": "KWEB",
@@ -33568,10 +33323,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -34310,8 +34065,7 @@
       "ema100": 24.530298,
       "ema200": 24.527964,
       "rsi14": 41.88485,
-      "relative_volume_15m": 0.885993,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.885993
     },
     {
       "ticker": "EWZ",
@@ -34325,10 +34079,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -35067,8 +34821,7 @@
       "ema100": 42.224786,
       "ema200": 42.102921,
       "rsi14": 48.213503,
-      "relative_volume_15m": 2.430686,
-      "15m_trend_direction": null
+      "relative_volume_15m": 2.430686
     },
     {
       "ticker": "EEM",
@@ -35082,11 +34835,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -35825,9 +35577,7 @@
       "ema100": 64.093259,
       "ema200": 65.017924,
       "rsi14": 38.517433,
-      "relative_volume_15m": 1.91959,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 95
+      "relative_volume_15m": 1.91959
     },
     {
       "ticker": "XLF",
@@ -35841,10 +35591,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -36583,8 +36333,7 @@
       "ema100": 55.062705,
       "ema200": 54.787063,
       "rsi14": 56.51446,
-      "relative_volume_15m": 0.744785,
-      "15m_trend_direction": "CALL"
+      "relative_volume_15m": 0.744785
     },
     {
       "ticker": "XLE",
@@ -36598,11 +36347,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_CALL_15M_EXTENDED",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_EXTENDED_REVERSAL_RISK"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -37341,9 +37089,7 @@
       "ema100": 67.038152,
       "ema200": 66.23288,
       "rsi14": 73.699015,
-      "relative_volume_15m": 1.700228,
-      "15m_trend_direction": "CALL",
-      "research_rank_score": 78
+      "relative_volume_15m": 1.700228
     },
     {
       "ticker": "XLI",
@@ -37357,10 +37103,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -38099,8 +37845,7 @@
       "ema100": 167.666911,
       "ema200": 168.025501,
       "rsi14": 50.170888,
-      "relative_volume_15m": 0.77821,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.77821
     },
     {
       "ticker": "XLK",
@@ -38114,10 +37859,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -38856,8 +38601,7 @@
       "ema100": 189.147559,
       "ema200": 192.206423,
       "rsi14": 32.343745,
-      "relative_volume_15m": 2.969647,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 2.969647
     },
     {
       "ticker": "IWM",
@@ -38871,12 +38615,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -39615,9 +39357,7 @@
       "ema100": 273.481931,
       "ema200": 275.268403,
       "rsi14": 37.128871,
-      "relative_volume_15m": 1.164466,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 83
+      "relative_volume_15m": 1.164466
     },
     {
       "ticker": "QQQ",
@@ -39631,10 +39371,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -40373,8 +40113,7 @@
       "ema100": 726.113216,
       "ema200": 733.810375,
       "rsi14": 33.226055,
-      "relative_volume_15m": 2.007942,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 2.007942
     },
     {
       "ticker": "SPY",
@@ -40388,10 +40127,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -41130,8 +40869,7 @@
       "ema100": 769.871926,
       "ema200": 771.606815,
       "rsi14": 38.491674,
-      "relative_volume_15m": 0.986642,
-      "15m_trend_direction": "PUT"
+      "relative_volume_15m": 0.986642
     },
     {
       "ticker": "SLV",
@@ -41145,12 +40883,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING",
-        "RELATIVE_VOLUME_15M_NOT_CONFIRMED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -41889,9 +41625,7 @@
       "ema100": 51.973997,
       "ema200": 52.768105,
       "rsi14": 44.825101,
-      "relative_volume_15m": 0.662751,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 83
+      "relative_volume_15m": 0.662751
     },
     {
       "ticker": "GLD",
@@ -41905,10 +41639,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -42647,8 +42381,7 @@
       "ema100": 380.659644,
       "ema200": 380.707158,
       "rsi14": 54.734159,
-      "relative_volume_15m": 0.946055,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.946055
     },
     {
       "ticker": "GDX",
@@ -42662,10 +42395,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -43404,8 +43137,7 @@
       "ema100": 86.54896,
       "ema200": 86.833852,
       "rsi14": 59.777358,
-      "relative_volume_15m": 1.038011,
-      "15m_trend_direction": null
+      "relative_volume_15m": 1.038011
     },
     {
       "ticker": "TLT",
@@ -43419,10 +43151,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_DAILY_WATCH",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_EMA_RSI_FILTER_NOT_PASSED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -44161,8 +43893,7 @@
       "ema100": 79.385004,
       "ema200": 78.862368,
       "rsi14": 54.704737,
-      "relative_volume_15m": 1.111175,
-      "15m_trend_direction": "CALL"
+      "relative_volume_15m": 1.111175
     },
     {
       "ticker": "HYG",
@@ -44176,10 +43907,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -44918,9 +44649,7 @@
       "ema100": 77.006009,
       "ema200": 77.067416,
       "rsi14": 38.407851,
-      "relative_volume_15m": 1.906176,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 96
+      "relative_volume_15m": 1.906176
     },
     {
       "ticker": "KRE",
@@ -44934,10 +44663,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -45676,8 +45405,7 @@
       "ema100": 69.540489,
       "ema200": 69.514293,
       "rsi14": 48.82215,
-      "relative_volume_15m": 0.952235,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.952235
     },
     {
       "ticker": "XBI",
@@ -45691,11 +45419,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "WATCH_PUT_15M",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "DAILY_AND_CLOSED_15M_TREND_ALIGNED",
-        "RSI_MOMENTUM_NOT_ACCELERATING"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -46434,9 +46161,7 @@
       "ema100": 147.580674,
       "ema200": 149.177175,
       "rsi14": 38.499426,
-      "relative_volume_15m": 1.382544,
-      "15m_trend_direction": "PUT",
-      "research_rank_score": 91
+      "relative_volume_15m": 1.382544
     },
     {
       "ticker": "EFA",
@@ -46450,10 +46175,10 @@
       "data_source": "yfinance history (unofficial; not OPRA/exchange verified)",
       "last_completed_bar_utc": "2026-10-16T19:45:00+00:00",
       "last_completed_bar_end_utc": "2026-10-16T20:00:00+00:00",
-      "data_age_minutes": 41.74893,
-      "status": "NO_15M_ALIGNMENT",
+      "data_age_minutes": 136.075332,
+      "status": "BAR_STALE",
       "reasons": [
-        "EMA_20_50_100_200_OR_RSI_NOT_ALIGNED"
+        "LAST_CLOSED_15M_BAR_NOT_RECENT"
       ],
       "candles": [
         {
@@ -47192,8 +46917,7 @@
       "ema100": 103.452306,
       "ema200": 103.423018,
       "rsi14": 46.144783,
-      "relative_volume_15m": 0.89621,
-      "15m_trend_direction": null
+      "relative_volume_15m": 0.89621
     }
   ],
   "chart_directory": "piyasa_15m_charts_local",
