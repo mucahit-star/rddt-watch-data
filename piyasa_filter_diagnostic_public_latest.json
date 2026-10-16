@@ -1464,18 +1464,18 @@
       "ticker": "EFA"
     }
   ],
-  "snapshot_asof_utc": "2026-10-16T22:16:04.519930+00:00",
+  "snapshot_asof_utc": "2026-10-16T22:41:20.120235+00:00",
   "source_generated_at_utc": {
-    "daily": "2026-10-16T22:16:04.187453+00:00",
+    "daily": "2026-10-16T22:41:19.970245+00:00",
     "entry": "2026-10-16T20:09:03.222762+00:00",
-    "m15": "2026-10-16T22:16:04.519930+00:00"
+    "m15": "2026-10-16T22:41:20.120235+00:00"
   },
   "source_location_type": {
     "daily": "V10_LOCAL",
     "entry": "LOCAL_DATA_REPO_COPY",
     "m15": "V10_LOCAL"
   },
-  "source_max_skew_minutes": 127.02,
+  "source_max_skew_minutes": 152.28,
   "source_windows_within_20_minutes": false,
   "summary": {
     "blockers_by_category": {
