@@ -1,12 +1,12 @@
 {
   "version": 3,
-  "generated_at_utc": "2026-10-16T15:31:03.497139+00:00",
+  "generated_at_utc": "2026-10-16T16:03:03.820460+00:00",
   "source": "yfinance unofficial (data may be delayed, missing or inaccurate)",
   "score_note": "0-100 heuristic ranking only; NOT win probability or investment advice",
   "top_call_candidates": [
     {
       "ticker": "NOW",
-      "score": 85,
+      "score": 75,
       "status": "TECHNICAL_WATCH_CALL"
     },
     {
@@ -46,10 +46,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 159.28,
-      "ema20": 154.06,
-      "ema50": 156.31,
-      "rsi14": 54.8,
+      "last_price": 158.0,
+      "ema20": 153.94,
+      "ema50": 156.26,
+      "rsi14": 53.6,
       "relative_volume": null
     },
     {
@@ -65,10 +65,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 130.08,
-      "ema20": 139.06,
-      "ema50": 143.18,
-      "rsi14": 41.19,
+      "last_price": 129.42,
+      "ema20": 139.0,
+      "ema50": 143.15,
+      "rsi14": 40.75,
       "relative_volume": null
     },
     {
@@ -84,17 +84,17 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 154.11,
-      "ema20": 150.92,
+      "last_price": 154.08,
+      "ema20": 150.91,
       "ema50": 148.23,
-      "rsi14": 54.45,
+      "rsi14": 54.42,
       "relative_volume": null
     },
     {
       "ticker": "CEG",
       "status": "NO_SIGNAL",
       "call_score": 10,
-      "put_score": 35,
+      "put_score": 10,
       "candidate_direction": null,
       "option": null,
       "reasons": [
@@ -103,16 +103,16 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 272.86,
-      "ema20": 278.07,
-      "ema50": 274.68,
-      "rsi14": 47.81,
+      "last_price": 273.92,
+      "ema20": 278.17,
+      "ema50": 274.72,
+      "rsi14": 48.33,
       "relative_volume": null
     },
     {
       "ticker": "NOW",
       "status": "TECHNICAL_WATCH_CALL",
-      "call_score": 85,
+      "call_score": 75,
       "put_score": 0,
       "candidate_direction": "CALL",
       "option": null,
@@ -122,10 +122,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 141.62,
-      "ema20": 138.73,
-      "ema50": 132.77,
-      "rsi14": 55.03,
+      "last_price": 140.11,
+      "ema20": 138.59,
+      "ema50": 132.71,
+      "rsi14": 53.2,
       "relative_volume": null
     },
     {
@@ -141,17 +141,17 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 54.99,
-      "ema20": 60.09,
-      "ema50": 61.15,
-      "rsi14": 36.42,
+      "last_price": 54.67,
+      "ema20": 60.06,
+      "ema50": 61.13,
+      "rsi14": 35.89,
       "relative_volume": null
     },
     {
       "ticker": "MSTR",
       "status": "NO_SIGNAL",
       "call_score": 10,
-      "put_score": 35,
+      "put_score": 45,
       "candidate_direction": null,
       "option": null,
       "reasons": [
@@ -160,10 +160,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 141.94,
-      "ema20": 150.2,
-      "ema50": 139.76,
-      "rsi14": 45.65,
+      "last_price": 137.75,
+      "ema20": 149.8,
+      "ema50": 139.59,
+      "rsi14": 43.14,
       "relative_volume": null
     },
     {
@@ -179,10 +179,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 229.47,
-      "ema20": 262.6,
-      "ema50": 256.19,
-      "rsi14": 38.49,
+      "last_price": 227.02,
+      "ema20": 262.37,
+      "ema50": 256.09,
+      "rsi14": 37.87,
       "relative_volume": null
     },
     {
@@ -198,10 +198,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 929.09,
-      "ema20": 966.65,
-      "ema50": 971.41,
-      "rsi14": 41.59,
+      "last_price": 925.23,
+      "ema20": 966.28,
+      "ema50": 971.26,
+      "rsi14": 40.72,
       "relative_volume": null
     },
     {
@@ -217,10 +217,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 234.96,
-      "ema20": 256.56,
-      "ema50": 245.19,
-      "rsi14": 40.15,
+      "last_price": 233.7,
+      "ema20": 256.44,
+      "ema50": 245.14,
+      "rsi14": 39.66,
       "relative_volume": null
     },
     {
@@ -236,10 +236,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 901.2,
-      "ema20": 997.78,
-      "ema50": 984.03,
-      "rsi14": 36.06,
+      "last_price": 893.23,
+      "ema20": 997.02,
+      "ema50": 983.72,
+      "rsi14": 35.31,
       "relative_volume": null
     },
     {
@@ -255,17 +255,17 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 78.82,
-      "ema20": 101.33,
-      "ema50": 109.1,
-      "rsi14": 34.1,
+      "last_price": 77.89,
+      "ema20": 101.24,
+      "ema50": 109.06,
+      "rsi14": 33.72,
       "relative_volume": null
     },
     {
       "ticker": "TSM",
       "status": "NO_SIGNAL",
       "call_score": 10,
-      "put_score": 45,
+      "put_score": 35,
       "candidate_direction": null,
       "option": null,
       "reasons": [
@@ -274,10 +274,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 415.19,
-      "ema20": 444.23,
-      "ema50": 436.92,
-      "rsi14": 35.18,
+      "last_price": 413.81,
+      "ema20": 444.1,
+      "ema50": 436.86,
+      "rsi14": 34.71,
       "relative_volume": null
     },
     {
@@ -293,10 +293,10 @@
       "market_date": "2026-10-16",
       "daily_candle_complete": false,
       "age_weekdays": 0,
-      "last_price": 237.59,
-      "ema20": 291.07,
-      "ema50": 299.89,
-      "rsi14": 34.2,
+      "last_price": 235.53,
+      "ema20": 290.87,
+      "ema50": 299.81,
+      "rsi14": 33.83,
       "relative_volume": null
     }
   ]
