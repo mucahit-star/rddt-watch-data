@@ -2,15 +2,15 @@
   "broker_execution_verified": false,
   "data_windows_synchronous": false,
   "decision": "BEKLE",
-  "generated_at_utc": "2026-10-24T22:42:00.670612+00:00",
+  "generated_at_utc": "2026-10-24T23:41:43.745540+00:00",
   "main14_count": 14,
-  "main14_source_utc": "2026-10-24T22:25:03.871945+00:00",
+  "main14_source_utc": "2026-10-24T23:25:03.136603+00:00",
   "notes": [
     "Quotes and model Greeks are UNVERIFIED; not suitable for orders.",
     "Generated from separate scan windows; not synchronous live pricing."
   ],
   "pilot50_count": 50,
-  "pilot50_latest_batch_utc": "2026-10-24T22:42:00.666264+00:00",
+  "pilot50_latest_batch_utc": "2026-10-24T23:41:43.741115+00:00",
   "quote_freshness_verified": false,
   "research_only": true,
   "rows": [
