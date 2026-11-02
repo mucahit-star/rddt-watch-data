@@ -2,15 +2,15 @@
   "broker_execution_verified": false,
   "data_windows_synchronous": false,
   "decision": "BEKLE",
-  "generated_at_utc": "2026-11-01T14:42:10.138633+00:00",
+  "generated_at_utc": "2026-11-02T03:41:29.449166+00:00",
   "main14_count": 14,
-  "main14_source_utc": "2026-11-01T14:41:02.885520+00:00",
+  "main14_source_utc": "2026-11-02T03:41:04.225993+00:00",
   "notes": [
     "Quotes and model Greeks are UNVERIFIED; not suitable for orders.",
     "Generated from separate scan windows; not synchronous live pricing."
   ],
   "pilot50_count": 50,
-  "pilot50_latest_batch_utc": "2026-11-01T14:42:10.121147+00:00",
+  "pilot50_latest_batch_utc": "2026-11-02T03:41:29.441771+00:00",
   "quote_freshness_verified": false,
   "research_only": true,
   "rows": [
@@ -344,11 +344,11 @@
       "ema20": 29.39,
       "ema50": 28.46,
       "greeks_model_unverified": {
-        "delta": 0.52570745,
-        "gamma": 0.26217683,
+        "delta": 0.52485524,
+        "gamma": 0.26350091,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.02687752,
-        "vega_pt": 0.02203108
+        "theta_day": -0.02903442,
+        "vega_pt": 0.02109602
       },
       "last_price": 30.52,
       "market_date": "2026-10-30",
@@ -357,7 +357,7 @@
         "bid": 0.56,
         "contract_symbol": "PFE261113C00030500",
         "expiry": "2026-11-13",
-        "implied_volatility": 0.2744,
+        "implied_volatility": 0.2852,
         "open_interest": 621,
         "option_volume": 202,
         "spread_pct": 13.33,
@@ -550,11 +550,11 @@
       "ema20": 12.73,
       "ema50": 13.98,
       "greeks_model_unverified": {
-        "delta": -0.56370814,
-        "gamma": 0.27138709,
+        "delta": -0.56469416,
+        "gamma": 0.27281203,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.0229802,
-        "vega_pt": 0.00868366
+        "theta_day": -0.02498753,
+        "vega_pt": 0.0083106
       },
       "last_price": 12.16,
       "market_date": "2026-10-30",
@@ -563,7 +563,7 @@
         "bid": 0.74,
         "contract_symbol": "RIVN261113P00012500",
         "expiry": "2026-11-13",
-        "implied_volatility": 0.6582,
+        "implied_volatility": 0.6836,
         "open_interest": 940,
         "option_volume": 66,
         "spread_pct": 13.84,
@@ -623,11 +623,11 @@
       "ema20": 68.03,
       "ema50": 70.04,
       "greeks_model_unverified": {
-        "delta": -0.4595025,
-        "gamma": 0.05663674,
+        "delta": -0.4599157,
+        "gamma": 0.05682063,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.11230988,
-        "vega_pt": 0.04695582
+        "theta_day": -0.12245973,
+        "vega_pt": 0.04496151
       },
       "last_price": 65.25,
       "market_date": "2026-10-30",
@@ -636,7 +636,7 @@
         "bid": 2.65,
         "contract_symbol": "UBER261113P00065000",
         "expiry": "2026-11-13",
-        "implied_volatility": 0.5923,
+        "implied_volatility": 0.6167,
         "open_interest": 795,
         "option_volume": 66,
         "spread_pct": 9.35,
@@ -677,11 +677,11 @@
       "ema20": 28.76,
       "ema50": 29.11,
       "greeks_model_unverified": {
-        "delta": -0.47891179,
-        "gamma": 0.07018887,
+        "delta": -0.47930445,
+        "gamma": 0.0704003,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.09249874,
-        "vega_pt": 0.01999461
+        "theta_day": -0.10076512,
+        "vega_pt": 0.01914437
       },
       "last_price": 27.68,
       "market_date": "2026-10-30",
@@ -690,7 +690,7 @@
         "bid": 2.45,
         "contract_symbol": "HIMS261113P00028000",
         "expiry": "2026-11-13",
-        "implied_volatility": 1.1309,
+        "implied_volatility": 1.1777,
         "open_interest": 1301,
         "option_volume": 166,
         "spread_pct": 6.32,
@@ -731,11 +731,11 @@
       "ema20": 15.18,
       "ema50": 17.73,
       "greeks_model_unverified": {
-        "delta": -0.48002531,
-        "gamma": 0.14052804,
+        "delta": -0.48051715,
+        "gamma": 0.14114322,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.04626319,
-        "vega_pt": 0.00925462
+        "theta_day": -0.05032458,
+        "vega_pt": 0.00886116
       },
       "last_price": 12.81,
       "market_date": "2026-10-30",
@@ -744,7 +744,7 @@
         "bid": 1.23,
         "contract_symbol": "RIOT261113P00013000",
         "expiry": "2026-11-13",
-        "implied_volatility": 1.2207,
+        "implied_volatility": 1.2695,
         "open_interest": 451,
         "option_volume": 352,
         "spread_pct": 7.81,
@@ -823,11 +823,11 @@
       "ema20": 9.27,
       "ema50": 9.86,
       "greeks_model_unverified": {
-        "delta": -0.44791089,
-        "gamma": 0.42087666,
+        "delta": -0.44831046,
+        "gamma": 0.42068209,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.01503115,
-        "vega_pt": 0.0061391
+        "theta_day": -0.01645101,
+        "vega_pt": 0.00587852
       },
       "last_price": 8.56,
       "market_date": "2026-10-30",
@@ -836,7 +836,7 @@
         "bid": 0.34,
         "contract_symbol": "NOK261113P00008500",
         "expiry": "2026-11-13",
-        "implied_volatility": 0.6055,
+        "implied_volatility": 0.6328,
         "open_interest": 470,
         "option_volume": 157,
         "spread_pct": 11.11,
@@ -1142,16 +1142,32 @@
       "daily_candle_complete": true,
       "ema20": 721.09,
       "ema50": 723.08,
-      "greeks_model_unverified": null,
+      "greeks_model_unverified": {
+        "delta": -0.47707378,
+        "gamma": 0.01489154,
+        "status": "MODEL_ESTIMATE_UNVERIFIED",
+        "theta_day": -0.72366706,
+        "vega_pt": 0.38084839
+      },
       "last_price": 690.49,
       "market_date": "2026-10-30",
-      "option_research_only_unverified": null,
+      "option_research_only_unverified": {
+        "ask": 11.16,
+        "bid": 11.0,
+        "contract_symbol": "QQQ261109P00690000",
+        "expiry": "2026-11-09",
+        "implied_volatility": 0.2797,
+        "open_interest": 741,
+        "option_volume": 1319,
+        "spread_pct": 1.44,
+        "strike": 690.0
+      },
       "origin": "PILOT_50",
       "put_score": 90,
       "quote_freshness_verified": false,
       "relative_volume": 2.32,
       "rsi14": 34.93,
-      "status": "TECHNICAL_WATCH_PUT",
+      "status": "WATCH_PUT",
       "ticker": "QQQ",
       "trade_entry_signal": false
     },
@@ -1332,9 +1348,9 @@
     "INACTIVE_CORPORATE_ACTION": 2,
     "NO_SIGNAL": 28,
     "TECHNICAL_WATCH_CALL": 3,
-    "TECHNICAL_WATCH_PUT": 23,
+    "TECHNICAL_WATCH_PUT": 22,
     "WATCH_CALL": 1,
-    "WATCH_PUT": 7
+    "WATCH_PUT": 8
   },
   "trade_entry_signal": false,
   "universe_count": 64,
