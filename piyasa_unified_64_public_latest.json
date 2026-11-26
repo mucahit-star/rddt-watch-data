@@ -2,15 +2,15 @@
   "broker_execution_verified": false,
   "data_windows_synchronous": false,
   "decision": "BEKLE",
-  "generated_at_utc": "2026-11-25T23:41:27.525614+00:00",
+  "generated_at_utc": "2026-11-26T00:41:26.263480+00:00",
   "main14_count": 14,
-  "main14_source_utc": "2026-11-25T23:41:03.107327+00:00",
+  "main14_source_utc": "2026-11-26T00:41:03.149212+00:00",
   "notes": [
     "Quotes and model Greeks are UNVERIFIED; not suitable for orders.",
     "Generated from separate scan windows; not synchronous live pricing."
   ],
   "pilot50_count": 50,
-  "pilot50_latest_batch_utc": "2026-11-25T23:41:27.520974+00:00",
+  "pilot50_latest_batch_utc": "2026-11-26T00:41:26.258520+00:00",
   "quote_freshness_verified": false,
   "research_only": true,
   "rows": [
@@ -306,11 +306,11 @@
       "ema20": 14.6,
       "ema50": 15.51,
       "greeks_model_unverified": {
-        "delta": -0.45427569,
-        "gamma": 0.32630191,
+        "delta": -0.45470722,
+        "gamma": 0.32775164,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.02604307,
-        "vega_pt": 0.00813384
+        "theta_day": -0.02925977,
+        "vega_pt": 0.00766961
       },
       "last_price": 13.07,
       "market_date": "2026-11-25",
@@ -319,7 +319,7 @@
         "bid": 0.46,
         "contract_symbol": "SOFI261204P00013000",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.5918,
+        "implied_volatility": 0.625,
         "open_interest": 1245,
         "option_volume": 744,
         "spread_pct": 6.32,
@@ -379,11 +379,11 @@
       "ema20": 62.74,
       "ema50": 77.95,
       "greeks_model_unverified": {
-        "delta": -0.44474631,
-        "gamma": 0.05264874,
+        "delta": -0.4450586,
+        "gamma": 0.05298606,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.1617777,
-        "vega_pt": 0.03379481
+        "theta_day": -0.18122945,
+        "vega_pt": 0.03186554
       },
       "last_price": 54.47,
       "market_date": "2026-11-25",
@@ -392,7 +392,7 @@
         "bid": 2.86,
         "contract_symbol": "INTC261204P00054000",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.8774,
+        "implied_volatility": 0.9248,
         "open_interest": 751,
         "option_volume": 467,
         "spread_pct": 3.44,
@@ -433,11 +433,11 @@
       "ema20": 166.66,
       "ema50": 173.59,
       "greeks_model_unverified": {
-        "delta": -0.44915903,
-        "gamma": 0.02509607,
+        "delta": -0.44953358,
+        "gamma": 0.02525556,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.33794474,
-        "vega_pt": 0.10164728
+        "theta_day": -0.37889942,
+        "vega_pt": 0.09584552
       },
       "last_price": 163.59,
       "market_date": "2026-11-25",
@@ -446,7 +446,7 @@
         "bid": 5.9,
         "contract_symbol": "PLTR261204P00162500",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.6138,
+        "implied_volatility": 0.647,
         "open_interest": 585,
         "option_volume": 128,
         "spread_pct": 5.76,
@@ -468,11 +468,11 @@
       "ema20": 49.67,
       "ema50": 52.1,
       "greeks_model_unverified": {
-        "delta": -0.47577998,
-        "gamma": 0.15641834,
+        "delta": -0.47659652,
+        "gamma": 0.1573974,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.05368197,
-        "vega_pt": 0.03035172
+        "theta_day": -0.06033924,
+        "vega_pt": 0.02861938
       },
       "last_price": 48.54,
       "market_date": "2026-11-25",
@@ -481,7 +481,7 @@
         "bid": 0.97,
         "contract_symbol": "BAC261204P00048500",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.334,
+        "implied_volatility": 0.3521,
         "open_interest": 324,
         "option_volume": 47,
         "spread_pct": 7.92,
@@ -503,11 +503,11 @@
       "ema20": 12.88,
       "ema50": 13.07,
       "greeks_model_unverified": {
-        "delta": -0.45146919,
-        "gamma": 0.39206237,
+        "delta": -0.45112875,
+        "gamma": 0.41265607,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.02155792,
-        "vega_pt": 0.00781611
+        "theta_day": -0.02308547,
+        "vega_pt": 0.00736833
       },
       "last_price": 12.57,
       "market_date": "2026-11-25",
@@ -516,7 +516,7 @@
         "bid": 0.35,
         "contract_symbol": "AAL261204P00012500",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.5117,
+        "implied_volatility": 0.5156,
         "open_interest": 1055,
         "option_volume": 642,
         "spread_pct": 10.81,
@@ -538,11 +538,11 @@
       "ema20": 108.03,
       "ema50": 108.81,
       "greeks_model_unverified": {
-        "delta": -0.50072444,
-        "gamma": 0.04598413,
+        "delta": -0.50391113,
+        "gamma": 0.0496734,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.18614554,
-        "vega_pt": 0.06547622
+        "theta_day": -0.19408722,
+        "vega_pt": 0.0617287
       },
       "last_price": 104.52,
       "market_date": "2026-11-25",
@@ -551,7 +551,7 @@
         "bid": 3.4,
         "contract_symbol": "UAL261204P00105000",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.5286,
+        "implied_volatility": 0.519,
         "open_interest": 222,
         "option_volume": 30,
         "spread_pct": 13.7,
@@ -630,11 +630,11 @@
       "ema20": 12.16,
       "ema50": 13.13,
       "greeks_model_unverified": {
-        "delta": -0.40235325,
-        "gamma": 0.34530271,
+        "delta": -0.4026277,
+        "gamma": 0.34636327,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.02353405,
-        "vega_pt": 0.00711485
+        "theta_day": -0.02647123,
+        "vega_pt": 0.00670912
       },
       "last_price": 11.71,
       "market_date": "2026-11-25",
@@ -643,7 +643,7 @@
         "bid": 0.35,
         "contract_symbol": "RIVN261204P00011500",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.6094,
+        "implied_volatility": 0.6445,
         "open_interest": 2107,
         "option_volume": 620,
         "spread_pct": 10.81,
@@ -684,11 +684,11 @@
       "ema20": 76.62,
       "ema50": 88.49,
       "greeks_model_unverified": {
-        "delta": -0.48567954,
-        "gamma": 0.05348164,
+        "delta": -0.48626053,
+        "gamma": 0.05382036,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.16127784,
-        "vega_pt": 0.04118118
+        "theta_day": -0.18076439,
+        "vega_pt": 0.03882798
       },
       "last_price": 65.78,
       "market_date": "2026-11-25",
@@ -697,7 +697,7 @@
         "bid": 3.1,
         "contract_symbol": "HOOD261204P00066000",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.7217,
+        "implied_volatility": 0.7607,
         "open_interest": 209,
         "option_volume": 194,
         "spread_pct": 9.23,
@@ -719,11 +719,11 @@
       "ema20": 67.35,
       "ema50": 68.8,
       "greeks_model_unverified": {
-        "delta": -0.54996712,
-        "gamma": 0.104858,
+        "delta": -0.5512024,
+        "gamma": 0.10549646,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.07880503,
-        "vega_pt": 0.04123836
+        "theta_day": -0.08853334,
+        "vega_pt": 0.03886448
       },
       "last_price": 66.35,
       "market_date": "2026-11-25",
@@ -732,7 +732,7 @@
         "bid": 1.74,
         "contract_symbol": "UBER261204P00067000",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.3623,
+        "implied_volatility": 0.3818,
         "open_interest": 1739,
         "option_volume": 293,
         "spread_pct": 10.87,
@@ -792,11 +792,11 @@
       "ema20": 6.53,
       "ema50": 7.99,
       "greeks_model_unverified": {
-        "delta": -0.49748185,
-        "gamma": 0.42853805,
+        "delta": -0.49818619,
+        "gamma": 0.43146162,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.02029135,
-        "vega_pt": 0.00339528
+        "theta_day": -0.02271333,
+        "vega_pt": 0.00320113
       },
       "last_price": 5.42,
       "market_date": "2026-11-25",
@@ -805,7 +805,7 @@
         "bid": 0.43,
         "contract_symbol": "MARA261204P00005500",
         "expiry": "2026-12-04",
-        "implied_volatility": 1.0938,
+        "implied_volatility": 1.1523,
         "open_interest": 2510,
         "option_volume": 3049,
         "spread_pct": 2.3,
@@ -846,11 +846,11 @@
       "ema20": 6.51,
       "ema50": 8.51,
       "greeks_model_unverified": {
-        "delta": -0.59139348,
-        "gamma": 0.41021813,
+        "delta": -0.59268948,
+        "gamma": 0.41261117,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.02003526,
-        "vega_pt": 0.00315947
+        "theta_day": -0.02242006,
+        "vega_pt": 0.00297646
       },
       "last_price": 5.18,
       "market_date": "2026-11-25",
@@ -859,7 +859,7 @@
         "bid": 0.55,
         "contract_symbol": "CLSK261204P00005500",
         "expiry": "2026-12-04",
-        "implied_volatility": 1.1641,
+        "implied_volatility": 1.2266,
         "open_interest": 548,
         "option_volume": 92,
         "spread_pct": 13.56,
@@ -938,11 +938,11 @@
       "ema20": 2.92,
       "ema50": 3.29,
       "greeks_model_unverified": {
-        "delta": -0.93645465,
-        "gamma": 0.19260704,
+        "delta": -0.94059309,
+        "gamma": 0.18622178,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.00405589,
-        "vega_pt": 0.00052624
+        "theta_day": -0.00426691,
+        "vega_pt": 0.00047072
       },
       "last_price": 2.69,
       "market_date": "2026-11-25",
@@ -951,7 +951,7 @@
         "bid": 1.27,
         "contract_symbol": "NIO261204P00004000",
         "expiry": "2026-12-04",
-        "implied_volatility": 1.5313,
+        "implied_volatility": 1.5938,
         "open_interest": 240,
         "option_volume": 64,
         "spread_pct": 9.02,
@@ -1011,11 +1011,11 @@
       "ema20": 12.45,
       "ema50": 13.66,
       "greeks_model_unverified": {
-        "delta": -0.60769652,
-        "gamma": 0.24845929,
+        "delta": -0.62378159,
+        "gamma": 0.27053528,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.01205908,
-        "vega_pt": 0.01102686
+        "theta_day": -0.01122598,
+        "vega_pt": 0.01065163
       },
       "last_price": 11.43,
       "market_date": "2026-11-25",
@@ -1024,7 +1024,7 @@
         "bid": 0.86,
         "contract_symbol": "BILI261218P00012000",
         "expiry": "2026-12-18",
-        "implied_volatility": 0.5391,
+        "implied_volatility": 0.5,
         "open_interest": 290,
         "option_volume": 201,
         "spread_pct": 12.02,
@@ -1065,11 +1065,11 @@
       "ema20": 82.12,
       "ema50": 81.37,
       "greeks_model_unverified": {
-        "delta": 0.62436536,
-        "gamma": 0.07165699,
+        "delta": 0.62429634,
+        "gamma": 0.07211887,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.11725836,
-        "vega_pt": 0.05208101
+        "theta_day": -0.13041979,
+        "vega_pt": 0.04910528
       },
       "last_price": 87.42,
       "market_date": "2026-11-25",
@@ -1078,7 +1078,7 @@
         "bid": 2.66,
         "contract_symbol": "PDD261204C00086000",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.3857,
+        "implied_volatility": 0.4065,
         "open_interest": 160,
         "option_volume": 22,
         "spread_pct": 11.68,
@@ -1100,11 +1100,11 @@
       "ema20": 93.03,
       "ema50": 100.83,
       "greeks_model_unverified": {
-        "delta": -0.46389972,
-        "gamma": 0.06025488,
+        "delta": -0.46443793,
+        "gamma": 0.06062969,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.14088792,
-        "vega_pt": 0.053816
+        "theta_day": -0.15810432,
+        "vega_pt": 0.05074439
       },
       "last_price": 86.26,
       "market_date": "2026-11-25",
@@ -1113,7 +1113,7 @@
         "bid": 2.45,
         "contract_symbol": "BABA261204P00086000",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.4868,
+        "implied_volatility": 0.5132,
         "open_interest": 142,
         "option_volume": 92,
         "spread_pct": 7.47,
@@ -1173,11 +1173,11 @@
       "ema20": 59.14,
       "ema50": 61.89,
       "greeks_model_unverified": {
-        "delta": -0.55116122,
-        "gamma": 0.11609944,
+        "delta": -0.55240742,
+        "gamma": 0.11686562,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.07132128,
-        "vega_pt": 0.03504072
+        "theta_day": -0.08005674,
+        "vega_pt": 0.03302317
       },
       "last_price": 56.4,
       "market_date": "2026-11-25",
@@ -1186,7 +1186,7 @@
         "bid": 1.55,
         "contract_symbol": "EEM261204P00057000",
         "expiry": "2026-12-04",
-        "implied_volatility": 0.3848,
+        "implied_volatility": 0.4053,
         "open_interest": 358,
         "option_volume": 77,
         "spread_pct": 12.69,
@@ -1284,11 +1284,11 @@
       "ema20": 272.11,
       "ema50": 277.45,
       "greeks_model_unverified": {
-        "delta": -0.49028445,
-        "gamma": 0.05040544,
+        "delta": -0.49180503,
+        "gamma": 0.05092588,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.21061362,
-        "vega_pt": 0.14849991
+        "theta_day": -0.24549475,
+        "vega_pt": 0.13749597
       },
       "last_price": 268.87,
       "market_date": "2026-11-25",
@@ -1297,7 +1297,7 @@
         "bid": 3.38,
         "contract_symbol": "IWM261202P00269000",
         "expiry": "2026-12-02",
-        "implied_volatility": 0.2125,
+        "implied_volatility": 0.2272,
         "open_interest": 112,
         "option_volume": 68,
         "spread_pct": 1.76,
@@ -1319,11 +1319,11 @@
       "ema20": 665.47,
       "ema50": 690.66,
       "greeks_model_unverified": {
-        "delta": -0.47237659,
-        "gamma": 0.01228895,
+        "delta": -0.47316353,
+        "gamma": 0.01241705,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.8864894,
-        "vega_pt": 0.34939059
+        "theta_day": -1.02909213,
+        "vega_pt": 0.32351652
       },
       "last_price": 633.93,
       "market_date": "2026-11-25",
@@ -1332,7 +1332,7 @@
         "bid": 12.9,
         "contract_symbol": "QQQ261202P00633000",
         "expiry": "2026-12-02",
-        "implied_volatility": 0.3689,
+        "implied_volatility": 0.3944,
         "open_interest": 141,
         "option_volume": 96,
         "spread_pct": 3.35,
@@ -1354,11 +1354,11 @@
       "ema20": 736.51,
       "ema50": 749.91,
       "greeks_model_unverified": {
-        "delta": -0.48933382,
-        "gamma": 0.01797783,
+        "delta": -0.49077768,
+        "gamma": 0.01816817,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.59250461,
-        "vega_pt": 0.39581732
+        "theta_day": -0.69012081,
+        "vega_pt": 0.36648871
       },
       "last_price": 716.7,
       "market_date": "2026-11-25",
@@ -1367,7 +1367,7 @@
         "bid": 9.52,
         "contract_symbol": "SPY261202P00717000",
         "expiry": "2026-12-02",
-        "implied_volatility": 0.2235,
+        "implied_volatility": 0.2389,
         "open_interest": 243,
         "option_volume": 629,
         "spread_pct": 0.94,
@@ -1408,11 +1408,11 @@
       "ema20": 349.91,
       "ema50": 366.2,
       "greeks_model_unverified": {
-        "delta": -0.30153053,
-        "gamma": 0.02219821,
+        "delta": -0.30062878,
+        "gamma": 0.0223982,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.37962751,
-        "vega_pt": 0.15803025
+        "theta_day": -0.43950686,
+        "vega_pt": 0.14611022
       },
       "last_price": 327.45,
       "market_date": "2026-11-25",
@@ -1421,7 +1421,7 @@
         "bid": 3.35,
         "contract_symbol": "GLD261202P00320000",
         "expiry": "2026-12-02",
-        "implied_volatility": 0.3462,
+        "implied_volatility": 0.3701,
         "open_interest": 272,
         "option_volume": 292,
         "spread_pct": 5.8,
@@ -1462,11 +1462,11 @@
       "ema20": 80.83,
       "ema50": 80.54,
       "greeks_model_unverified": {
-        "delta": 0.62952462,
-        "gamma": 0.40446217,
+        "delta": 0.6267677,
+        "gamma": 0.40851819,
         "status": "MODEL_ESTIMATE_UNVERIFIED",
-        "theta_day": -0.03081118,
-        "vega_pt": 0.04301928
+        "theta_day": -0.03483394,
+        "vega_pt": 0.03992316
       },
       "last_price": 82.24,
       "market_date": "2026-11-25",
@@ -1475,7 +1475,7 @@
         "bid": 0.48,
         "contract_symbol": "TLT261202C00082000",
         "expiry": "2026-12-02",
-        "implied_volatility": 0.082,
+        "implied_volatility": 0.0879,
         "open_interest": 1114,
         "option_volume": 1751,
         "spread_pct": 9.9,
